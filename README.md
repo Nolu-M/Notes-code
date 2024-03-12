@@ -30,7 +30,16 @@ Like a machine that takes inputs and produces outputs e.g. toaster takes bread, 
 - may mutate a variable without returning anything e.g. print function only prints output and doesn't return anything.
 - keyword *'None'* represents absence of value, default return value for functions that do not explicitly return anything.
 
+### Classes and Objects
+- Class - help label and organize related collections of functions and attributes.
+- E.g. a class called has multiple functions and attributes such as legs, a name and bark.
+class Dog:
+    def __init__(self, name):
+        self.name = name
+        self.legs = 4
 
+    def speak(self):
+        print(self.name + ' says: Bark!')
 
 ## Day 3:
 
