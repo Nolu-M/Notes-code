@@ -64,13 +64,18 @@ Factorial function gives the number of possible arrangements of a set of items o
 
 E.g. 4! ('four factorial') or ways to arrange four items
 * can be calculated as 4 * 3 * 2 * 1
-* 5! = 5 * 4 * 4 * 3 * 2 * 1 = 120
+* 5! = 5 * 4 * 3 * 2 * 1 = 120
 * 6! = 6 * 5 * 4 * 3 * 2 * 1 = 720
 * 0! = 1
 
 factorial = ! after a number = to the product of that number and all the integers below it down to one.
+If type of 'num' is not an integer, we return none, this includes floats e.g. 1.2 and string. Negative numbers such as '-2' are integers but are also special cases, therefore if number < 0, return none.
 
-
+- Recursion: when a function calls itself directly or indirectly.
+    - all same checks performed then return the number multiplied by the factorial of the number minus one.
+    - It calls itself, but with a number that's one smaller than before.
+    - all checks repeated until input number = 0 and we return one.
+    - factorial of the number if returned.
 ## Day 3:
 
 ## Day 4:
