@@ -47,10 +47,19 @@ class Dog:
 - Defining attributes and functions of Dog class. E.g. Dog with four legs and has the name 'Rover' and a function called 'speak', which prints 'bark'.
 - These attributes or functions in the class can be accessed using 'self' variable.
 - Can be used by creating a new instance by calling 'dog' passing other variables such as name.
-- Speak function takes 'self' as first variable ---> instance of the class, 
-    - class instances ---> objects, 
-        - variables inside these classes ---> attributes, 
+- Speak function takes 'self' as first variable ---> instance of the class  
+    - class instances ---> objects
+        - variables inside these classes ---> attributes
             - functions ---> methods.
+```
+my_dog = Dog('Rover')
+another_dog = Dog('Fluffy')
+
+my_dog.speak()
+
+another_dog.speak()
+```
+
 ## Day 3:
 
 ## Day 4:
