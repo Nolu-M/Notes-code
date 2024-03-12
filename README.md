@@ -33,6 +33,7 @@ Like a machine that takes inputs and produces outputs e.g. toaster takes bread, 
 ### Classes and Objects
 - Class - help label and organize related collections of functions and attributes.
 - E.g. a class called has multiple functions and attributes such as legs, a name and bark.
+```
 class Dog:
     def __init__(self, name):
         self.name = name
@@ -40,6 +41,7 @@ class Dog:
 
     def speak(self):
         print(self.name + ' says: Bark!')
+```
 
 ## Day 3:
 
