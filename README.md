@@ -59,6 +59,17 @@ my_dog.speak()
 
 another_dog.speak()
 ```
+### Factorial challenge
+Factorial function gives the number of possible arrangements of a set of items of length 'n'
+
+E.g. 4! ('four factorial') or ways to arrange four items
+* can be calculated as 4 * 3 * 2 * 1
+* 5! = 5 * 4 * 4 * 3 * 2 * 1 = 120
+* 6! = 6 * 5 * 4 * 3 * 2 * 1 = 720
+* 0! = 1
+
+factorial = ! after a number = to the product of that number and all the integers below it down to one.
+
 
 ## Day 3:
 
