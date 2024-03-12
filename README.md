@@ -16,7 +16,18 @@ These allow for the storage of a list of values in a single variable. Which are 
 
 ### Operators
 These instructions that perform operations on variables and values by manipulating and performing actions on data. Addition (+) - adding things together to get a result and can concatenate two strings, multiplication (asterisk *) - multiplies numbers together but can also work with a string, exponent - raises a number to specified power, division (/) - returns floating point value even if the result is a whole number, modulus (%) - provides remainder after division e.g. 20/6 remainder 2 returned by modulus.
-Other operators include comparison operators - evaluate two variables or values and produce boolean result e.g. ==, <, <=, >, >=. Logical operators ('and', 'or' and 'not') - 'and' returns true if both operands true, 'or' returns true if at least one operand is true and 'not' negates (reversing the truth value) boolean value it operates on. Membership operators ('in' and 'not in') - 'in' to check if a numbe rof a string exits in given list/string.
+Other operators include comparison operators - evaluate two variables or values and produce boolean result e.g. ==, <, <=, >, >=. Logical operators ('and', 'or' and 'not') - 'and' returns true if both operands true, 'or' returns true if at least one operand is true and 'not' negates (reversing the truth value) boolean value it operates on. Membership operators ('in' and 'not in') - 'in' to check if a number of a string exits in given list/string.
+
+### Control Flow
+If statement allows us to execute a block of code only if a certain condition is met. If a condtion is true, indented code under if statement =  executed, if there's more code and an else statement is added, then the code under that = executed if condition is false. Indentation is very important - determines structure of the program.
+- For loop - used to iterate over a list of any iterable object.
+- While loop - similar to for loop but keeps looping until a certain condition is flase. Important to make sure condition in while loop will eventually = false or loop will continue going.
+
+### Functions
+Like a machine that takes inputs and produces outputs e.g. toaster takes bread, produces toast. Toaster can still apply toasting function even if bread is not used.
+
+
+
 
 ## Day 3:
 
