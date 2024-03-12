@@ -14,6 +14,8 @@ I learnt that a variable is a basic unit of a program, which is assigned a value
 ### Data Structures
 These allow for the storage of a list of values in a single variable. Which are the following: List data structure - order is important, can contain any data type, incl. a list within a list and len funtion is used to determine the length, Set data structure - similar to a list, contains unique elements, declared by curly braces and order not important. Tuples - similar to lists, cannot be modified once declared, useful in storing large amounts of data in an efficient way in memory. Dictionary - key-value pairs collections and are declared using curly braces and accessed using keys.
 
+### Operators
+These instructions that perform operations on variables and values by manipulating and performing actions on data. Addition (+) - adding things together to get a result, multiplication (asterisk *) - multiplies numbers together but can also work with a string, exponent - raises a number to specified power, division (/) - returns floating point value even if the result is a whole number, modulus (%) - provides remainder after division e.g. 20/6 remainder 2 returned by modulus.
 
 
 ## Day 3:
