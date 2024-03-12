@@ -33,6 +33,8 @@ Like a machine that takes inputs and produces outputs e.g. toaster takes bread, 
 ### Classes and Objects
 - Class - help label and organize related collections of functions and attributes.
 - E.g. a class called has multiple functions and attributes such as legs, a name and bark.
+    - special function (init) created and gets called when instance of class is created.
+    - init function takes variable called *'self'* which refers to specific instance of the Dog class.
 ```
 class Dog:
     def __init__(self, name):
@@ -42,7 +44,13 @@ class Dog:
     def speak(self):
         print(self.name + ' says: Bark!')
 ```
-
+- Defining attributes and functions of Dog class. E.g. Dog with four legs and has the name 'Rover' and a function called 'speak', which prints 'bark'.
+- These attributes or functions in the class can be accessed using 'self' variable.
+- Can be used by creating a new instance by calling 'dog' passing other variables such as name.
+- Speak function takes 'self' as first variable ---> instance of the class, 
+    - class instances ---> objects, 
+        - variables inside these classes ---> attributes, 
+            - functions ---> methods.
 ## Day 3:
 
 ## Day 4:
