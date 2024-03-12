@@ -5,12 +5,13 @@ Introduction and Onboarding -  I was introduced to the Python course content as 
 
 Introduction - This compromised of a knowledge check going over finding the value of a variable when an array was already given and then altered, how a computer reads a comment line in Python and which symbol represents a comment when one is written. I found this questions helpful as they gave me a guide into what I can expect during the Python course. 
 
-Day 2:
+## Day 2:
+### Variables and Types
+I learnt that a variable is a basic unit of a program, which is assigned a value. The variable name cannot begin with a number, otherwise, it won't be used but it can include upper and lower case letters, including underscores. I did note that in Python, variable names begin with lowercase letters. 
 
 
+## Day 3:
 
-Day 3:
+## Day 4:
 
-Day 4:
-
-Day 5:
+## Day 5:
