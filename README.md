@@ -91,8 +91,18 @@ Returns float to accomodate non-whole numbers and adding a float to an int or mu
 - stored as binary ones and zeros in memory, due to memory limitations ---> approximations = rounding errors.
 - rounding function can mitigate (reduce, alleviate or lesson) this issue.
 
+### Alternate Number Types
+If you pass a number in a string, int class = convert to integer e.g. "100" --> 100.
+If you pass second argument as a numer, it will convert first argument from that base to base 10. e.g. "100" in base 2 = 4 base 10.
+First argument always = **string**
+Due to maybe having non-numeric characters in the string that are valid in some bases e.g. "1ab" in base 16. "1ab" is not an integer.
+```
+int('1ab', 16)
+1: 1*16^2, a: 10*16^1, b: 11*16^0
+256 + 160 + 11 = 427
+```
 
-
+### Decimals
 
 
 
