@@ -98,7 +98,7 @@ First argument always = **string**
 Due to maybe having non-numeric characters in the string that are valid in some bases e.g. "1ab" in base 16. "1ab" is not an integer.
 ```
 int('1ab', 16)
-1: 1*16^2, a: 10*16^1, b: 11*16^0
+1: 1*16<sup>2</sup>, a: 10*16^1, b: 11*16^0
 256 + 160 + 11 = 427
 ```
 
