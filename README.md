@@ -117,6 +117,29 @@ Decimal(1) / Decimal(3)
 = Decimal('0.33')
 ```
 
+### Booleans
+* Python casts integers to booleans: 1 = true and 0 = false.
+* Anything except 0 = true, even -1 and imaginary 1 = true but float 0 and imaginary 0 = false.
+* When it comes to strings: Boolean true = true, anything other than an empty string = true.
+* Even "false" = true.
+* Only false string is an empty one, with no spaces.
+* Can also cast data structures to booleans - empty list or dictionary = false but anything inside = true.
+* When non-value returned from a function = false.
+
+### Strings
+- Slicing: taking a portion of a string and returning it.
+```
+name = 'My name is Iron-man'
+for first character: name[0] --> 'M'
+for second character: name[1] --> 'y'
+first 7 characters: name[0:7] --> 'My name'
+same result as the one above: name[:7] --> 'My name'
+All characters from index 11 to the end of the string: name[11:] --> 'Iron-man'
+
+```
+
+- Few ways to create strings --> string concatenation and f-strings
+      - f-strings: allow us to insert variables or expressions inside curly braces in a string. Can also do rounding and number formating.
 
 
 ## Day 4:
