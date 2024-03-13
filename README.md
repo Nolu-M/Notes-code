@@ -140,6 +140,23 @@ All characters from index 11 to the end of the string: name[11:] --> 'Iron-man'
 
 - Few ways to create strings --> string concatenation and f-strings
       - f-strings: allow us to insert variables or expressions inside curly braces in a string. Can also do rounding and number formating.
+      - Triple quotes used to create multi-line strings.
+      - Back slash used to include literal triple quotes in the strings.
+
+
+### Bytes
+- Data that is passed aroung but rarely modified directly.
+- information is stored in ones and zeros.
+- raw data = bytes project
+- used for streaming files or transmitting texts without knowing the encoding.
+
+- create empty bytes object that's four bytes long e.g bytes(4) --> /x followed by 2 hexadecimal numbers. Each has 8 bits.
+    * if b is printed in front --> it's a bytes object.
+    * To create bytes object with actual data --> type in utf-8 and can also used decode function to turn a bytes object --> string.
+- Bytes objects = immutable like tuples, but can use a byte array if you need to modify the data.
+- Can treat it like a string and modify specific byte values using slice notation.
+- Can also use int library to convert hexadecimal values back to bytes.
+
 
 
 ## Day 4:
