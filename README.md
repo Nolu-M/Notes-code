@@ -77,6 +77,24 @@ If type of 'num' is not an integer, we return none, this includes floats e.g. 1.
     - all checks repeated until input number = 0 and we return one.
     - factorial of the number if returned.
 ## Day 3:
+### Ints and Floats
+Division with ints = returns float e.g. 20/4 = 5.0
+Returns float to accomodate non-whole numbers and adding a float to an int or multiplying/ using exponents with both = float.
+
+- e.g. 256.0 can be converted to int using int class.
+- Casting: converting from one type to another.
+      - values like 8.9 casts to 8 and not 9.
+      - no rounding when casting floats to ints, just removes the decimal.
+      - can use round function when casting to round to nearest int ---> can also specify number of decimal places to round to.
+
+- Floats = approximations resulting in rounding errors.
+- stored as binary ones and zeros in memory, due to memory limitations ---> approximations = rounding errors.
+- rounding function can mitigate (reduce, alleviate or lesson) this issue.
+
+
+
+
+
 
 ## Day 4:
 
