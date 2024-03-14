@@ -160,5 +160,10 @@ All characters from index 11 to the end of the string: name[11:] --> 'Iron-man'
 
 
 ## Day 4:
+### Lists
+- Slicing used to extract a range of values from a list or string, can also add a third value to control the step size.
+- Range function --> generate longer lists (can be sliced)
+- Negative values --> used to step backward through the list.
 
+- append(): To add an item to the end of a list e.g. 
 ## Day 5:
