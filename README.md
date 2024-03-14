@@ -9,7 +9,7 @@ This compromised of a knowledge check going over finding the value of a variable
 
 ## Day 2:
 ### Variables and Types
-I learnt that a variable is a basic unit of a program, which is assigned a value. The variable name cannot begin with a number, otherwise, it won't be used but it can include upper and lower case letters, including underscores. I did note that in Python, variable names begin with lowercase letters. Python has several types of variables such as integers - whole numbers, floats - decimal numbers, complex numbers - for complex calculations, strings - collections of characters, and booleans - true or false. Strings can be concatenated using a plus sign but cannot be used to add stings and numbers.
+I learnt that a **variable** is a basic unit of a program, which is assigned a value. The variable name cannot begin with a number, otherwise, it won't be used but it can include upper and lower case letters, including underscores. I did note that in Python, variable names begin with lowercase letters. Python has several types of variables such as *integers* - whole numbers, *floats* - decimal numbers, *complex numbers* - for complex calculations, *strings* - collections of characters, and booleans - true or false. Strings can be concatenated using a plus sign but cannot be used to add stings and numbers.
 
 ### Data Structures
 These allow for the storage of a list of values in a single variable. Which are the following: **List** data structure - order is important, can contain any data type, incl. a list within a list and len funtion is used to determine the length, **Set** data structure - similar to a list, contains unique elements, declared by curly braces and order not important. **Tuples** - similar to lists, cannot be modified once declared, useful in storing large amounts of data in an efficient way in memory. **Dictionary** - collections of key-value pairs and are declared using curly braces and accessed using keys.
@@ -61,13 +61,13 @@ another_dog.speak()
 ```
 ### Factorial challenge
 Factorial function gives the number of possible arrangements of a set of items of length 'n'
-
+```
 E.g. 4! ('four factorial') or ways to arrange four items
 * can be calculated as 4 * 3 * 2 * 1
 * 5! = 5 * 4 * 3 * 2 * 1 = 120
 * 6! = 6 * 5 * 4 * 3 * 2 * 1 = 720
 * 0! = 1
-
+```
 factorial = ! after a number = to the product of that number and all the integers below it down to one.
 If type of 'num' is not an integer, we return none, this includes floats e.g. 1.2 and string. Negative numbers such as '-2' are integers but are also special cases, therefore if number < 0, return none.
 
