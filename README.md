@@ -165,5 +165,18 @@ All characters from index 11 to the end of the string: name[11:] --> 'Iron-man'
 - Range function --> generate longer lists (can be sliced)
 - Negative values --> used to step backward through the list.
 
-- append(): To add an item to the end of a list e.g. 
+- append() method: To add an item to the end of a list.
+  ```
+  e.g. myList = [1,2,3,4]
+       myList.append(5)
+       print(myList)
+  =    [1,2,3,4,5]
+  ```
+- insert() method: To insert an item at a specific position in the list.
+  ```
+  e.g. myList.insert(3,10) ---> inserting value 10 at position 3.
+  ```
+
+
+
 ## Day 5:
