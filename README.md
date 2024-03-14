@@ -9,7 +9,7 @@ This compromised of a knowledge check going over finding the value of a variable
 
 ## Day 2:
 ### Variables and Types
-I learnt that a **variable** is a basic unit of a program, which is assigned a value. The variable name cannot begin with a number, otherwise, it won't be used but it can include upper and lower case letters, including underscores. I did note that in Python, variable names begin with lowercase letters. Python has several types of variables such as *integers* - whole numbers, *floats* - decimal numbers, *complex numbers* - for complex calculations, *strings* - collections of characters, and booleans - true or false. Strings can be concatenated using a plus sign but cannot be used to add stings and numbers.
+I learnt that a **variable** is a basic unit of a program, which is assigned a value. The variable name cannot begin with a number, otherwise, it won't be used but it can include upper and lower case letters, including underscores. I did note that in Python, variable names begin with lowercase letters. Python has several types of variables such as *integers* - whole numbers, *floats* - decimal numbers, *complex numbers* - for complex calculations, *strings* - collections of characters, and booleans - true or false. Strings can be concatenated using a plus sign but cannot be used to add strings and numbers.
 
 ### Data Structures
 These allow for the storage of a list of values in a single variable. Which are the following: **List** data structure - order is important, can contain any data type, incl. a list within a list and len funtion is used to determine the length, **Set** data structure - similar to a list, contains unique elements, declared by curly braces and order not important. **Tuples** - similar to lists, cannot be modified once declared, useful in storing large amounts of data in an efficient way in memory. **Dictionary** - collections of key-value pairs and are declared using curly braces and accessed using keys.
@@ -163,7 +163,7 @@ All characters from index 11 to the end of the string: name[11:] --> 'Iron-man'
 ### Lists
 - Slicing used to extract a range of values from a list or string, can also add a third value to control the step size.
 - Range function --> generate longer lists (can be sliced)
-- Negative values --> used to step backward through the list.
+- Negative values --> used to step backwards through the list.
 
 - append() method: To add an item to the end of a list.
   ```
@@ -176,7 +176,10 @@ All characters from index 11 to the end of the string: name[11:] --> 'Iron-man'
   ```
   e.g. myList.insert(3,10) ---> inserting value 10 at position 3.
   ```
-
+- two ways to remove:
+  - remove() method: removes an item based on its value and not the index. e.g. if we want to remove number 5 from the list ```myList.remove(5)```
+  - pop() method: removes and returns the item at the end of the list. e.g. ```myList.pop() --> last item removed```
+  - can also use a loop with pop() to remove all items from the list. e.g. ``` while len(myList) > 0 and inside loop we can print myList.pop(). After the loop, the list will be empty.```
 
 
 ## Day 5:
