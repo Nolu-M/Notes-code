@@ -214,8 +214,12 @@ myList[0,6,2] = [1,3,5]
 + **pop() function**: removes and returns an arbitrary element from set
 
 ### Tuples
-
-
+- uses parenthesis ()
+- ordered
+- immutable - can't be modified
+- more effecient, better for storing large amounts of data.
+- e.g. ``` myTuple = ('a', 'b', 'c')
+           myTuple --> ('a','b','c') ```
 
 
 ## Day 5:
