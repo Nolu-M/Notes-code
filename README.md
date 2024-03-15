@@ -206,11 +206,14 @@ myList[0,6,2] = [1,3,5]
   
 + not ordered
 + can't access elements in a set using an index or slicing syntax.
-+ add() function: used to add elements to a set
-+ discard() function: used to remove elements
++ **add() function**: used to add elements to a set
++ **discard() function**: used to remove elements
 
++ **membership operation (in)**: used to check if an element is in a set
++ **length() function**: find the length of a set
++ **pop() function**: removes and returns an arbitrary element from set
 
-
+### Tuples
 
 
 
