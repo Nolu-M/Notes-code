@@ -1,4 +1,4 @@
-# Python-Week-1
+ # Python-Week-1
 
 ## Day 1:
 ### Introduction and Onboarding
@@ -223,8 +223,38 @@ myList[0,6,2] = [1,3,5]
 
 
 ## Day 5:
+### if and Else
+- Conditional statements
+- allows us to execute a block of code only if a certain condition is met.
+-  ```a = true, if a: print it is true``` If condition is true, indented code under if statement will be executed. If else statement added, code under that will be executed, if condition is false.
+-  indentation is important.
 
+-  Elif: if the previous conditions were not true = try this condition.
 
+-  if else statements sometimes drag on and you only want to evaluate somthing in a one-liner.
+      * use ternary operator: takes in a boolean condition, evaluates it and returns one valuse if true and another value = false.
+
+### While Loops
+- Similar to a **for** loop but keeps looping until a certain condition is false.
+- ``` a = 0, while a < 5: print a, a = a + 1```
+- Important to make sure that condition in the while loop will eventually become false, otherwise loop will continue indefinitely.
+  * Break: used to exit a loop early and will move to the next line of code outside of the loop.
+  * Continue: used to skip over certain lines within a loop and jumps back to the top of the loop to start the next iteration.
+- Sometimes you might use **continue** statement inside an if statement to prevent code in the lopp from running under certain conditions.
+- Another way to use **continue** and **break** is to rearrange your code and make it more readable.
+
+### For Loops
+- To iterate over a list or any iterable object.
+- ```for item in my_List: print item```
+    - item in for loop = variable that represents the current item in the list
+- You can declare a new variable, like 'item' to hold the value of each element in your list as you iterate through it.
+  1. Pass: used to write a stub for a **for** loop.
+  2. Continue: used to skip the rest of a loop during a specific iteration.
+  3. Break: used to stop the loop early if you founc what you are looking for.
+  4. Break-else: used to find prime numbers in just a few lines - can be used with **while** loops.
+  
+  
+ 
 
 
 
