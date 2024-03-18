@@ -164,22 +164,79 @@ All characters from index 11 to the end of the string: name[11:] --> 'Iron-man'
 - Slicing used to extract a range of values from a list or string, can also add a third value to control the step size.
 - Range function --> generate longer lists (can be sliced)
 - Negative values --> used to step backwards through the list.
+```
+e.g. slicing:
+myList = [1,2,3,4,5]
+myList[0,6,2] = [1,3,5]
 
-- append() method: To add an item to the end of a list.
+0: starting index of the slice (first element)
+6: ending index of slice, exclusive so slice will include elements up to but not including index 6. Since there are only 5 elements in myList, it includes all elements up to the end of the list.
+2: step size, which indicates how many elements to skip between each element, included in the slice.
+
+```
+
+- **append() method**: To add an item to the end of a list.
   ```
   e.g. myList = [1,2,3,4]
        myList.append(5)
        print(myList)
   =    [1,2,3,4,5]
   ```
-- insert() method: To insert an item at a specific position in the list.
+- **insert() method**: To insert an item at a specific position in the list.
   ```
   e.g. myList.insert(3,10) ---> inserting value 10 at position 3.
   ```
 - two ways to remove:
-  - remove() method: removes an item based on its value and not the index. e.g. if we want to remove number 5 from the list ```myList.remove(5)```
-  - pop() method: removes and returns the item at the end of the list. e.g. ```myList.pop() --> last item removed```
+  - **remove() method**: removes an item based on its value and not the index. e.g. if we want to remove number 5 from the list ```myList.remove(5)```
+  - **pop() method**: removes and returns the item at the end of the list. e.g. ```myList.pop() --> last item removed```
   - can also use a loop with pop() to remove all items from the list. e.g. ``` while len(myList) > 0 and inside loop we can print myList.pop(). After the loop, the list will be empty.```
+    
+- when assign list to variable, variable stores a reference to the list and not a copy.
+- can modify list through one variable, changes reflected in other variables that reference the same list.
+- **copy() method**: used to make copy of a list so that changes to one list don't affect the other.
+- e.g. ```list with values 1,2,3,4,5 = b = a.copy()``` and then print both a and b to see difference.
+
+### Sets
++ uses curly brackets e.g ```{'a', 'b', 'c'}, mySet or mySet = set(('a', 'b', 'c'))```
++ Commonly used to remove duplicates from a list, since sets only contain unique values.
++ e.g.
+  ``` list with duplicate values and de-duplicate by converting to set and back:
+  myList = ['b', 'c', 'd']
+  mySet = list(set(myList))
+  
++ not ordered
++ can't access elements in a set using an index or slicing syntax.
++ **add() function**: used to add elements to a set
++ **discard() function**: used to remove elements
+
++ **membership operation (in)**: used to check if an element is in a set
++ **length() function**: find the length of a set
++ **pop() function**: removes and returns an arbitrary element from set
+
+### Tuples
+- uses parenthesis ()
+- ordered
+- immutable - can't be modified
+- more effecient, better for storing large amounts of data.
+- e.g. ``` myTuple = ('a', 'b', 'c')
+           myTuple --> ('a','b','c') ```
 
 
 ## Day 5:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
