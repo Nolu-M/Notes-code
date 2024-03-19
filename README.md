@@ -255,7 +255,7 @@ myList[0,6,2] = [1,3,5]
   4. Break-else: used to find prime numbers in just a few lines - can be used with **while** loops.
 </details>
 <details>
- <summary>Python-Week-2</summary>
+    <summary>Python-Week-2</summary>
  ## Day-1
  
 </details>
