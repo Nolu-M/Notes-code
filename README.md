@@ -1,4 +1,5 @@
-# Python-Week-1
+<details>
+    <summary>Python-Week-1</summary>
 
 ## Day 1:
 ### Introduction and Onboarding
@@ -252,12 +253,10 @@ myList[0,6,2] = [1,3,5]
   2. Continue: used to skip the rest of a loop during a specific iteration.
   3. Break: used to stop the loop early if you founc what you are looking for.
   4. Break-else: used to find prime numbers in just a few lines - can be used with **while** loops.
-
-
-# Python-Week-2
-## Day-1
+  
+ # Python-Week-2
+ ## Day-1
  
-
  
 
 
