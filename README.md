@@ -259,6 +259,27 @@ myList[0,6,2] = [1,3,5]
     <summary>Python-Week-2</summary>
 
  ## Day-1
+The basic unit of a program = a function
+
+### Funcions
+- composed of a name and parameters, denoted by the **def** statement.
+ ```
+  def performOperation(num1, num2, operation):
+    if operation == 'sum':
+        return num1 + num2
+    if operation == 'multiply':
+        return num1 * num2
+    
+performOperation(2, 3, 'sum')
+
+ ```
+### Named Parameters
+- can assign our own value, 'operation = multiply' to override it.
+- can pass in 'multiply' as third parameter, to call this function.
+
+
+
+
 
  ## Day-2
 
