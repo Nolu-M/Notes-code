@@ -261,7 +261,7 @@ myList[0,6,2] = [1,3,5]
  ## Day-1
 The basic unit of a program = a function
 
-### Funcions
+### Functions
 - composed of a name and parameters, denoted by the **def** statement.
  ```
   def performOperation(num1, num2, operation):
