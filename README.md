@@ -299,19 +299,19 @@ A new message!
 * order of first two arguments is important.
 * keyword arguments can be in any order.
 ```
-# *args example
 def performOperation(*args):
     print(args)
 performOperation(1,2,3)
 
 ```
+- 
+
+
+
+
 ```
 When a keyword argument is passed you get an error because this only works for positional arguments.
-```
 
-
-
-```
 performOperation(1,2,3, operation='sum')
 ```
 
