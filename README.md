@@ -298,23 +298,27 @@ A new message!
 * *important rule*: keyword arguments must come after positional arguments.
 * order of first two arguments is important.
 * keyword arguments can be in any order.
+* functional limitation to how many variables can be anticipated.
+* Use asterisks before argument name: To allow users to pass any number of variables to create a pointer to the inputted variables.
+* example below, the function is called with 3 arguments only one is expected and by adding an asterisk before args, Python understands that the variable name is just a reference to the arguments being passed.
 ```
 def performOperation(*args):
     print(args)
 performOperation(1,2,3)
-
 ```
-- 
-
-
-
-
 ```
-When a keyword argument is passed you get an error because this only works for positional arguments.
-
+(1, 2, 3)
+```
+* When a keyword argument is passed you get an error because this only works for positional arguments.
+* If keyword argument passed in, an 'unexpected keyword argument' error will occur
+```
 performOperation(1,2,3, operation='sum')
-```
 
+TypeError: performOperation() got an unexpected keywword argument 'operation'
+```
+### **kwargs
+* used to handle arguments
+* print kwargs to see that the keyword arguments are now stored as a dictionary instead of a tuple.
 
 
  ## Day-2
