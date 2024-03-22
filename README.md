@@ -274,16 +274,95 @@ performOperation(2, 3, 'sum')
 
  ```
 ### Named Parameters
-- can assign our own value, 'operation = multiply' to override it.
-- can pass in 'multiply' as third parameter, to call this function.
+- can assign our value, 'operation = multiply' to override it.
+- can pass in 'multiply' as a third parameter, to call this function.
+- use "operation equals multiply" instead of having optional keyword parameters.
+```
+def performOperation(num1, num2, operation= 'sum', message='Default message'):
+    print(message)
+    if operation == 'sum':
+        return num1 + num2
+    if operation == 'multiply':
+        return num1 * num2
+    
+performOperation(2, 3, message='A new message!', operation='multiply')
+```
+```
+A new message!
+6
+```
+- 'message' argument added with a specific default message is printed when the function is     called.
+- when calling function, message is passed before or after operation as long as you specify which argument is which by using a comma to separate everything.
+
+### *args
+* *important rule*: keyword arguments must come after positional arguments.
+* order of first two arguments is important.
+* keyword arguments can be in any order.
+* functional limitation to how many variables can be anticipated.
+* Use asterisks before argument name: To allow users to pass any number of variables to create a pointer to the inputted variables.
+* example below, the function is called with 3 arguments only one is expected and by adding an asterisk before args, Python understands that the variable name is just a reference to the arguments being passed.
+```
+def performOperation(*args):
+    print(args)
+performOperation(1,2,3)
+```
+```
+(1, 2, 3)
+```
+* When a keyword argument is passed you get an error because this only works for positional arguments.
+* If keyword argument passed in, an 'unexpected keyword argument' error will occur
+```
+performOperation(1,2,3, operation='sum')
+
+TypeError: performOperation() got an unexpected keywword argument 'operation'
+```
+### **kwargs
+* used to handle arguments
+* print kwargs to see that the keyword arguments are now stored as a dictionary instead of a tuple.
+```
+def performOperation(*args, **kwargs):
+    print(args)
+    print(kwargs)
+performOperation(1,2,3, operation='sum')
+```
+```
+(1, 2, 3)
+{'operation': 'sum'}
+```
+### Function Scope
+* Both *args and **kwargs are used to print our the arguments passed into a function
+* Allows us to see a tuple and dictionary of the passed arguments.
+* 'locals' function - allows us to access all the variables within a Python function without any asterisks.
+
+#### locals()
+- locals: variable names that are only accessible locally within a function.
+- Trying to reference a variable outside its scope = error
+```
+def performOperation(num1, num2, operation='sum'):
+    print(locals())
+
+performOperation(1, 2, operation='multiply')
+print(num1)
+```
+```
+{'num1': 1, 'num2': 2, 'operation': 'multiply'}
+NameError: name 'num1' is not defined
+```
+- Two variables
+  - local variables: defined inside the function
+  - global variables: defined outside the function in the main code block. Built-in function 'globals' enables us to retrieve all of these variables.
+
+#### globals()
+- results in so many items, some are pre-built in Python.
+- can be classified as either global variable scope or local variable scope.
+
+### Global and Local Scope
+- 
 
 
+## Day-2
 
-
-
- ## Day-2
-
- ## Day-3
+## Day-3
  
  
 
