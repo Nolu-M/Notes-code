@@ -335,10 +335,29 @@ performOperation(1,2,3, operation='sum')
 * 'locals' function - allows us to access all the variables within a Python function without any asterisks.
 
 #### locals()
+- locals: variable names that are only accessible locally within a function.
+- Trying to reference a variable outside its scope = error
+```
+def performOperation(num1, num2, operation='sum'):
+    print(locals())
 
+performOperation(1, 2, operation='multiply')
+print(num1)
+```
+```
+{'num1': 1, 'num2': 2, 'operation': 'multiply'}
+NameError: name 'num1' is not defined
+```
+- Two variables
+  - local variables: defined inside the function
+  - global variables: defined outside the function in the main code block. Built-in function 'globals' enables us to retrieve all of these variables.
 
+#### globals()
+- results in so many items, some are pre-built in Python.
+- can be classified as either global variable scope or local variable scope.
 
-
+### Global and Local Scope
+- 
 
 
 ## Day-2
