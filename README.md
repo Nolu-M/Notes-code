@@ -319,11 +319,31 @@ TypeError: performOperation() got an unexpected keywword argument 'operation'
 ### **kwargs
 * used to handle arguments
 * print kwargs to see that the keyword arguments are now stored as a dictionary instead of a tuple.
+```
+def performOperation(*args, **kwargs):
+    print(args)
+    print(kwargs)
+performOperation(1,2,3, operation='sum')
+```
+```
+(1, 2, 3)
+{'operation': 'sum'}
+```
+### Function Scope
+* Both *args and **kwargs are used to print our the arguments passed into a function
+* Allows us to see a tuple and dictionary of the passed arguments.
+* 'locals' function - allows us to access all the variables within a Python function without any asterisks.
+
+#### locals()
 
 
- ## Day-2
 
- ## Day-3
+
+
+
+## Day-2
+
+## Day-3
  
  
 
