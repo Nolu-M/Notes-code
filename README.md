@@ -274,10 +274,46 @@ performOperation(2, 3, 'sum')
 
  ```
 ### Named Parameters
-- can assign our own value, 'operation = multiply' to override it.
-- can pass in 'multiply' as third parameter, to call this function.
+- can assign our value, 'operation = multiply' to override it.
+- can pass in 'multiply' as a third parameter, to call this function.
+- use "operation equals multiply" instead of having optional keyword parameters.
+```
+def performOperation(num1, num2, operation= 'sum', message='Default message'):
+    print(message)
+    if operation == 'sum':
+        return num1 + num2
+    if operation == 'multiply':
+        return num1 * num2
+    
+performOperation(2, 3, message='A new message!', operation='multiply')
+```
+```
+A new message!
+6
+```
+- 'message' argument added with a specific default message is printed when the function is     called.
+- when calling function, message is passed before or after operation as long as you specify which argument is which by using a comma to separate everything.
+
+### *args
+* *important rule*: keyword arguments must come after positional arguments.
+* order of first two arguments is important.
+* keyword arguments can be in any order.
+```
+# *args example
+def performOperation(*args):
+    print(args)
+performOperation(1,2,3)
+
+```
+```
+When a keyword argument is passed you get an error because this only works for positional arguments.
+```
 
 
+
+```
+performOperation(1,2,3, operation='sum')
+```
 
 
 
