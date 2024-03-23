@@ -357,10 +357,113 @@ NameError: name 'num1' is not defined
 - can be classified as either global variable scope or local variable scope.
 
 ### Global and Local Scope
-- 
+- Two functions: function 1 with variables A and B, function 2 with variables C and B. Both functions will print out their local variables.
+- Function 1 is called with arguments 1 and 2, and function 2 is called with arguments 3 and 4.
+- Each function has its *local variable* scope and access to any variables in the *global scope*.
+- They can't access each other's data.
+```
+message = 'Some global data'
+def function1(varA, varB):
+    print(message)
+    print(locals())
 
+def function2(varC, varB):
+    print(message)
+    print(locals())
+
+function1(1, 2)
+function2(3, 4)
+```
+```
+Some global data
+{'varA': 1, 'varB': 2}
+Some global data
+{'varC': 3, 'varB': 4}
+```
+- The defined variable, 'message' is printed out in both functions but when varA is attempted to be printed in function 2, an error occurs.
+- Due to varA only being defined in function 1's local scope.
+- If varA is defined in global scope, it can be printed in both functions.
+- Python checks for local and global scope when looking up the variables data.
+- 'message' can be redefined in function 1's local scope and print both the local and global values of the message.
+- A function can also be declared within a function - inner function in function1.
+- Inner function can only be called within function one.
+- Syntax error - if called outside of function 1.
+- When local variables in function 1 are printed, the inner function is defined as a variable.
+
+```
+message = 'Some global data'
+varA = 2
+def function1(varA, varB):
+    message = 'Some local data'
+    print(varA)
+    print(message)
+    print(locals())
+
+def function2(varC, varB):
+    print(varA)
+    print(message)
+    print(locals())
+
+function1(1, 2)
+function2(3, 4)
+```
+```
+1
+Some local data
+{'varA': 1, 'varB': 2, 'message': 'Some local data'}
+2
+Some global data
+{'varC': 3, 'varB': 4}
+```
+### Functions as Variables
+#### Variables as Functions
+- Variables and functions - have names and data associated with them
+- Data includes information about required parameters and the lines of instruction to be executed.
+- In Python, a function is represented as an object.
+
+#### Viewing Function Data with __code__
+- The "code" attribute of Python function objects can be used to confirm that functions are just variables in Python.
+- attribute prints the names and the byte object of all the lines of instruction in a function - not typically used.
+```
+print(x.__code__.co_varnames)
+print(x.__code__.co_code)
+```
+```
+()
+b'\x97\x00y\x01'
+```
+**Note**: Functions are simply variables associated with some data.
+
+#### Text Processing in Python
+- Two text processing operations and a function that can make the text lowercase, remove punctuation, new lines and words that are 3 characters or less.
+- can also remove long words, by calling the function in a list, the order can be changed or decide which functions to apply.
+- allows for flexibility in the order and selection of text processing functions.
+
+#### Lambda Functions
+- a way to represent a function without giving it a variable name.
+- lambda keyword used to define a small function
+```
+(lambda x: x + 3)(5)
+```
+```
+8
+```
+- a lambda function that takes a single parameter x and returns x plus 3
+- no need to use the return keyword in lambda functions since it's implied.
+- useful when you need to pass a function as an argument to another Python function, such as the sorted function that sorts a list of values.
+```
+myList = [{'num': 3}, {'num': 2}, {'num': 1}]
+sorted(myList, key=lambda x: x['num'])
+```
+```
+[{'num': 1}, {'num': 2}, {'num': 3}]
+```
 
 ## Day-2
+
+
+
+
 
 ## Day-3
  
