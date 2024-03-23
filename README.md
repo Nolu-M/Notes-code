@@ -547,6 +547,7 @@ Dog.legs = 4
 - cannot use self.append --> cause infinite recursion or an endless loop
 - call original append function in the parent class instead --> 'super' function
 - **'super'** function: assess the underlying instance of the parent class and will be called super.append
+- e.g. ```super().SetPrice(50) -call a function of its parent class```
 
 - 'super' function can also be used in the constructor.
 - new attribute added to child class instance done using ```self.some_property = unique_list```
