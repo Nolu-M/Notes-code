@@ -440,8 +440,21 @@ b'\x97\x00y\x01'
 - allows for flexibility in the order and selection of text processing functions.
 
 #### Lambda Functions
-
-
+- a way to represent a function without giving it a variable name.
+- lambda keyword used to define a small function
+```
+lambda x: x + 3
+```
+- a lambda function that takes a single parameter x and returns x plus 3
+- no need to use the return keyword in lambda functions since it's implied.
+- useful when you need to pass a function as an argument to another Python function, such as the sorted function that sorts a list of values.
+```
+myList = [{'num': 3}, {'num': 2}, {'num': 1}]
+sorted(myList, key=lambda x: x['num'])
+```
+```
+[{'num': 1}, {'num': 2}, {'num': 3}]
+```
 
 
 
