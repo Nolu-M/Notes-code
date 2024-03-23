@@ -460,14 +460,91 @@ sorted(myList, key=lambda x: x['num'])
 ```
 
 ## Day-2
+### Anatomy of a Class
+#### Instance Attributes
+- Dog class has two attributes: name and legs, which are attributes that every instance of the dog class possesses.
+- a new instance, 'Rover', can print its name and legs using 'my_dog.name' and 'my_dog.legs'
+- **Note**: we cannot directly see the value of the legs attribute even though it is hardcoded in the dog initialization function. If we try to access 'dogs.legs' = ERROR, and we cannot modify the value of legs.
+```
+class Dog:
+    def __init__(self, name):
+        self.name = name
+        self.legs = 4
 
+    def speak(self):
+        print(self.name + ' says: Bark!')
 
+myDog = Dog('Rover')
+print(myDog.name)
+print(myDog.legs)
+```
+```
+Rover
+4
+```
+#### Static Attributes
+- Defining something in a static variable outside of the constructor: each instance of the class will have the same value for legs.
+- legs attribute can be accessed directly on the class itself by calling dog.<=gs.
+- static variables: don't change with each instance, are commonly used to hold constants or fundamental business logic.
+```
+class Dog:
+    legs = 4
+    def __init__(self, name):
+        self.name = name
 
+    def speak(self):
+        print(self.name + ' says: Bark!')
 
+myDog = Dog('Rover')
+print(myDog.name)
+print(myDog.legs)
+```
+```
+Rover
+4
+```
+```
+Dog.legs = 4
+```
+**NB**: static variables can still be changed, to prevent this, an underscore is added before the variable name to indicate the variable should not be modified directly - *getter* method should be used instead.
 
+- Getter method: retrieves the value of the variable, >=t<=gs in this case.
+    - does not need to pass in the *self* attribute, because legs is a static variable in the class.
+    - method called without passing in *self*, but it is also possible to call it with *self* included.
+    - *self* variable: conventional variable name to refer to the class instance.
+
+**Note**: classes have their own variable scope rules. If *self.<=gs* is not set to something else, it references the class variable<=*gs*. The instance variable<=*gs* can also be modified by assigning a new value to *mydog.<=gs*.
+
+### Instance and Static Methods
+- clean text method: static method because it does not belong to any particular class instance
+- add text: instance method that belongs to a particular instance of the class
+- static variables i.e. replace puncs, can also be added to control which punctuations get replaced.
+- use the class name or class instance to refer to static variables, but this cannot be done with instance methods.
+
+#### decorators
+- special annotation or description for a function definition.
+- adding @staticmethod decorator to the function definition, states in Python that the function is a static method and should not have 'self' passed in as an argument.
+- allows the use of the function without creating an instance of the class.
+
+### Inheritance
+#### Class Inheritance
+- One class can inherit all the methods and attributes of another class
+- Original class = Parent class
+- New class = Child class
+- Inheritance process happens automatically when the child class is created.
+**NB**: If child class defines an attribute or method that is the same as the parent class, the child's version will overwrite the parent's version.
 ## Day-3
- 
- 
+
+#### Extending Build-in Classes
+- creating a new list can be done by instantiating it as a 'list'.
+- although it appears as a function, 'list' = class.
+- 
+
+
+
+
+
+
 
 </details>
 
