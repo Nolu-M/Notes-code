@@ -460,7 +460,12 @@ sorted(myList, key=lambda x: x['num'])
 ```
 
 ## Day-2
+### Anatomy of a Class
+#### Instance Attributes
+- 
+- 
 
+#### Static Attributes
 
 
 
