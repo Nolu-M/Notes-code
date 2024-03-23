@@ -462,10 +462,57 @@ sorted(myList, key=lambda x: x['num'])
 ## Day-2
 ### Anatomy of a Class
 #### Instance Attributes
-- 
-- 
+- Dog class has two attributes: name and legs, which are attributes that every instance of the dog class possesses.
+- a new instance, 'Rover', can print its name and legs using 'my_dog.name' and 'my_dog.legs'
+- **Note**: we cannot directly see the value of the legs attribute even though it is hardcoded in the dog initialization function. If we try to access 'dogs.legs' = ERROR, and we cannot modify the value of legs.
+```
+class Dog:
+    def __init__(self, name):
+        self.name = name
+        self.legs = 4
 
+    def speak(self):
+        print(self.name + ' says: Bark!')
+
+myDog = Dog('Rover')
+print(myDog.name)
+print(myDog.legs)
+```
+```
+Rover
+4
+```
 #### Static Attributes
+- Defining something in a static variable outside of the constructor: each instance of the class will have the same value for legs.
+- legs attribute can be accessed directly on the class itself by calling dog.<=gs.
+- static variables: don't change with each instance, are commonly used to hold constants or fundamental business logic.
+```
+class Dog:
+    legs = 4
+    def __init__(self, name):
+        self.name = name
+
+    def speak(self):
+        print(self.name + ' says: Bark!')
+
+myDog = Dog('Rover')
+print(myDog.name)
+print(myDog.legs)
+```
+```
+Rover
+4
+```
+```
+Dog.legs = 4
+```
+**NB**: static variables can still be changed, to prevent this, an underscore is added before the variable name to indicate the variable should not be modified directly - *getter* method should be used instead.
+
+- Getter method: retrieves the value of the variable, >=t<=gs in this case.
+    - does not actually need to pass in the *self* attribute, because legs is a static variable in the class.
+    - method called without passing in *self*, but it is also possible to call it with *self* included.
+
+**Note**: classes have their own variable scope rules. If *self.<=gs* is not set to something else, it references the class variable<=*gs*. The instance variable<=*gs* can also be modified by assigning a new value to *mydog.<=gs*.
 
 
 
