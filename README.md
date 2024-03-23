@@ -357,7 +357,42 @@ NameError: name 'num1' is not defined
 - can be classified as either global variable scope or local variable scope.
 
 ### Global and Local Scope
-- 
+- Two functions: function 1 with variables A and B, function 2 with variables C and B. Both functions will print out their local variables.
+- Function 1 is called with arguments 1 and 2, and function 2 is called with arguments 3 and 4.
+- Each function has its *local variable* scope and access to any variables in the *global scope*.
+- They can't access each other's data.
+```
+message = 'Some global data'
+def function1(varA, varB):
+    print(message)
+    print(locals())
+
+def function2(varC, varB):
+    print(message)
+    print(locals())
+
+function1(1, 2)
+function2(3, 4)
+```
+```
+Some global data
+{'varA': 1, 'varB': 2}
+Some global data
+{'varC': 3, 'varB': 4}
+```
+- The defined variable, 'message' is printed out in both functions but when varA is attempted to be printed in function 2, an error occurs.
+- Due to varA only being defined in function 1's local scope.
+- If varA is defined in global scope, it can be printed in both functions.
+- Python checks for local and global scope when looking up the variables data.
+- 'message' can be redefined in function 1's local scope and print both the local and global values of the message.
+- A function can also be declared within a function - inner function in function1.
+- Inner function can only be called within function one.
+- Syntax error - if called outside of function 1.
+- When local variables in function 1 are printed, the inner function is defined as a variable.
+
+
+
+
 
 
 ## Day-2
