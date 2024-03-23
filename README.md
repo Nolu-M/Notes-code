@@ -538,7 +538,23 @@ Dog.legs = 4
 #### Extending Build-in Classes
 - creating a new list can be done by instantiating it as a 'list'.
 - although it appears as a function, 'list' = class.
-- 
+
+- if you want a list that ensures all appended items are unique, like a set
+- create list by extending the list class
+- unique list class inherits from the list class and we will override the append function.
+
+- new function: check if item is already in the list --> it will return
+- cannot use self.append --> cause infinite recursion or an endless loop
+- call original append function in the parent class instead --> 'super' function
+- **'super'** function: assess the underlying instance of the parent class and will be called super.append
+
+- 'super' function can also be used in the constructor.
+- new attribute added to child class instance done using ```self.some_property = unique_list```
+- This overwrites the constructor of parent class.
+
+- to avoid such, use 'super' again and ensure parent constructor is called first before adding our new property
+- when new class initiated = new property added.
+  
 
 
 
