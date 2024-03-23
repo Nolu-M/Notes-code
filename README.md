@@ -443,7 +443,10 @@ b'\x97\x00y\x01'
 - a way to represent a function without giving it a variable name.
 - lambda keyword used to define a small function
 ```
-lambda x: x + 3
+(lambda x: x + 3)(5)
+```
+```
+8
 ```
 - a lambda function that takes a single parameter x and returns x plus 3
 - no need to use the return keyword in lambda functions since it's implied.
@@ -456,9 +459,11 @@ sorted(myList, key=lambda x: x['num'])
 [{'num': 1}, {'num': 2}, {'num': 3}]
 ```
 
-
-
 ## Day-2
+
+
+
+
 
 ## Day-3
  
