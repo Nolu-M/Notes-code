@@ -390,6 +390,56 @@ Some global data
 - Syntax error - if called outside of function 1.
 - When local variables in function 1 are printed, the inner function is defined as a variable.
 
+```
+message = 'Some global data'
+varA = 2
+def function1(varA, varB):
+    message = 'Some local data'
+    print(varA)
+    print(message)
+    print(locals())
+
+def function2(varC, varB):
+    print(varA)
+    print(message)
+    print(locals())
+
+function1(1, 2)
+function2(3, 4)
+```
+```
+1
+Some local data
+{'varA': 1, 'varB': 2, 'message': 'Some local data'}
+2
+Some global data
+{'varC': 3, 'varB': 4}
+```
+### Functions as Variables
+#### Variables as Functions
+- Variables and functions - have names and data associated with them
+- Data includes information about required parameters and the lines of instruction to be executed.
+- In Python, a function is represented as an object.
+
+#### Viewing Function Data with __code__
+- The "code" attribute of Python function objects can be used to confirm that functions are just variables in Python.
+- attribute prints the names and the byte object of all the lines of instruction in a function - not typically used.
+```
+print(x.__code__.co_varnames)
+print(x.__code__.co_code)
+```
+```
+()
+b'\x97\x00y\x01'
+```
+**Note**: Functions are simply variables associated with some data.
+
+#### Text Processing in Python
+- Two text processing operations and a function that can make the text lowercase, remove punctuation, new lines and words that are 3 characters or less.
+- can also remove long words, by calling the function in a list, the order can be changed or decide which functions to apply.
+- allows for flexibility in the order and selection of text processing functions.
+
+#### Lambda Functions
 
 
 
