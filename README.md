@@ -623,9 +623,7 @@ def causeError():
         print('There was some sort of error!')
 causeError()
 ```
-```
-There was some sort of error!
-```
+```There was some sort of error!```
 #### Finally
 - finally statement: they execute no matter what happens inside this try block
 - except statements not needed
@@ -652,6 +650,116 @@ causeError()
 There was some sort of error!
 Function took 0.5015561580657959 seconds to execute
 ```
+#### Catching Exceptions by Type
+```
+def causeError():
+    try:
+        return 1 + 'a'
+    
+    except TypeError:
+        print('There was a type error!')
+    except ZeroDivisionError:
+        print('There was a zero division error!')
+    except Exception:
+        print('There was some sort of error!')
+
+causeError()
+```
+```There was a type error!```
+
+- order doesn't matter if general exception moved up --> this is the class from which all of these extend
+- always want the most general exceptions at the bottom and the more specific ones up top.
+- involved exception handling and catching --> HTTP request-response handling
+
+#### Custom Decorators
+```
+def handleException(func):
+    def wrapper(*args):
+        try:
+            func(*args)
+        except TypeError:
+            print('There was a type error!')
+        except ZeroDivisionError:
+            print('There was a zero division error!')
+        except Exception:
+            print('There was some sore of error!')
+    return wrapper
+
+@handleException
+def causeError():
+    return 1/0
+
+causeError()
+```
+``` There was a zero division error!```
+
+- decorator handleException, placed in a causeError function returns 1/0
+- when causeError is called, this handle exception, is used to accept those various exceptions that this could throw.
+- decorator can be reused for another function
+- **custom decorator**: changes the name of a function
+
+#### Raising Exceptions
+- use handleException decorator
+- a function called raiseError raises Exception
+- raise statement raises or throws this new exception that was created when it reached
+```
+@handleException
+def raiseError(n):
+    if n == 0:
+        raise Exception()
+    print(n)
+
+raiseError(1)
+```
+``` 1 ```
+
+- function excepts any input except the number zero
+- else statement not needed: once the exception is raised, execution will halt and throw this exception and then the print n will never be reached.
+  
+### Working with Custom Exceptions
+- class CustomExceptions extends Exception: pass
+- pass statement: used because nothing else is defined for our new CustomException class, it inherits the constructor of the Exception class that it is extending
+
+- are usually lightweight classes with very little in the way of special attributes and methods but might have some attributes useful for organizing and presenting information to the user about the error.
+
+#### Adding Attributes
+```
+class HttpException(Exception):
+    statusCode = None
+    message = None
+    def __init__(self):
+        super().__init__(f'Status code: {self.statusCode} and message is: {self.message}')
+
+class NotFound(HttpException):
+    statusCode = 404
+    message = 'Resource not found'
+
+class ServerError(HttpException):
+    statusCode = 500
+    message = 'The server messed up!'
+
+def raiseServerError():
+    raise ServerError()
+
+raiseServerError()
+```
+```
+ServerError                               Traceback (most recent call last)
+Cell In[4], line 19
+     16 def raiseServerError():
+     17     raise ServerError()
+---> 19 raiseServerError()
+
+Cell In[4], line 17
+     16 def raiseServerError():
+---> 17     raise ServerError()
+
+ServerError: Status code: 500 and message is: The server messed up!
+```
+
+- HttpException extends the Exception and is given a status code.
+- exception message gets formatted with the status code and message because it extends this HttpException.
+
 
 
 
