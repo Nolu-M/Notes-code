@@ -761,13 +761,16 @@ ServerError: Status code: 500 and message is: The server messed up!
 - exception message gets formatted with the status code and message because it extends this HttpException.
 
 
-
-
-
-
 ## Day-4
-
-
+### Fundamentals of Threads and Processes
+- computers have both memory and file storage
+- long-term memory: save a file and load to a file from the disc
+- short-term memory: declare a variable in our program.
+- the operating system responsible for allocating memory to each process running on the computer.
+    - puts walls between the processes so they cannot access each other's memory.
+    - memory: segmented, access is controlled by the operating system.
+    - allow us to move these two pieces of code into the same process --> get to share memory.
+- A process can have multiple threads and execute at the same time in parallel
 
 
 ## Day-5
