@@ -822,7 +822,53 @@ processes = [Process(target=longSquare, args=(n,results)) for n in range(0, 10)]
 - Processes = list
 - processes can contain multiple threads
 - threads share the same space in memory
+  
 ## Day-5
+### Opening, Reading and Writing
+#### Reading Files
+- two applications making changes to the same file at the same time causes problems
+- use open function and pass in the name of the file
+- and have a file 10_01_file.txt, second argument = string R.
+```
+f = open('10_01_file.txt', 'r')
+print(f)
+```
+#### Writing Files
+- open the file in read modem prin f = file object
+- readline: get the actual text inside the file by reading the lines of the file one at a time (f.readline)
+- when run again you get different line each time --> file contains some sort of bookmark of which lines of the file are already read
+
+- lines are double-spaced --> each line of the file has a new line character on it at the end, the print statement also includes its own new line.
+- can be fixed by stripping out any leading or trailing white space, including new lines, done with the strip function on each line.
+
+#### Appending files
+- use 'W' instead of 'R' for write
+- writing to files - an expensive operation, Python makes it more efficient by putting all of the data you are writing to the file in a buffer
+- it only writes to the file when that buffer gets full or when the file is closed
+- f.close and then run that to close the file
+```
+f = open('10_01_output.txt', 'a')
+f.write('Line 3\n')
+f.write('Line 4\n')
+f.close()
+```
+```
+with open('10_01_output.txt', 'a') as f:
+    f.write('some stuff\n')
+    f.write('some other stuff\n')
+
+print(f)
+```
+``` <_io.TextIOWrapper name='10_01_output.txt' mode='a' encoding='cp1252'> ```
+
+``` f.write('PS. I forgot some stuff') ```
+```
+ValueError                                Traceback (most recent call last)
+Cell In[6], line 1
+----> 1 f.write('PS. I forgot some stuff')
+
+ValueError: I/O operation on closed file.
+```
 
 </details>
 
