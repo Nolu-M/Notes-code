@@ -771,9 +771,104 @@ ServerError: Status code: 500 and message is: The server messed up!
     - memory: segmented, access is controlled by the operating system.
     - allow us to move these two pieces of code into the same process --> get to share memory.
 - A process can have multiple threads and execute at the same time in parallel
+- threads share the same space in memory
+- when the program has periods of 'waiting' and doing nothing, multi-threading decreases the runtime of a program.
+  
+### Multithreading
+-	longSquare: calculates the square of a number but takes a long time to do it.
+-	Threads: when waiting to fetch data from a remote server, code is sitting around doing nothing, you can do all the waiting in parallel and not one at a time.
+-	```T1 is threading.thread and nd, t2 is threading.thread```
+-	Target = name of the target function, longSquare
+-	Args = arguments
+-	when the program has periods of 'waiting' and doing nothing, multi-threading decreases the runtime of a program.
+```
+def longSquare(num, results):
+    time.sleep(1)
+    results[num] = num ** 2
 
+results = {}
+t1 = threading.Thread(target=longSquare, args=(1,results))
+t2 = threading.Thread(target=longSquare, args=(2,results))
 
+t1.start()
+t2.start()
+
+t1.join()
+t2.join()
+
+print(results)
+```
+``` {1: 1, 2: 4} ```
+
+### Multiprocessing
+- two Python processes running independently, multi-processing and Python
+- can have two separate Python processes running but you have to start by hand
+- multiprocessing module is used to start, stop and manage these processes.
+```
+def longSquare(num, results):
+    time.sleep(1)
+    print(num ** 2)
+    print('Finished computing!')
+
+results = {}
+processes = [Process(target=longSquare, args=(n,results)) for n in range(0, 10)]
+[p.start() for p in processes]
+[p.join() for p in processes]
+```
+- processes do not share memory
+- they get a copy of this dictionary in their own separate memory space, with no way of accessing it except if they record it somewhere i.e. a file system or a database.
+- can print the computed value from within the function itself, rather than returning this or saving it in the results, we just print.
+
+- Processes = list
+- processes can contain multiple threads
+- threads share the same space in memory
+  
 ## Day-5
+### Opening, Reading and Writing
+#### Reading Files
+- two applications making changes to the same file at the same time causes problems
+- use open function and pass in the name of the file
+- and have a file 10_01_file.txt, second argument = string R.
+```
+f = open('10_01_file.txt', 'r')
+print(f)
+```
+#### Writing Files
+- open the file in read modem prin f = file object
+- readline: get the actual text inside the file by reading the lines of the file one at a time (f.readline)
+- when run again you get different line each time --> file contains some sort of bookmark of which lines of the file are already read
+
+- lines are double-spaced --> each line of the file has a new line character on it at the end, the print statement also includes its own new line.
+- can be fixed by stripping out any leading or trailing white space, including new lines, done with the strip function on each line.
+
+#### Appending files
+- use 'W' instead of 'R' for write
+- writing to files - an expensive operation, Python makes it more efficient by putting all of the data you are writing to the file in a buffer
+- it only writes to the file when that buffer gets full or when the file is closed
+- f.close and then run that to close the file
+```
+f = open('10_01_output.txt', 'a')
+f.write('Line 3\n')
+f.write('Line 4\n')
+f.close()
+```
+```
+with open('10_01_output.txt', 'a') as f:
+    f.write('some stuff\n')
+    f.write('some other stuff\n')
+
+print(f)
+```
+``` <_io.TextIOWrapper name='10_01_output.txt' mode='a' encoding='cp1252'> ```
+
+``` f.write('PS. I forgot some stuff') ```
+```
+ValueError                                Traceback (most recent call last)
+Cell In[6], line 1
+----> 1 f.write('PS. I forgot some stuff')
+
+ValueError: I/O operation on closed file.
+```
 
 </details>
 
