@@ -600,9 +600,32 @@ Cell In[2], line 2
 
 ZeroDivisionError: division by zero
 ```
-
-
-
+#### Try/Except
+- a zero division error
+- exception is can't and will not be raised anymore
+- it is a class with attributes that can be created and even returned.
+```
+try:
+    1/0
+except Exception as e:
+    print(type(e))
+```
+```
+<class 'ZeroDivisionError'>
+```
+### Managing and Handling Exceptions
+- catching the exception and just returning it.
+```
+def causeError():
+    try:
+        return 1/0
+    except Exception:
+        print('There was some sort of error!')
+causeError()
+```
+```
+There was some sort of error!
+```
 
 
 
