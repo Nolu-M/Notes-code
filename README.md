@@ -771,8 +771,57 @@ ServerError: Status code: 500 and message is: The server messed up!
     - memory: segmented, access is controlled by the operating system.
     - allow us to move these two pieces of code into the same process --> get to share memory.
 - A process can have multiple threads and execute at the same time in parallel
+- threads share the same space in memory
+- when the program has periods of 'waiting' and doing nothing, multi-threading decreases the runtime of a program.
+  
+### Multithreading
+-	longSquare: calculates the square of a number but takes a long time to do it.
+-	Threads: when waiting to fetch data from a remote server, code is sitting around doing nothing, you can do all the waiting in parallel and not one at a time.
+-	```T1 is threading.thread and nd, t2 is threading.thread```
+-	Target = name of the target function, longSquare
+-	Args = arguments
+-	when the program has periods of 'waiting' and doing nothing, multi-threading decreases the runtime of a program.
+```
+def longSquare(num, results):
+    time.sleep(1)
+    results[num] = num ** 2
 
+results = {}
+t1 = threading.Thread(target=longSquare, args=(1,results))
+t2 = threading.Thread(target=longSquare, args=(2,results))
 
+t1.start()
+t2.start()
+
+t1.join()
+t2.join()
+
+print(results)
+```
+``` {1: 1, 2: 4} ```
+
+### Multiprocessing
+- two Python processes running independently, multi-processing and Python
+- can have two separate Python processes running but you have to start by hand
+- multiprocessing module is used to start, stop and manage these processes.
+```
+def longSquare(num, results):
+    time.sleep(1)
+    print(num ** 2)
+    print('Finished computing!')
+
+results = {}
+processes = [Process(target=longSquare, args=(n,results)) for n in range(0, 10)]
+[p.start() for p in processes]
+[p.join() for p in processes]
+```
+- processes do not share memory
+- they get a copy of this dictionary in their own separate memory space, with no way of accessing it except if they record it somewhere i.e. a file system or a database.
+- can print the computed value from within the function itself, rather than returning this or saving it in the results, we just print.
+
+- Processes = list
+- processes can contain multiple threads
+- threads share the same space in memory
 ## Day-5
 
 </details>
