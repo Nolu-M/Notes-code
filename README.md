@@ -556,12 +556,66 @@ Dog.legs = 4
 - when new class initiated = new property added.
   
 ## Day-3
+### Handling Errors and Exceptions
+- when something is divided by zero --> zero division error
+- such problems are referred to as errors while other times are called exceptions
+- exceptions: determined during runtime and can be retried
+- errors: cannot be retried
+
+- All Python errors and exceptions stem from a class called the **basic exception**
+- division by zero is a type of arithmetic error --> type of exception --> extends the base exception class.
+- base exception class: provides useful and powerful properties to exceptions, i.e. halting code execution and providing information about why and how the execution was halted.
+
+- Can determine the file in which zero division error occurred
+- can identify the specific line, line one in this case
+- if 1/0 is placed into a function called 'causeError' and then the function is called, the stack trace becomes more elaborate.
+
+- This entire traceback is known as a stack trace.
+- it provides a trail through the stack that aids in debugging our program.
+- stack trace extended further by adding function called 'callCauseError' that returns 'causeError' function and is called.
+
+```
+def causeError():
+    return 1/0
+
+def callCauseError():
+    return causeError()
+
+callCauseError()
+```
+```
+ZeroDivisionError                         Traceback (most recent call last)
+Cell In[2], line 7
+      4 def callCauseError():
+      5     return causeError()
+----> 7 callCauseError()
+
+Cell In[2], line 5
+      4 def callCauseError():
+----> 5     return causeError()
+
+Cell In[2], line 2
+      1 def causeError():
+----> 2     return 1/0
+
+ZeroDivisionError: division by zero
+```
 
 
 
 
 
 
+
+
+
+
+## Day-4
+
+
+
+
+## Day-5
 
 </details>
 
