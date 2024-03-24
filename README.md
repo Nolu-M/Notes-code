@@ -533,7 +533,6 @@ Dog.legs = 4
 - New class = Child class
 - Inheritance process happens automatically when the child class is created.
 **NB**: If child class defines an attribute or method that is the same as the parent class, the child's version will overwrite the parent's version.
-## Day-3
 
 #### Extending Build-in Classes
 - creating a new list can be done by instantiating it as a 'list'.
@@ -556,7 +555,7 @@ Dog.legs = 4
 - to avoid such, use 'super' again and ensure parent constructor is called first before adding our new property
 - when new class initiated = new property added.
   
-
+## Day-3
 
 
 
