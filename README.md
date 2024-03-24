@@ -626,8 +626,32 @@ causeError()
 ```
 There was some sort of error!
 ```
+#### Finally
+- finally statement: they execute no matter what happens inside this try block
+- except statements not needed
+- error is thrown, but is still printed
+- even if no exception is raised at all, it still executes
+- often used when timing how long a function takes to execute
+- to time our function --> import time class and time
+```
+import time
 
+def causeError():
+    start = time.time()
+    try:
+        time.sleep(0.5)
+        return 1/0
+    except Exception:
+        print('There was some sort of error!')
+    finally:
+        print(f'Function took {time.time() - start} seconds to execute')
 
+causeError()
+```
+```
+There was some sort of error!
+Function took 0.5015561580657959 seconds to execute
+```
 
 
 
