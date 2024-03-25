@@ -301,6 +301,8 @@ A new message!
 * functional limitation to how many variables can be anticipated.
 * Use asterisks before argument name: To allow users to pass any number of variables to create a pointer to the inputted variables.
 * example below, the function is called with 3 arguments only one is expected and by adding an asterisk before args, Python understands that the variable name is just a reference to the arguments being passed.
+* A **parameter** is the variable listed inside the parentheses in the function definition.
+* An **argument** is the value that is sent to the function when it is called.
 ```
 def performOperation(*args):
     print(args)
