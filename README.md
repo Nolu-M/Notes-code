@@ -897,6 +897,8 @@ len(data)
 - JSON is not Python
 - looks like a dictionary, but it's a string
 - turn json string to dictionary --> import JSON module
+- json.loads is used to parse a JSON string into a Python object
+  
 ```
 jsonString = '{"a":"apple", "b":"bear", "c":"cat"}'
 try:
@@ -941,7 +943,19 @@ json.dumps(pythonDict, cls=AnimalEncoder)
 
 </details>
 
+<details>
+    <summary> Python Week-3 </summary>
 
+## Day 1:
+
+
+
+## Day 2:
+
+
+
+    
+</details>
 
 
 
