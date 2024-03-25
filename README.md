@@ -332,7 +332,7 @@ performOperation(1,2,3, operation='sum')
 {'operation': 'sum'}
 ```
 ### Function Scope
-* Both *args and **kwargs are used to print our the arguments passed into a function
+* Both *args and **kwargs are used to print out the arguments passed into a function
 * Allows us to see a tuple and dictionary of the passed arguments.
 * 'locals' function - allows us to access all the variables within a Python function without any asterisks.
 
