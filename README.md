@@ -920,8 +920,24 @@ json.dumps(pythonDict)
 ``` '{"a": "apple", "b": "bear", "c": "cat"}' ```
 
 #### Custom JSON Decoders
+- use JSONEncoder because JSON module can't handle Animal class
+- 'o' is the object that's being passed that needs to be decoded into JSON
+```
+from json import JSONEncoder
+class Animal:
+    def __init__(self, name):
+        self.name = name
 
-  
+class AnimalEncoder(JSONEncoder):
+    def default(self, o):
+        if type(o) == Animal:
+            return o.name
+        return super().default(o)
+    
+pythonDict = {'a': Animal('aardvark'), 'b': Animal('bear'), 'c': Animal('cat'),}
+json.dumps(pythonDict, cls=AnimalEncoder)
+```
+``` '{"a": "aardvark", "b": "bear", "c": "cat"}' ```
 
 </details>
 
