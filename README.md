@@ -258,7 +258,7 @@ myList[0,6,2] = [1,3,5]
 <details>
     <summary>Python-Week-2</summary>
 
- ## Day-1
+ ## Day 1:
 The basic unit of a program = a function
 
 ### Functions
@@ -459,7 +459,7 @@ sorted(myList, key=lambda x: x['num'])
 [{'num': 1}, {'num': 2}, {'num': 3}]
 ```
 
-## Day-2
+## Day 2:
 ### Anatomy of a Class
 #### Instance Attributes
 - Dog class has two attributes: name and legs, which are attributes that every instance of the dog class possesses.
@@ -555,7 +555,7 @@ Dog.legs = 4
 - to avoid such, use 'super' again and ensure parent constructor is called first before adding our new property
 - when new class initiated = new property added.
   
-## Day-3
+## Day 3:
 ### Handling Errors and Exceptions
 - when something is divided by zero --> zero division error
 - such problems are referred to as errors while other times are called exceptions
@@ -761,7 +761,7 @@ ServerError: Status code: 500 and message is: The server messed up!
 - exception message gets formatted with the status code and message because it extends this HttpException.
 
 
-## Day-4
+## Day 4:
 ### Fundamentals of Threads and Processes
 - computers have both memory and file storage
 - long-term memory: save a file and load to a file from the disc
@@ -823,7 +823,7 @@ processes = [Process(target=longSquare, args=(n,results)) for n in range(0, 10)]
 - processes can contain multiple threads
 - threads share the same space in memory
   
-## Day-5
+## Day 5:
 ### Opening, Reading and Writing
 #### Reading Files
 - two applications making changes to the same file at the same time causes problems
@@ -869,6 +869,32 @@ Cell In[6], line 1
 
 ValueError: I/O operation on closed file.
 ```
+### CSV
+#### Reading
+- CSV file contains tab-separated values, all of these are tabs
+- reader object is not a list: it is a csv reader class used as you would use a list an it is iterable
+- reader has an internal bookmark that keeps track of where you are
+- multiple lines can be called and can also be converted to a list
+- header data from Python --> use the dict reader
+
+#### Filtering Data
+- converting from reader object to a list object
+```
+primes = []
+for number in range(2, 99999):
+    for factor in range(2, int(number ** 0.5) + 1):
+        if number % factor == 0:
+            break
+    else:
+        primes.append(number)
+```
+```
+data = [row for row in data if int(row['postal code']) in primes and row['state code'] == 'MA'] 
+len(data)
+```
+
+
+
 
 </details>
 
