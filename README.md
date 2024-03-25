@@ -946,7 +946,7 @@ json.dumps(pythonDict, cls=AnimalEncoder)
 </details>
 
 <details>
-    <summary> Python Week-3 </summary>
+    <summary> Python-Week-3 </summary>
 
 ## Day 1:
 
