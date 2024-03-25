@@ -874,7 +874,24 @@ ValueError: I/O operation on closed file.
 - CSV file contains tab-separated values, all of these are tabs
 - reader object is not a list: it is a csv reader class used as you would use a list an it is iterable
 - reader has an internal bookmark that keeps track of where you are
-- 
+- multiple lines can be called and can also be converted to a list
+- header data from Python --> use the dict reader
+
+#### Filtering Data
+- converting from reader object to a list object
+```
+primes = []
+for number in range(2, 99999):
+    for factor in range(2, int(number ** 0.5) + 1):
+        if number % factor == 0:
+            break
+    else:
+        primes.append(number)
+```
+```
+data = [row for row in data if int(row['postal code']) in primes and row['state code'] == 'MA'] 
+len(data)
+```
 
 
 
