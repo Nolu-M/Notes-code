@@ -892,9 +892,52 @@ for number in range(2, 99999):
 data = [row for row in data if int(row['postal code']) in primes and row['state code'] == 'MA'] 
 len(data)
 ```
+### JSON
+#### loading JSON
+- JSON is not Python
+- looks like a dictionary, but it's a string
+- turn json string to dictionary --> import JSON module
+```
+jsonString = '{"a":"apple", "b":"bear", "c":"cat"}'
+try:
+    json.loads(jsonString)
+except JSONDecodeError:
+    print('Could not parse JSON!')
+```
+``` Could not parse JSON! ```
+                                                 
+``` {'a': 'apple', 'b': 'bear', 'c': 'cat',} ```
+``` {'a': 'apple', 'b': 'bear', 'c': 'cat'} ```
 
+- JSON string shouldn't have a trailing comma --> JSON decode error
 
+#### Dumping JSON
+- use json.dumps method
+```
+pythonDict = {'a': 'apple', 'b': 'bear', 'c': 'cat',}
+json.dumps(pythonDict)
+```
+``` '{"a": "apple", "b": "bear", "c": "cat"}' ```
 
+#### Custom JSON Decoders
+- use JSONEncoder because JSON module can't handle Animal class
+- 'o' is the object that's being passed that needs to be decoded into JSON
+```
+from json import JSONEncoder
+class Animal:
+    def __init__(self, name):
+        self.name = name
+
+class AnimalEncoder(JSONEncoder):
+    def default(self, o):
+        if type(o) == Animal:
+            return o.name
+        return super().default(o)
+    
+pythonDict = {'a': Animal('aardvark'), 'b': Animal('bear'), 'c': Animal('cat'),}
+json.dumps(pythonDict, cls=AnimalEncoder)
+```
+``` '{"a": "aardvark", "b": "bear", "c": "cat"}' ```
 
 </details>
 
