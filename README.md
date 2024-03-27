@@ -606,6 +606,11 @@ ZeroDivisionError: division by zero
 - a zero division error
 - exception is can't and will not be raised anymore
 - it is a class with attributes that can be created and even returned.
+- try block: used to check some code errors i.e. code inside the try block will execute when there is no error in the program
+- except block: code inside block will execute whenever the program encounters some error in the preceding try block
+- if no exception, then only the try clause will run, except clause is finished
+- if exception occurs, try clause will be skipped and except clause will run
+- if exception occurs, but ecept clause within the code can't handle it, it is passed on to the outer try statements. *IF exception* left unhandled, then execution stops.
 ```
 try:
     1/0
@@ -631,8 +636,9 @@ causeError()
 - except statements not needed
 - error is thrown, but is still printed
 - even if no exception is raised at all, it still executes
-- often used when timing how long a function takes to execute
+- often used when *timing how long a function takes to execute*
 - to time our function --> import time class and time
+- finally needs to be after everything else, including an 'else' statement, otherwise you'll get a runtime error.
 ```
 import time
 
@@ -699,9 +705,10 @@ causeError()
 - when causeError is called, this handle exception, is used to accept those various exceptions that this could throw.
 - decorator can be reused for another function
 - **custom decorator**: changes the name of a function
+- allows for the modification of functions or class through their behaviour 
 
 #### Raising Exceptions
-- use handleException decorator
+- use **handleException** decorator
 - a function called raiseError raises Exception
 - raise statement raises or throws this new exception that was created when it reached
 ```
@@ -774,15 +781,15 @@ ServerError: Status code: 500 and message is: The server messed up!
     - allow us to move these two pieces of code into the same process --> get to share memory.
   
 ### Multithreading
--	A process can have multiple threads and execute at the same time in parallel
+-	The ability of a processor having multiple threads and executes them at the same time in parallel
 -	threads share the same space in memory
--	when the program has periods of 'waiting' and doing nothing, multi-threading decreases the runtime of a program.
+-	when the program has periods of **'waiting' and doing nothing**, multi-threading **decreases the runtime of a program**.
 -	longSquare: calculates the square of a number but takes a long time to do it.
 -	Threads: when waiting to fetch data from a remote server, code is sitting around doing nothing, you can do all the waiting in parallel and not one at a time.
 -	```T1 is threading.thread and nd, t2 is threading.thread```
 -	Target = name of the target function, longSquare
 -	Args = arguments
--	when the program has periods of 'waiting' and doing nothing, multi-threading decreases the runtime of a program.
+-	all threads of a process share global variables (stored in heap) and the program code
 ```
 def longSquare(num, results):
     time.sleep(1)
@@ -806,6 +813,7 @@ print(results)
 - two Python processes running independently, multi-processing and Python
 - can have two separate Python processes running but you have to start by hand
 - multiprocessing module is used to start, stop and manage these processes.
+- more than one processor being used
 ```
 def longSquare(num, results):
     time.sleep(1)
@@ -824,6 +832,9 @@ processes = [Process(target=longSquare, args=(n,results)) for n in range(0, 10)]
 - Processes = list
 - processes can contain multiple threads
 - threads share the same space in memory
+
+- start(): starts a process
+- join(): stop execution of current program until process is completed
   
 ## Day 5:
 ### Opening, Reading and Writing
