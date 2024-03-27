@@ -606,6 +606,11 @@ ZeroDivisionError: division by zero
 - a zero division error
 - exception is can't and will not be raised anymore
 - it is a class with attributes that can be created and even returned.
+- try block: used to check some code errors i.e. code inside the try block will execute when there is no error in the program
+- except block: code inside block will execute whenever the program encounters some error in the preceding try block
+- if no exception, then only the try clause will run, except clause is finished
+- if exception occurs, try clause will be skipped and except clause will run
+- if exception occurs, but ecept clause within the code can't handle it, it is passed on to the outer try statements. *IF exception* left unhandled, then execution stops.
 ```
 try:
     1/0
@@ -631,8 +636,9 @@ causeError()
 - except statements not needed
 - error is thrown, but is still printed
 - even if no exception is raised at all, it still executes
-- often used when timing how long a function takes to execute
+- often used when *timing how long a function takes to execute*
 - to time our function --> import time class and time
+- finally needs to be after everything else, including an 'else' statement, otherwise you'll get a runtime error.
 ```
 import time
 
@@ -699,9 +705,10 @@ causeError()
 - when causeError is called, this handle exception, is used to accept those various exceptions that this could throw.
 - decorator can be reused for another function
 - **custom decorator**: changes the name of a function
+- allows for the modification of functions or class through their behaviour 
 
 #### Raising Exceptions
-- use handleException decorator
+- use **handleException** decorator
 - a function called raiseError raises Exception
 - raise statement raises or throws this new exception that was created when it reached
 ```
