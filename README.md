@@ -774,15 +774,15 @@ ServerError: Status code: 500 and message is: The server messed up!
     - allow us to move these two pieces of code into the same process --> get to share memory.
   
 ### Multithreading
--	A process can have multiple threads and execute at the same time in parallel
+-	The ability of a processor having multiple threads and executes them at the same time in parallel
 -	threads share the same space in memory
--	when the program has periods of 'waiting' and doing nothing, multi-threading decreases the runtime of a program.
+-	when the program has periods of **'waiting' and doing nothing**, multi-threading **decreases the runtime of a program**.
 -	longSquare: calculates the square of a number but takes a long time to do it.
 -	Threads: when waiting to fetch data from a remote server, code is sitting around doing nothing, you can do all the waiting in parallel and not one at a time.
 -	```T1 is threading.thread and nd, t2 is threading.thread```
 -	Target = name of the target function, longSquare
 -	Args = arguments
--	when the program has periods of 'waiting' and doing nothing, multi-threading decreases the runtime of a program.
+-	all threads of a process share global variables (stored in heap) and the program code
 ```
 def longSquare(num, results):
     time.sleep(1)
@@ -806,6 +806,7 @@ print(results)
 - two Python processes running independently, multi-processing and Python
 - can have two separate Python processes running but you have to start by hand
 - multiprocessing module is used to start, stop and manage these processes.
+- more than one processor being used
 ```
 def longSquare(num, results):
     time.sleep(1)
@@ -824,6 +825,9 @@ processes = [Process(target=longSquare, args=(n,results)) for n in range(0, 10)]
 - Processes = list
 - processes can contain multiple threads
 - threads share the same space in memory
+
+- start(): starts a process
+- join(): stop execution of current program until process is completed
   
 ## Day 5:
 ### Opening, Reading and Writing
