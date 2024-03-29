@@ -980,9 +980,28 @@ As a digest recipient, I want to receive an email every morning with current and
 - user cases cover the who, what and how of achieving that goal
 
 ### Project Requirements
+- to capture the capabilities and limitations of an application
+- functional requirements: describe what the application should or should not do and are written as sentences starting with "the application must" or "the application shall"
+  
+- requirements act as a checklist to ensure the application meets all necessary functionalities
 
+- non-functional requirements: describe how the application should accomplish its tasks
+- focus on qualities like maintainability, reliability, and usability
+```
+the application should have a configurable GUI for the admin to interact with, be extensible for adding more content types, and be resilient to content errors
+```
 
+### Architecture
+- identifying nouns helps determine potential objects
+- for instance, in functional requirements, words like quote, forecast, location, trends, article, content, email and recipients stand out as potential objects
 
+- group related nouns together such as content and email, provides a starting point for potential classes
+- content, email and GUI emerge as candidates for classes
+- behaviours and responsibilities are determined by extracting simplified verb phrases from the requirements, like generating quotes, retrieving forecasts, formatting content, and sending emails.
+- These behaviours are assigned to the corresponding classes based on their relevance
+
+- The content class is responsible for generating and retrieving content, the email class handles formatting content and sending emails, and the GUI manages configuration-related behaviours.
+- This process helps draft method names and provides an initial structure for the program
 
 
 
