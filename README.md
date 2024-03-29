@@ -960,6 +960,29 @@ json.dumps(pythonDict, cls=AnimalEncoder)
     <summary> Python-Week-3 </summary>
 
 ## Day 1:
+### Finding Inspiration
+- Developing an application to send a daily email digest, neatly compiling all the information needed in one convenient place.
+  
+### User Stories
+- depicts small scenarios from the user's perspective
+- these stories should emphasize the user's goal and motivation rather than the application itself.
+- user stories: brief, simple and informal, perfect for jotting down on index cards
+- as a [user/role], I want [goal] so that [reason/benefit] format (three core elements).
+```
+As a digest recipient, I want to receive an email every morning with current and useful information to know what's happening in the world and learn something new daily.
+```
+*Important*: consider the needs of the administrator role. An admin might want to curate content, control the email's timing and manage the recipient list.
+
+### Use Cases
+- typically include a title, an actor (a user or system), and a scenario that describes how a goal is achieved
+- scenario can be written as a paragraph or a list of steps
+- user stories focus on the who, what and why of a task/goal
+- user cases cover the who, what and how of achieving that goal
+
+### Project Requirements
+
+
+
 
 
 
