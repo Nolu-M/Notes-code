@@ -1006,13 +1006,16 @@ the application should have a configurable GUI for the admin to interact with, b
 ![image](https://github.com/Nolu-M/Python/assets/119700411/3422a5f5-051c-47c4-9566-d154dad9382b)
 
 ### Stub Code
-- 3 Python modules used:
-    - dd_content.py: 
+- provides the structure for implementation, allowing for separate development of the email class, independent content functions and the GUI
+- 3 Python modules used
+    - dd_content.py: contains independent functions to retrieve data e.g. random quotes, weather forecasts etc, allowing easy expansion with additional content sources in the future 
     - dd_email.py: contains the skeleton for the daily digest email class, with placeholder methods using the pass statement.
       - allows the script to be executed without errors
-    - dd_gui.py
+    - dd_gui.py: handles the graphical user interface for the email digest administrator & utilizes *TKinter* module.
+      - if name = main section is filled with standard code to build and run the GUI when the module is executed as the main script.
 
 ## Day 2:
+### Daily Inspirational Quotes
 
 
 
