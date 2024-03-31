@@ -1002,6 +1002,8 @@ the application should have a configurable GUI for the admin to interact with, b
 
 - The content class is responsible for generating and retrieving content, the email class handles formatting content and sending emails, and the GUI manages configuration-related behaviours.
 - This process helps draft method names and provides an initial structure for the program
+  
+![image](https://github.com/Nolu-M/Python/assets/119700411/3422a5f5-051c-47c4-9566-d154dad9382b)
 
 
 
