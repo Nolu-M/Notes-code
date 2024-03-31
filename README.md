@@ -1006,14 +1006,36 @@ the application should have a configurable GUI for the admin to interact with, b
 ![image](https://github.com/Nolu-M/Python/assets/119700411/3422a5f5-051c-47c4-9566-d154dad9382b)
 
 ### Stub Code
-- 3 Python modules used:
-    - dd_content.py: 
-    - dd_email.py: contains the skeleton for the daily digest email class, with placeholder methods using the pass statement.
+- provides the structure for implementation, allowing for separate development of the email class, independent content functions and the GUI
+- 3 Python modules used
+    - *dd_content.py*: contains independent functions to retrieve data e.g. random quotes, weather forecasts etc, allowing easy expansion with additional content sources in the future 
+    - *dd_email.py*: contains the skeleton for the daily digest email class, with placeholder methods using the pass statement.
       - allows the script to be executed without errors
-    - dd_gui.py
+    - *dd_gui.py*: handles the graphical user interface for the email digest administrator & utilizes *TKinter* module.
+      - if name = main section is filled with standard code to build and run the GUI when the module is executed as the main script.
 
 ## Day 2:
+### Daily Inspirational Quotes
+- stored using the CSV format chosen for simplicity
+  
+- The `get_random_quote` function is implemented.
+- function takes named parameter for the quotes file location, default value = quotes.csv
+- file loading code is wrapped in a try-except block to handle potential exceptions
+- CSV file opened and a list of dictionaries is created using list comprehension
+- CSV reader is instructed to use the vertical pipe symbol as the delimiter
+- In except block, default quote is defined in case the file fails to load
 
+- random module's 'choice' function: used to select a random quote from the list, which is returned as a dictionary object
+- the function is called without an input argument, and the returned quote is printed
+- quotes file argument set to None, triggering the exception clause and returning the default quote.
+
+### Weather Forecasting with OpenWeatherMap
+- used to fetch weather information from the internet
+- two ways:
+    - using Python web-scraping library to extract forecast information from a website like weather.com
+    - search the Python Package Index for a Python library that can retrieve weather data from an online source or find an online source of weather information that provides API we can directly call from our program = *openweathermap.org*
+
+*Important*: Several Python libraries on pypy.org can retrieve OpenWeatherMap data.
 
 
     
