@@ -1005,7 +1005,12 @@ the application should have a configurable GUI for the admin to interact with, b
   
 ![image](https://github.com/Nolu-M/Python/assets/119700411/3422a5f5-051c-47c4-9566-d154dad9382b)
 
-
+### Stub Code
+- 3 Python modules used:
+    - dd_content.py: 
+    - dd_email.py: contains the skeleton for the daily digest email class, with placeholder methods using the pass statement.
+      - allows the script to be executed without errors
+    - dd_gui.py
 
 ## Day 2:
 
