@@ -258,7 +258,7 @@ myList[0,6,2] = [1,3,5]
 <details>
     <summary>Python-Week-2</summary>
 
- ## Day-1
+ ## Day 1:
 The basic unit of a program = a function
 
 ### Functions
@@ -301,6 +301,8 @@ A new message!
 * functional limitation to how many variables can be anticipated.
 * Use asterisks before argument name: To allow users to pass any number of variables to create a pointer to the inputted variables.
 * example below, the function is called with 3 arguments only one is expected and by adding an asterisk before args, Python understands that the variable name is just a reference to the arguments being passed.
+* A **parameter** is the variable listed inside the parentheses in the function definition.
+* An **argument** is the value that is sent to the function when it is called.
 ```
 def performOperation(*args):
     print(args)
@@ -330,7 +332,7 @@ performOperation(1,2,3, operation='sum')
 {'operation': 'sum'}
 ```
 ### Function Scope
-* Both *args and **kwargs are used to print our the arguments passed into a function
+* Both *args and **kwargs are used to print out the arguments passed into a function
 * Allows us to see a tuple and dictionary of the passed arguments.
 * 'locals' function - allows us to access all the variables within a Python function without any asterisks.
 
@@ -459,7 +461,7 @@ sorted(myList, key=lambda x: x['num'])
 [{'num': 1}, {'num': 2}, {'num': 3}]
 ```
 
-## Day-2
+## Day 2:
 ### Anatomy of a Class
 #### Instance Attributes
 - Dog class has two attributes: name and legs, which are attributes that every instance of the dog class possesses.
@@ -555,7 +557,7 @@ Dog.legs = 4
 - to avoid such, use 'super' again and ensure parent constructor is called first before adding our new property
 - when new class initiated = new property added.
   
-## Day-3
+## Day 3:
 ### Handling Errors and Exceptions
 - when something is divided by zero --> zero division error
 - such problems are referred to as errors while other times are called exceptions
@@ -604,6 +606,11 @@ ZeroDivisionError: division by zero
 - a zero division error
 - exception is can't and will not be raised anymore
 - it is a class with attributes that can be created and even returned.
+- try block: used to check some code errors i.e. code inside the try block will execute when there is no error in the program
+- except block: code inside block will execute whenever the program encounters some error in the preceding try block
+- if no exception, then only the try clause will run, except clause is finished
+- if exception occurs, try clause will be skipped and except clause will run
+- if exception occurs, but ecept clause within the code can't handle it, it is passed on to the outer try statements. *IF exception* left unhandled, then execution stops.
 ```
 try:
     1/0
@@ -629,8 +636,9 @@ causeError()
 - except statements not needed
 - error is thrown, but is still printed
 - even if no exception is raised at all, it still executes
-- often used when timing how long a function takes to execute
+- often used when *timing how long a function takes to execute*
 - to time our function --> import time class and time
+- finally needs to be after everything else, including an 'else' statement, otherwise you'll get a runtime error.
 ```
 import time
 
@@ -697,9 +705,10 @@ causeError()
 - when causeError is called, this handle exception, is used to accept those various exceptions that this could throw.
 - decorator can be reused for another function
 - **custom decorator**: changes the name of a function
+- allows for the modification of functions or class through their behaviour 
 
 #### Raising Exceptions
-- use handleException decorator
+- use **handleException** decorator
 - a function called raiseError raises Exception
 - raise statement raises or throws this new exception that was created when it reached
 ```
@@ -761,7 +770,7 @@ ServerError: Status code: 500 and message is: The server messed up!
 - exception message gets formatted with the status code and message because it extends this HttpException.
 
 
-## Day-4
+## Day 4:
 ### Fundamentals of Threads and Processes
 - computers have both memory and file storage
 - long-term memory: save a file and load to a file from the disc
@@ -770,17 +779,17 @@ ServerError: Status code: 500 and message is: The server messed up!
     - puts walls between the processes so they cannot access each other's memory.
     - memory: segmented, access is controlled by the operating system.
     - allow us to move these two pieces of code into the same process --> get to share memory.
-- A process can have multiple threads and execute at the same time in parallel
-- threads share the same space in memory
-- when the program has periods of 'waiting' and doing nothing, multi-threading decreases the runtime of a program.
   
 ### Multithreading
+-	The ability of a processor having multiple threads and executes them at the same time in parallel
+-	threads share the same space in memory
+-	when the program has periods of **'waiting' and doing nothing**, multi-threading **decreases the runtime of a program**.
 -	longSquare: calculates the square of a number but takes a long time to do it.
 -	Threads: when waiting to fetch data from a remote server, code is sitting around doing nothing, you can do all the waiting in parallel and not one at a time.
 -	```T1 is threading.thread and nd, t2 is threading.thread```
 -	Target = name of the target function, longSquare
 -	Args = arguments
--	when the program has periods of 'waiting' and doing nothing, multi-threading decreases the runtime of a program.
+-	all threads of a process share global variables (stored in heap) and the program code
 ```
 def longSquare(num, results):
     time.sleep(1)
@@ -804,6 +813,7 @@ print(results)
 - two Python processes running independently, multi-processing and Python
 - can have two separate Python processes running but you have to start by hand
 - multiprocessing module is used to start, stop and manage these processes.
+- more than one processor being used
 ```
 def longSquare(num, results):
     time.sleep(1)
@@ -822,8 +832,11 @@ processes = [Process(target=longSquare, args=(n,results)) for n in range(0, 10)]
 - Processes = list
 - processes can contain multiple threads
 - threads share the same space in memory
+
+- start(): starts a process
+- join(): stop execution of current program until process is completed
   
-## Day-5
+## Day 5:
 ### Opening, Reading and Writing
 #### Reading Files
 - two applications making changes to the same file at the same time causes problems
@@ -869,10 +882,142 @@ Cell In[6], line 1
 
 ValueError: I/O operation on closed file.
 ```
+### CSV
+#### Reading
+- CSV file contains tab-separated values, all of these are tabs
+- reader object is not a list: it is a csv reader class used as you would use a list an it is iterable
+- reader has an internal bookmark that keeps track of where you are
+- multiple lines can be called and can also be converted to a list
+- header data from Python --> use the dict reader
+
+#### Filtering Data
+- converting from reader object to a list object
+```
+primes = []
+for number in range(2, 99999):
+    for factor in range(2, int(number ** 0.5) + 1):
+        if number % factor == 0:
+            break
+    else:
+        primes.append(number)
+```
+```
+data = [row for row in data if int(row['postal code']) in primes and row['state code'] == 'MA'] 
+len(data)
+```
+### JSON
+#### loading JSON
+- JSON is not Python
+- looks like a dictionary, but it's a string
+- turn json string to dictionary --> import JSON module
+- json.loads is used to parse a JSON string into a Python object
+  
+```
+jsonString = '{"a":"apple", "b":"bear", "c":"cat"}'
+try:
+    json.loads(jsonString)
+except JSONDecodeError:
+    print('Could not parse JSON!')
+```
+``` Could not parse JSON! ```
+                                                 
+``` {'a': 'apple', 'b': 'bear', 'c': 'cat',} ```
+``` {'a': 'apple', 'b': 'bear', 'c': 'cat'} ```
+
+- JSON string shouldn't have a trailing comma --> JSON decode error
+
+#### Dumping JSON
+- use json.dumps method
+```
+pythonDict = {'a': 'apple', 'b': 'bear', 'c': 'cat',}
+json.dumps(pythonDict)
+```
+``` '{"a": "apple", "b": "bear", "c": "cat"}' ```
+
+#### Custom JSON Decoders
+- use JSONEncoder because JSON module can't handle Animal class
+- 'o' is the object that's being passed that needs to be decoded into JSON
+```
+from json import JSONEncoder
+class Animal:
+    def __init__(self, name):
+        self.name = name
+
+class AnimalEncoder(JSONEncoder):
+    def default(self, o):
+        if type(o) == Animal:
+            return o.name
+        return super().default(o)
+    
+pythonDict = {'a': Animal('aardvark'), 'b': Animal('bear'), 'c': Animal('cat'),}
+json.dumps(pythonDict, cls=AnimalEncoder)
+```
+``` '{"a": "aardvark", "b": "bear", "c": "cat"}' ```
 
 </details>
 
+<details>
+    <summary> Python-Week-3 </summary>
 
+## Day 1:
+### Finding Inspiration
+- Developing an application to send a daily email digest, neatly compiling all the information needed in one convenient place.
+  
+### User Stories
+- depicts small scenarios from the user's perspective
+- these stories should emphasize the user's goal and motivation rather than the application itself.
+- user stories: brief, simple and informal, perfect for jotting down on index cards
+- as a [user/role], I want [goal] so that [reason/benefit] format (three core elements).
+```
+As a digest recipient, I want to receive an email every morning with current and useful information to know what's happening in the world and learn something new daily.
+```
+*Important*: consider the needs of the administrator role. An admin might want to curate content, control the email's timing and manage the recipient list.
+
+### Use Cases
+- typically include a title, an actor (a user or system), and a scenario that describes how a goal is achieved
+- scenario can be written as a paragraph or a list of steps
+- user stories focus on the who, what and why of a task/goal
+- user cases cover the who, what and how of achieving that goal
+
+### Project Requirements
+- to capture the capabilities and limitations of an application
+- functional requirements: describe what the application should or should not do and are written as sentences starting with "the application must" or "the application shall"
+  
+- requirements act as a checklist to ensure the application meets all necessary functionalities
+
+- non-functional requirements: describe how the application should accomplish its tasks
+- focus on qualities like maintainability, reliability, and usability
+```
+the application should have a configurable GUI for the admin to interact with, be extensible for adding more content types, and be resilient to content errors
+```
+
+### Architecture
+- identifying nouns helps determine potential objects
+- for instance, in functional requirements, words like quote, forecast, location, trends, article, content, email and recipients stand out as potential objects
+
+- group related nouns together such as content and email, provides a starting point for potential classes
+- content, email and GUI emerge as candidates for classes
+- behaviours and responsibilities are determined by extracting simplified verb phrases from the requirements, like generating quotes, retrieving forecasts, formatting content, and sending emails.
+- These behaviours are assigned to the corresponding classes based on their relevance
+
+- The content class is responsible for generating and retrieving content, the email class handles formatting content and sending emails, and the GUI manages configuration-related behaviours.
+- This process helps draft method names and provides an initial structure for the program
+  
+![image](https://github.com/Nolu-M/Python/assets/119700411/3422a5f5-051c-47c4-9566-d154dad9382b)
+
+### Stub Code
+- 3 Python modules used:
+    - dd_content.py: 
+    - dd_email.py: contains the skeleton for the daily digest email class, with placeholder methods using the pass statement.
+      - allows the script to be executed without errors
+    - dd_gui.py
+
+## Day 2:
+
+
+
+    
+</details>
 
 
 
