@@ -1037,6 +1037,9 @@ the application should have a configurable GUI for the admin to interact with, b
 
 *Important*: Several Python libraries on pypy.org can retrieve OpenWeatherMap data.
 
+- OpenWeatherMap offers various callable APIs for accessing current and forecast weather information
+- must register to obtain an API key
+- 
 
     
 </details>
