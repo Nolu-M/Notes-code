@@ -1,6 +1,10 @@
 import csv
 import random
+from urllib import request
+import json
+import datetime
 
+# Retrieve a random quote from the specified CSV file.
 quotes_file = 'quotes.csv'
 
 def get_random_quote():
@@ -15,8 +19,27 @@ def get_random_quote():
         
     return random.choice(quotes)
 
-def get_weather_forecast():
-    pass
+# Retrieve the current weather forecast from OpenWeatherMap.
+
+def get_weather_forecast(coords={'lat': 28.4717, 'lon': -80.5378}): # default location at Cape Canaveral, FL
+    try: # retrieve forecast for specified coordinates.
+        api_key = '3ac045cf6a1ddebf2eb35d86e32b5955' # my API key
+        url = f'https://api.openweathermap.org/data/3.0/onecall?lat={coords["lat"]}&lon={coords["lon"]}&appid={api_key}'
+        data = json.load(request.urlopen(url))
+
+        return data
+    
+    except Exception as e:
+        print(f"Error: {e}. Using default location.")
+        # Use default location
+        default_coords = {'lat': 28.4717, 'lon': -80.5378}
+        default_url = f'https://api.openweathermap.org/data/3.0/onecall?lat={default_coords["lat"]}&lon={default_coords["lon"]}&appid={api_key}'
+        default_data = json.load(request.urlopen(default_url))
+        
+        return default_data
+    
+print(get_weather_forecast())
+ 
 
 def get_twitter_trends():
     pass
