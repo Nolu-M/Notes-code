@@ -1044,7 +1044,24 @@ the application should have a configurable GUI for the admin to interact with, b
   
 ### Trending Social media Content (Twitter)
 
-    
+## Day 3:
+
+
+
+## Day 4:
+### GUI Design Planning
+- designed for the admin to have control over the daily digest application
+- based on the example: Gui is used to provide users with options to customize their digest email
+    - should be able to choose content sources, manage recipients, schedule sending time and configure sender credentials
+    - spin boxes: used to select the hour and minute in the 24 hour format
+
+### Exploring Python Tkinter GUI
+- GUI module called "dd GUI" is used
+- TKinter variables: instantiated to store recipient data, and these variables, along with the frame reference, and are passed to the "build GUI recipients" function that handles creating the GUI widgets.
+- all variables are instantiated within the initialization method to easily initialize their values in one place
+- the init method also instantiates and starts the scheduler thread and reregisters an event to stop the thread before closin the GUI window.
+
+
 </details>
 
 
