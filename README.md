@@ -1039,7 +1039,10 @@ the application should have a configurable GUI for the admin to interact with, b
 
 - OpenWeatherMap offers various callable APIs for accessing current and forecast weather information
 - must register to obtain an API key
-- 
+
+- when accessing forecast API, default format for returned data is JSON
+  
+### Trending Social media Content (Twitter)
 
     
 </details>
