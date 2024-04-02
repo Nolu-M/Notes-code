@@ -2,7 +2,8 @@ from tkinter import *
 from tkinter import ttk
 
 class DailyDigestGUI:
-    pass # build the GUI
+    def __init__(self, root):
+        pass # build the GUI
 
 """
 The GUI should enable the admin to...

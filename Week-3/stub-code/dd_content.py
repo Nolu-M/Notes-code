@@ -35,10 +35,9 @@ def get_weather_forecast(coords={'lat': 28.4717, 'lon': -80.5378}): # default lo
         default_coords = {'lat': 28.4717, 'lon': -80.5378}
         default_url = f'https://api.openweathermap.org/data/3.0/onecall?lat={default_coords["lat"]}&lon={default_coords["lon"]}&appid={api_key}'
         default_data = json.load(request.urlopen(default_url))
-        
+
         return default_data
     
-print(get_weather_forecast())
  
 
 def get_twitter_trends():
@@ -56,3 +55,5 @@ if __name__ == '__main__':
 
     quote = get_random_quote(quotes_file = None)
     print(f' - Default quote is "{quote["quote"]}" - {quote["author"]}')
+
+    print(get_weather_forecast())
