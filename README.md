@@ -1069,7 +1069,7 @@ the application should have a configurable GUI for the admin to interact with, b
 # Day 1:
 ## The Cape Innovation and Technology Initiative
 * non-profit organization established in 1998
-* 
+* mission: to create a future
 
     
 
