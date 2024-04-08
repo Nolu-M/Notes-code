@@ -1061,9 +1061,11 @@ the application should have a configurable GUI for the admin to interact with, b
 - all variables are instantiated within the initialization method to easily initialize their values in one place
 - the init method also instantiates and starts the scheduler thread and reregisters an event to stop the thread before closin the GUI window.
 
-
 </details>
 
+<details>
+    <summary> Data Analytics Week-1</summary>
+</details>
 
 
 
