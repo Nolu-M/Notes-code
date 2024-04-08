@@ -1069,7 +1069,12 @@ the application should have a configurable GUI for the admin to interact with, b
 # Day 1:
 ## The Cape Innovation and Technology Initiative
 * non-profit organization established in 1998
-* mission: to create a future
+* mission: to create a future-proof, inclusive society by using innovation and technology to transform our present and protect our future
+* interventions focused on:
+  - Entrepreneurial support and ecosystem development: Ecosystem development = a group of different independent businesses create products/services that together make one complete offereing e.g. manufacturing of cars, different companies like glass, paint and tire/rubber man
+  - Digital economy job-readiness
+  - Strategic open innovation clutter development
+  
 
     
 
