@@ -1067,17 +1067,35 @@ the application should have a configurable GUI for the admin to interact with, b
 <summary> Data Analytics Week-1</summary>
     
 # Day 1:
-## The Cape Innovation and Technology Initiative
+## Introduction and Induction
+### The Cape Innovation and Technology Initiative
 * non-profit organization established in 1998
 * mission: to create a future-proof, inclusive society by using innovation and technology to transform our present and protect our future
 * interventions focused on:
-  - Entrepreneurial support and ecosystem development: Ecosystem development = a group of different independent businesses create products/services that together make one complete offereing e.g. manufacturing of cars, different companies like glass, paint and tire/rubber man
+  - Entrepreneurial support and ecosystem development: Ecosystem development = a group of different independent businesses create products/services that together make one complete offereing e.g. manufacturing of cars, different companies like glass, paint and tire/rubber manufacturers supply different parts in order to make a car.
   - Digital economy job-readiness
-  - Strategic open innovation clutter development
-  
+  - Strategic open innovation clutter development: where global economic hot spots occur and new technologies germinate at an astounding rate and where pools of capital, expertise, and talent foster the development of new industries and new ways of doing business.
 
-    
+## Computing with Confidence
+### What is a confident computer user?
+- one who knows more than just the required key presses to operate the software they are using.
+- important qualities:
+    - knowing how to cope when things go wrong
+    - knowing how to learn computing skills independently
 
+### How to cope when things go wrong?
+- personal computiing is changing, need to cope with the changes and unreliability.
+    - save work often
+    - back up all your important work regularly
+    - look for workarounds: if one way doesn't work, look for another
+    - built in sources for help
+    - develop and use your support network
+      
+### learning new Computing Skills
+- use websites and Youtube videos
+- try out and explore, errors will occur and modern software will warn you and allow you to undo them
+- look for patterns, differences/similarities so you can begin to guess what to expect
+- learn from others while also offering help
 
 </details>
 
