@@ -1097,6 +1097,18 @@ the application should have a configurable GUI for the admin to interact with, b
 - look for patterns, differences/similarities so you can begin to guess what to expect
 - learn from others while also offering help
 
+## Module Focus
+* domain of data analytics - two primary components:
+    * conceptual understanding of data (theoretical aspect)
+    * hands-on manipulation of data (practical aspect)
+* both components can operate independently
+* aim is to extract actionable insighs and valuable information from data
+* achieved through coding, low-code platforms or no-code solutions
+
+
+
+
+
 </details>
 
 
