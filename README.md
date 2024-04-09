@@ -1209,6 +1209,7 @@ techniques are grouped into categories based on the purpose of the analysis and/
 ### Structured Data Type
 - tabular, organized into rows and columns
 - in a spreadsheet, cells are where columns and rows intersect
+  
 ![image](https://github.com/Nolu-M/Python/assets/119700411/592f05b1-300d-448e-b8b0-cc51ada48a8b)
 
 #### Character
