@@ -1104,8 +1104,24 @@ the application should have a configurable GUI for the admin to interact with, b
 * both components can operate independently
 * aim is to extract actionable insighs and valuable information from data
 * achieved through coding, low-code platforms or no-code solutions
+  
+## Chapter 1: The Data Analyst
 
-
+### What is Data Analytics
+- **Data analyst**: transforma raw data into actionable insights that guide decision-making process within an organization.
+    1. Data collection and preparation:
+          * sourcing data from various channels i.e. databases, spreadsheets, external sources
+          * cleaning and organizing the data for accuracy, consistency and readiness for analysis
+    2. Data Analysis:
+          * statistical methods, machine learning techniques, analytical tools to interpret data
+          * identifying trends, patterns and correlations
+    3. Data Visualization and Storytelling:
+          * creating visual representations of the data i.e. chars, graphs and dashboards to understand complex information easily
+          * articulating findings to communicate significance of the data to stakeholders
+    4. Decision Support:
+          * Making recommendations based on data-driven insights to guide business decisions
+          * providing context around the data, and implications and future trends
+    5. Collaboration and Communication:
 
 
 
