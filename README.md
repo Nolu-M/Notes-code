@@ -1148,7 +1148,7 @@ Data analysts and scientists are in high demand
 5. Reporting and Communication
 
 #### The Analytics Process is Iterative
-- analytics process: a set of interrelated actions that may be revisited frequently while working with a dataset.
+- *analytics process*: a set of interrelated actions that may be revisited frequently while working with a dataset.
 - e.g. analyst reviewing a visualization may notice unusual data points that do not belong in the dataset, causing them to return to the data cleaning stage and rerun their analysis with the newly cleaned dataset
 - e.g. analyst running an analysis might discover their analysis woule be enriched by adding another source of data, causing them to return to the acquision stage
 - this process helps you understand the different activities that take place during a data analysis and the approximate order in which they typically occur
@@ -1160,19 +1160,18 @@ techniques are grouped into categories based on the purpose of the analysis and/
 - Prescriptive Analytics
 
 #### Machine Learning, Artificial Intelligence and Deep Learning
-- machine learning: uses algorithms to discover knowledge in your datasets that can be applied to help make informed decisions about the future.
+- *machine learning*: uses algorithms to discover knowledge in your datasets that can be applied to help make informed decisions about the future.
     - segmenting customers, determining the marketing messages that will appeal to different customer groups
     - discovering anomalies in a system and application logs that may be indicative of a cybersecurity incident
     - Forecasting product sales based on market and environmental conditions etc.
   
-- artificial intelligence: includes any tyoe of technique where you are attempting to get a computer system to imitate human behaviour.
-- maching learning (ML): subset of AI techniques, ML techniques attempt to apply statistics to data problems in an effort to discover new knowledge or are AI techniques designed to learn
+- *artificial intelligence*: includes any tyoe of technique where you are attempting to get a computer system to imitate human behaviour.
+- *maching learning (ML)*: subset of AI techniques, ML techniques attempt to apply statistics to data problems in an effort to discover new knowledge or are AI techniques designed to learn
 
-- deep learning: uses complex techniques, known as neural networks, to discover knowledge in a particular way.
+- *deep learning*: uses complex techniques, known as neural networks, to discover knowledge in a particular way.
 - highly specialized subfield of machine learning, commonly used for image, video and sound analysis
 
 ### Data Governance
-
 - Data governance programs ensure that the organization has high-quality data and is able to effectively control that data.
 
 #### Analytics Tools
