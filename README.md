@@ -1175,7 +1175,11 @@ techniques are grouped into categories based on the purpose of the analysis and/
 - Data governance programs ensure that the organization has high-quality data and is able to effectively control that data.
 
 #### Analytics Tools
-
+- software helps analysts work through each one of the phases of the analytics process
+- tools automate the heavy lifting of data analysis, improving the analyst's ability to acquire, clean, manipulate, visualize and analyze data.
+- also provide invaluable assistance in reporting and communicating results
+- e.g. Microsoft Excel or Google Sheets (spreadsheet tools)
+- e.g. advanced skills: R programming language provides analysts with direct access to their data, but requires basic coding skills
 
 
 </details>
