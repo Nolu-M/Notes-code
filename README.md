@@ -1219,11 +1219,15 @@ techniques are grouped into categories based on the purpose of the analysis and/
 #### Alphanumeric
 - widely used data tyoe for stroing character-based data
 - when a data element consists of both numbers and letters
-- ideal for storing product stock-keeping units (SKUs), common in retail clothing space 
+- ideal for storing product stock-keeping units (SKUs), common in retail clothing space for items
+- excluding numbers can be achieved using the text data type
+- text is subset of aphanumeric, only allowing the storage of alphabetic characters
 
+data types:
+* char, varchar2, varchar, CLOB, varchar(max) and LONGTEXT
+* CLOB and LONGTEXT: vendor specific
 
-
-
+#### Character Sets
 
 
 
