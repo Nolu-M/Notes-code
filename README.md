@@ -1229,7 +1229,16 @@ data types:
 * CLOB and LONGTEXT: vendor specific
 
 #### Character Sets
+- databases use character sets to map or encode, data and store digitally
+- individual characters may consume multiple bytes, impacting the length of a character string you can store in a character data type
 
+1. Numeric: databases accomodate two types - *integer* and *numeric*
+2. Whole Numbers: integer and all subtypes are for storing whole numbers. Microsoft and MySQL databases support the bit data type, can be empty, or store a 0 or a 1. Flags indicate is something is on or off, on = 1 or true and off = 0 or false. The bit stores status of a flag.
+3. Rational Numbers: numeric data type is for rational numbers that include a decimal point. 
+4. Date and Time
+5. Currency:
+    * data storage - contains actual value for a given data element
+    * data formating - takes a given data value and then formats it for display purposes, common when dealing with currency and date data types.
 
 
 </details>
