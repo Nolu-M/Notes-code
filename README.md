@@ -1108,7 +1108,7 @@ the application should have a configurable GUI for the admin to interact with, b
 ## Chapter 1: The Data Analyst
 
 ### What is Data Analytics
-- **Data analyst**: transforma raw data into actionable insights that guide decision-making process within an organization.
+- **Data analyst**: transforms raw data into actionable insights that guide decision-making process within an organization.
     1. Data collection and preparation:
           * sourcing data from various channels i.e. databases, spreadsheets, external sources
           * cleaning and organizing the data for accuracy, consistency and readiness for analysis
@@ -1122,6 +1122,24 @@ the application should have a configurable GUI for the admin to interact with, b
           * Making recommendations based on data-driven insights to guide business decisions
           * providing context around the data, and implications and future trends
     5. Collaboration and Communication:
+          * working closely with other departments to understand their data needs, provide insights
+          * effectively communicate complex data findings clearly and concisely
+    6. Continous Learning and Adaptation:
+          * keeping up-to-date with latest industry tends, tools and technologies in data analysis
+          * Adapting to new types of data and analytical
+- goal is to contribute to organization's success by turning data into a valuable asset that informs and drives decision-making
+
+### Welcome to the World of Analytics
+
+Three major pillers that come together to allow analytics to thrive
+- data
+- storage
+- computing power: Moore's Law, we will double the amount of computing power on a single device every two years.
+    
+### Career in Analytics
+Data analysts and scientists are in high demand
+
+### The Analytics Process
 
 
 
