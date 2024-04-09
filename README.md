@@ -1181,6 +1181,51 @@ techniques are grouped into categories based on the purpose of the analysis and/
 - e.g. Microsoft Excel or Google Sheets (spreadsheet tools)
 - e.g. advanced skills: R programming language provides analysts with direct access to their data, but requires basic coding skills
 
+## Chapter 2: Understanding Data
+
+### Exploring Data Types
+- *data element*: an attribute about a person, place or thing containing data within a range of values
+    - also describe characteristics of activities, including orders, transactions and events
+- *data type*: limits the values a data element can have
+    - individual data types support structured, unstructured and semi-structured data
+
+#### Tabular Date
+- data organized into a table made up of columns and rows
+- table represents information about a single topic
+- each column represents a uniquely named field within a table, also called a *variable*, about a single characteristic
+- contents of each column contain values for the data element as defined by the column header
+
+- think of tabular data as rectangular data, easy to draw a rectangle around the data
+- top of the rectandgle is defined by columns, rows define the left side of the rectangle
+
+- intersection of a row and column contains a specific value
+- e.g. to identify Hazel's breed, look at where her row intersects with the Breed Name column and see that she is a Labradoodle
+
+- spreadsheets, including Microsoft Excel, Google Sheets and Apple Numbers: practical tools for representing tabular data
+- relational database management system (RDMS), called a database: extends the tabular model
+- database: organizes related data across multiple tables, connection between tables is known as a *relationship*
+- Oracle, Microsoft SQL Server, MySQL and PostgreSQL, examples of database software
+- tabular data is the concept underpins both spreadsheets and relational                                                                       
+### Structured Data Type
+- tabular, organized into rows and columns
+- in a spreadsheet, cells are where columns and rows intersect
+![image](https://github.com/Nolu-M/Python/assets/119700411/592f05b1-300d-448e-b8b0-cc51ada48a8b)
+
+#### Character
+- character type limits data entry to only valid characters
+- characters can include the alphabet and numbers
+- multiple data types are available that can enforce character limits
+
+#### Alphanumeric
+- widely used data tyoe for stroing character-based data
+- when a data element consists of both numbers and letters
+- ideal for storing product stock-keeping units (SKUs), common in retail clothing space 
+
+
+
+
+
+
 
 </details>
 
