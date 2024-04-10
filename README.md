@@ -1340,7 +1340,7 @@ facilitate data exchange and tool interoperability
 - developed in 1969 by IBM's Edgar F. Codd
 - builds on the concept of tabular data
 - an entity contains data for a single subject, i.e. nouns
-- 
+- benefits include consistency rollback, stored procedures, locking and concurrency
 
 
 
