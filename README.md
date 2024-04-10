@@ -1386,9 +1386,45 @@ facilitate data exchange and tool interoperability
     - looks after how the database uses the underlying storage, memory and processor resources assigned to the database
     - looks for processes that are slowing the entire database down
 
+- use foreign keys to implement data constraints in a database e.g. relationship connecting address with state
 
+- relational database providers:
+    - Oracle: released in 1979
+    - Microsoft: developed SQL Server, MariaDB and PostgreSQL
+    - Amazon Web Services (AWS) developed Aurora, which is compatible with MySQL and PostgreSQL.
+      - Aurora = unique, because it takes advantage of AWS's underlying cloud platform and it is easy to scale
 
-  
+#### Nonrelational Databases
+- does not have a predefined structure based on tabular data
+- flexible, scalable and cost-effective
+- data available = absent, therefore, need to know more about the data itself to interact with it
+- data validation happens in code as opposed to being done in the database
+    1. Key-Value:
+          * data stored as a collection of keys and their corresponding values
+          * key = globally unique across the entire database, key identifies an individual row in a specific table, can be a sequence of numbers, alphanumeric strings or some other combination of values
+          * scalability
+          * only way to search is to have the key e.g song = key, audio file = value
+    3. Document:
+          * similar to a key-value database, with additional restrictions
+          * value is restricted to a specific structured format e.g. JSON document
+          * more flexible than key-value databases
+          * searching using a field within the document is possible
+          * document key = profile name
+    5. Column-Family:
+          * use an index to identify data in groups of related columns
+          * e.g. Person_ID becomes index and other columns are stored independently
+          * this design facilitates distributing data across multiple machines, enabling handling massive amounts of data
+          * ability to handle large data volumes is due to the technical implementation details of how these databases organize and store
+          * optimizes performance when examining the contents of a column across many rows
+          * scalability benefit
+    7. Graph:
+          * specialize in exploring relationships between pieces of data
+          * e.g. animal and person represent a node in the graph, and each node can have multiple properties
+          * properties store specific attributes for an individual node
+          * arrow connecting nodes represents a relationship
+          * used when you need to create a recommendation engine
+![image](https://github.com/Nolu-M/Python/assets/119700411/10c83ede-6c49-4975-b92e-02d010659aa8)
+
 
 </details>
 
