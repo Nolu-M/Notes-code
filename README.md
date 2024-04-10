@@ -1259,7 +1259,20 @@ data types:
 4. *Video*: resolution and video duration have an impact on the stroage a video consumes
 5. *Large Text*: Oracle created CLOB data type to handle large text
    
-
+### Categories of Data
+- semi structured data: represents the space between structured speadsheets and unstructured videos
+    1. *Quantitative vs Qualitative*:
+          * quantitative = numeric values and answers questions like 'how many?', data discrete or continuous e.g. age
+          * qualitative = text values and answers questions like 'why?' and 'what?', data is discrete
+    2. *Discrete vs Continuous Data*:
+          * discrete = measurements that can't be subdivided, useful when you have things to count. **Applies when counting**.
+          * continuous = typically need a decimal point, measuring things like height/weight. **Applies when measuring**
+    3. Categorical data:
+          * text data with a known, finite number of categories is categorical e.g. animal type
+    5. Dimensional Data:
+          * dimensional modeling = an approach to arranging data to facilitate analysis and organizes data into fact tables and dimension tables.
+          * fact tables store measurement data that is of interest to a business i.e. appointment data table
+    
 
 
 
