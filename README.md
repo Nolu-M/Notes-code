@@ -1425,6 +1425,57 @@ facilitate data exchange and tool interoperability
           * used when you need to create a recommendation engine
 ![image](https://github.com/Nolu-M/Python/assets/119700411/10c83ede-6c49-4975-b92e-02d010659aa8)
 
+### Database Use Cases
+- databases support two major categories of data processing;
+    1. Online Transactional Processing (OLTP)
+    2. Online Analytical Processing (OLAP)
+
+#### Online Transactional Processing
+- handle everyday transactions e.g. booking a flight reservation, ordering online or executing a stock trade
+- OLTP systems balance the ability to write and read efficiently
+
+#### Normalization
+- a process for structuring a database in a way that minimizes duplication of data
+- one of the principles: a given piece of data is stored once and only once
+- a normalized database is ideal for processing transactions
+
+- first normal form (1NF): when every row in a table is unique and every column contains a unique 
+![image](https://github.com/Nolu-M/Python/assets/119700411/f9fb26b8-d8ff-4072-8f9f-548a504c3312)
+
+- second normal form (2NF): starts where 1NF leaves off
+- in addition to each row being unique, 2N applies an additional rule = all nonprimary key values must depend on the entire primary key
+![image](https://github.com/Nolu-M/Python/assets/119700411/4a0b4db2-0d0c-4bda-a1e2-74a3ee21683f)
+
+- third normal form (3NF)L builds upon 2NF by adding a rule = all columns must depend on only the primary key
+- highly normalized databases
+![image](https://github.com/Nolu-M/Python/assets/119700411/3cefb6e7-1c8c-490a-bd1a-fa3c743067e3)
+
+#### Online Analytical Processing
+- focus on the ability of organizations to analyze data
+- have denormalized design
+- denormalization results in wider tables than those found in an OLTP database
+- more efficient for analytical queries to read large amounts of data for a single table instead of incurring the cost of joining multiple tables together.
+- the greater the number of joins = more complex, the more complex = longer it takes to retrieve results
+
+#### Schema Concepts
+- data warehouse: a database that aggregates data from many transactional systems for analytical purposes
+    - data mart: subset of a data warehouse, data warehouse = serves entire organization and data mart = focuses on the needs of a particular department within the organization
+ - data lake: stores raw data in its native format instead of conforming to a relational database structure
+    - more complex than a data warehouse or data mart, requires additional knowledge about the raw data to make it analytically useful
+    - relational databases enforce structure encapsulating business rules & logic, which are both missing in a data lake
+
+1. Star:
+
+2. Snowflake:
+
+#### Dimensionality
+- refers to the number of attributes a table has, the greater the number, the higher the dimensionality
+- 
+
+#### Handling Dimensionality
+
+
+
 
 </details>
 
