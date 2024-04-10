@@ -1330,7 +1330,7 @@ facilitate data exchange and tool interoperability
 - HTML pages serve as the foundation of how people interact with the World Wide Web
 
 # Day 2:
-## Chapter 3: Databased and Data Acquision
+## Chapter 3: Databases and Data Acquision
 
 ### Exploring Databases 
 1. Relational: oldest and most mature databases, excel at stroing and processing structured data
@@ -1341,6 +1341,19 @@ facilitate data exchange and tool interoperability
 - builds on the concept of tabular data
 - an entity contains data for a single subject, i.e. nouns
 - benefits include consistency rollback, stored procedures, locking and concurrency
+  
+- row = instance of an entity
+- the entity relationship diagram (ERD): visual artifact of the data modeling process
+    - it shows the connection between related entities
+    - a relationship is a connection between entities, symbols adjacent to an entity describe the relationship
+ 
+- cardinality: the relationship between two entities, showing how many instances of one entity relate to instances in another entity
+    - specify cardinality in an ERD with various line endings
+    - first component of the terminator indicated whether the relationship between two entities is optional or required
+    - second component indicates whether an entity instance in the first table is associated with a single entity instance in the related table or if an association can exist with multiple entity instances.
+![image](https://github.com/Nolu-M/Python/assets/119700411/961e6486-ab25-417b-8e01-c40f4dc1d944)
+
+      
 
 
 
