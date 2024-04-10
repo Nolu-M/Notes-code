@@ -1300,7 +1300,36 @@ facilitate data exchange and tool interoperability
 - referred to as **flat files**
 - when machines generate data, output is stored in a text file
 
-- delimiter = facili
+- delimiter = facilitates transmitting structured data via a text file, the character that separates individual fields and can be any character i.e. comma and tab.
+- comma-separated values (CSV): when a file is comma-delimited
+- tab-separated values (TSV): when a file is tab-delimited
+
+#### Fixed-Width Files
+- before delimited files with variable-length columns, flat files were fixed-width
+- more laborious to create due to extra steps
+- data rows requires you to determine the maximum length of each column, then pad values that are shorter than the max length
+- numeric fields = accomplish padding by prepending a leading zero
+- alphanumeric/text fields =  done by prepending or appending spaces
+
+#### JavaScript Object Notation
+- JavaScript Object Notation (JSON) is an open standard file format, designed to add structure to a text file without incurring significant overhead
+- easily readable and easily parsed by modern programming languages
+- Python, R and Go have libraries containing functions that facilitate reading/reading JSON files
+- R factilitates statistical analysis of data
+
+#### Extensible Markup Language (XML)
+- Extensible Markup Language (XML) is a markup language that facilitates structuring data in a text file
+- incurs more overhead like JSON because it makes extensive use of tags
+- tags: describe a data element and enclose each value for each data element, help readability but add significant amount of overhead
+- results in a file roughly double in size
+- in 1999, it was the data format of choice and facilitated Asynchronous JavaScript and XML(Ajax) web development techniques.
+- AJAX allowed client applications, written in HTML, to retrive data from a server asynchronously, without waiting for server response, the speed with which dynamic web pages operated increased.
+
+#### HyperText Markup Language (HTML)
+- a markup language for documents designed to be displayed in a web browser, tag based
+- HTML pages serve as the foundation of how people interact with the World Wide Web
+
+
 
 
 
