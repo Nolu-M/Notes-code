@@ -1329,7 +1329,18 @@ facilitate data exchange and tool interoperability
 - a markup language for documents designed to be displayed in a web browser, tag based
 - HTML pages serve as the foundation of how people interact with the World Wide Web
 
+# Day 2:
+## Chapter 3: Databased and Data Acquision
 
+### Exploring Databases 
+1. Relational: oldest and most mature databases, excel at stroing and processing structured data
+2. Nonrelational: unstructured data
+
+#### Relational Model
+- developed in 1969 by IBM's Edgar F. Codd
+- builds on the concept of tabular data
+- an entity contains data for a single subject, i.e. nouns
+- 
 
 
 
