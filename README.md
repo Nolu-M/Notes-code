@@ -1273,10 +1273,25 @@ data types:
           * dimensional modeling = an approach to arranging data to facilitate analysis and organizes data into fact tables and dimension tables.
           * fact tables store measurement data that is of interest to a business i.e. appointment data table
     
+### Common Data Structures
 
+#### Structured Data
+* tabular data = structured, values stored in a consistent, defined manner, organized into columns and rows
+* method of organization facilitates aggregation and makes summarization easy
+* does not translate directly to data quality
 
+#### Unstructured Data
+* qualitative, describing the characteristics of an event or an object
+* images, phrases, audio or video recordings and descriptive text
+* machine data =  common source i.e. smartphones, tablets, personal computers and servers
+* object storage facilitates storage of unstructured data
+* the key is a unique identifier, value is the unstructured data itself i.e. key = filename, value = contents of the file
 
+#### Semi-Structured Data
+* data that has structure and that is not tabular i.e. email
+* semi-structured formatting options use separators or tags to provide context around a data element
 
+### Common File Formats
 
 
 
