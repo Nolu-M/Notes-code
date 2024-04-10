@@ -1239,6 +1239,36 @@ data types:
 5. Currency:
     * data storage - contains actual value for a given data element
     * data formating - takes a given data value and then formats it for display purposes, common when dealing with currency and date data types.
+    * only Microsoft SQL Server has data types specifically for storing currency
+#### Strong and Weak Typing
+- strong typing: when technology rigidly enforces data types
+- weak typing: loosely enforces data types
+    - spreadsheets use weak typing to help make it easier to accomplish work
+    - default to an 'automatic' data type and accomodate practically any value
+    - when data type is specified, it is loosely enforced compared to a database
+
+### Unstructured Data Types
+- any data type that does not fit neatly into the tabular model
+- e.g. digital images, audio recordings, video recordings and open-ended survey responses
+  
+1. *Binary*: supports any digital file, file size = limiting factor, you need to select a data type that is as large as the largest file you plan on stroring.
+2. *Audio*: audio is stored in its raw form, consuming the most storage space. It can be encoded with a compression algorithm to reduce the amount of space required and it requires a data type designed to handle raw binary data.
+3. *Images*: computer sees images as a binary file stored as ones and zeros, artificial intelligence algorithms for image processing over digital photos allow us to see the images.
+    - the greater the resolution, the more detail an image contains and the more storage space it needs
+    - storing images in a database requires a data type designed to handle raw binary data i.e. varbinary or BLOB
+4. *Video*: resolution and video duration have an impact on the stroage a video consumes
+5. *Large Text*: Oracle created CLOB data type to handle large text
+   
+
+
+
+
+
+
+
+
+
+
 
 
 </details>
