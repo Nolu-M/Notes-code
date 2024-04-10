@@ -1353,11 +1353,20 @@ facilitate data exchange and tool interoperability
     - second component indicates whether an entity instance in the first table is associated with a single entity instance in the related table or if an association can exist with multiple entity instances.
 ![image](https://github.com/Nolu-M/Python/assets/119700411/961e6486-ab25-417b-8e01-c40f4dc1d944)
 
-      
+    - unary relationship: when an entity has a connection with itself (comparatively complex & rare)
+    - binary relationship: connects two entities (most common & easy to explore)
+    - ternary relationship: connects three entities e.g. use ticket entity to connect a venue, a performing artist and a price (comparatively complex & rare)
 
+#### Relational Databases
+- pieces of software that let you make an operational system out of an ERD
+- relational entities correspond to database tables, and entity attributes correspond to table columns
+- when creating tables, order does not matter becuase you can specify the column order when retrieving data from a table
+- when an attribute becomes a column, you assign it a data type
+- end result = schema (ERD with the additional details needed to create a database)
+![image](https://github.com/Nolu-M/Python/assets/119700411/6a45acdf-831b-47cf-9b94-229e1a79ddc5)
 
-
-
+- associative table: both a table and a relationship e.g. an animal can belong to more that one person
+    - lets you identify the relationship between specific animal and a particular person with a minimum amount of data duplication
 
 
 </details>
