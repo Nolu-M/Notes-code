@@ -1267,9 +1267,9 @@ data types:
     2. *Discrete vs Continuous Data*:
           * discrete = measurements that can't be subdivided, useful when you have things to count. **Applies when counting**.
           * continuous = typically need a decimal point, measuring things like height/weight. **Applies when measuring**
-    3. Categorical data:
+    3. *Categorical data*:
           * text data with a known, finite number of categories is categorical e.g. animal type
-    5. Dimensional Data:
+    5. *Dimensional Data*:
           * dimensional modeling = an approach to arranging data to facilitate analysis and organizes data into fact tables and dimension tables.
           * fact tables store measurement data that is of interest to a business i.e. appointment data table
     
@@ -1292,7 +1292,15 @@ data types:
 * semi-structured formatting options use separators or tags to provide context around a data element
 
 ### Common File Formats
+facilitate data exchange and tool interoperability
 
+#### Text Files
+- consist of plain text amd are limited in scope to alphanumeric data
+- ability to be opened regardless of platform or operating system
+- referred to as **flat files**
+- when machines generate data, output is stored in a text file
+
+- delimiter = facili
 
 
 
