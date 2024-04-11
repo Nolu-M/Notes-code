@@ -1489,10 +1489,35 @@ facilitate data exchange and tool interoperability
 
 #### Dimensionality
 - refers to the number of attributes a table has, the greater the number, the higher the dimensionality
-- 
+- dimension table provides additional context around the data in fact tables
+- time is a dimension that you will encounter frequently
 
 #### Handling Dimensionality
-- 
+- start and end approach e.g. using time
+- extending the snowflake approach to model dimensions
+- use an indicator flag for the current price; requires another column
+    - indicator flag method keeps all pricing data in a single place, simplifies the query structure to get the current price. use the current flag = 'Y' instead of doing date math
+
+### Data Acquision Concepts
+#### Integration
+- extract, transform and load (ETL) as a method to transfer data efficiently and effectively
+    1. **Extract**: extract data from the source system and place it in a staging area, goal is to move data from a relational database into a flat file as quickly as possible
+    2. **Transform**: transforms data, goal is to reformat the data from its transactional structure to the data warehouse's analytical design
+    3. **Load**: purpose is to ensure data gets into the analytical system as quickly as possible
+- variant of ETL, with ETL data is extracted from a source database and loaded directly into the data warehouse
+- once extract and load phases are complete, transformation phase gets underway
+- key difference (ETL & ELT): technical component performing the transformation; ETL: data transformation takes place external to a relational using Python and ELT: uses SQL and the power of a relational database to reformat the data.
+- ELT has an advantage in the speed with which data moves from the operational to the analytical database
+    - e.g. need to get massive amounts of transactional data into analytical environment as quickly as possible
+
+#### ETL Vendors
+
+
+
+
+
+
+
 
 
 
