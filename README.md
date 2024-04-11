@@ -1445,12 +1445,10 @@ facilitate data exchange and tool interoperability
 
 - second normal form (2NF): starts where 1NF leaves off
 - in addition to each row being unique, 2N applies an additional rule = all nonprimary key values must depend on the entire primary key
-  
 ![image](https://github.com/Nolu-M/Python/assets/119700411/4a0b4db2-0d0c-4bda-a1e2-74a3ee21683f)
 
 - third normal form (3NF)L builds upon 2NF by adding a rule = all columns must depend on only the primary key
 - highly normalized databases
-  
 ![image](https://github.com/Nolu-M/Python/assets/119700411/3cefb6e7-1c8c-490a-bd1a-fa3c743067e3)
 
 #### Online Analytical Processing
@@ -1472,8 +1470,6 @@ facilitate data exchange and tool interoperability
     - denormalized to improve read performance over large datasets
     - centre of star = fact table: store numerical facts about a business
 ![image](https://github.com/Nolu-M/Python/assets/119700411/96c9bed0-bb28-46e6-b880-a3b4446b3828)
-
-
 ![image](https://github.com/Nolu-M/Python/assets/119700411/aff2a63e-962d-409a-be0f-7da34496fd71)
 
 - when data moves from an OLTP design into a star schem, there is a significant amount of data duplication
