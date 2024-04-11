@@ -1469,6 +1469,8 @@ facilitate data exchange and tool interoperability
     - facilitates analytical processing, gets its name from what the schema looks like when looking at its entity relationship diagram
     - denormalized to improve read performance over large datasets
     - centre of star = fact table: store numerical facts about a business
+    - dimension tables connect directly to the fact table
+    - data marts use a star-schema approach
 ![image](https://github.com/Nolu-M/Python/assets/119700411/96c9bed0-bb28-46e6-b880-a3b4446b3828)
 ![image](https://github.com/Nolu-M/Python/assets/119700411/aff2a63e-962d-409a-be0f-7da34496fd71)
 
@@ -1476,6 +1478,14 @@ facilitate data exchange and tool interoperability
 - star schema consumes more space than its associated OLTP design to store the same data
 
 2. Snowflake:
+    - schema diagram = snowflake
+    - central fact table surrounded by dimensions
+    - dimensions have subcategories, which give snowflake its shape
+    - less denormalized than the star schema
+    - need more than one join to get the data you are looking for
+    - snowflake schema query more complex than star schema
+    ![image](https://github.com/Nolu-M/Python/assets/119700411/506468c5-1263-416b-af91-40d878930e2a)
+
 
 #### Dimensionality
 - refers to the number of attributes a table has, the greater the number, the higher the dimensionality
