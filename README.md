@@ -1423,7 +1423,8 @@ facilitate data exchange and tool interoperability
           * properties store specific attributes for an individual node
           * arrow connecting nodes represents a relationship
           * used when you need to create a recommendation engine
-            ![image](https://github.com/Nolu-M/Python/assets/119700411/10c83ede-6c49-4975-b92e-02d010659aa8)
+
+![image](https://github.com/Nolu-M/Python/assets/119700411/10c83ede-6c49-4975-b92e-02d010659aa8)
 
 ### Database Use Cases
 - databases support two major categories of data processing;
