@@ -1520,7 +1520,12 @@ facilitate data exchange and tool interoperability
 
 #### Data Collection Methods
 * Application Programming Interfaces (APIs)
+    * structured method for computer systems to exchange information, provide consistent interface to calling applications
+    * can be transactional, returning data as JSON objects, can facilitate bulk data extraction, returning CSV files
 * Web Services
+    * data is found in private and public data sources and is accessible via a web service
+    * web service: an API you can call via HyperText Transfer Protocol (HTTP), the language of the World Wide Web.
+    * an API does not have to be a web service e.g. 
 * Web Scraping
 * Human-in-the-Loop
 * Surveys
