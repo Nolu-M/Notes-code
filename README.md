@@ -1465,15 +1465,24 @@ facilitate data exchange and tool interoperability
     - relational databases enforce structure encapsulating business rules & logic, which are both missing in a data lake
 
 1. Star:
+    - facilitates analytical processing, gets its name from what the schema looks like when looking at its entity relationship diagram
+    - denormalized to improve read performance over large datasets
+    - centre of star = fact table: store numerical facts about a business
+![image](https://github.com/Nolu-M/Python/assets/119700411/96c9bed0-bb28-46e6-b880-a3b4446b3828)
 
-2. Snowflake:
+![image](https://github.com/Nolu-M/Python/assets/119700411/aff2a63e-962d-409a-be0f-7da34496fd71)
+
+- when data moves from an OLTP design into a star schem, there is a significant amount of data duplication
+- star schema consumes more space than its associated OLTP design to store the same data
+
+3. Snowflake:
 
 #### Dimensionality
 - refers to the number of attributes a table has, the greater the number, the higher the dimensionality
 - 
 
 #### Handling Dimensionality
-
+- 
 
 
 
