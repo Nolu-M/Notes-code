@@ -1351,6 +1351,7 @@ facilitate data exchange and tool interoperability
     - specify cardinality in an ERD with various line endings
     - first component of the terminator indicated whether the relationship between two entities is optional or required
     - second component indicates whether an entity instance in the first table is associated with a single entity instance in the related table or if an association can exist with multiple entity instances.
+
 ![image](https://github.com/Nolu-M/Python/assets/119700411/961e6486-ab25-417b-8e01-c40f4dc1d944)
 
     - *unary* relationship: when an entity has a connection with itself (comparatively complex & rare)
