@@ -1512,9 +1512,21 @@ facilitate data exchange and tool interoperability
     - e.g. need to get massive amounts of transactional data into analytical environment as quickly as possible
 
 #### ETL Vendors
+- an initial load occurs the first time data is put into a data warehouse, after initial load, each additional load is a delta load: known as incremental load
+- delta load only moves changes between systems e.g. delta load below
+    ![image](https://github.com/Nolu-M/Python/assets/119700411/f81d6a68-90c8-4eee-a701-16ec9baf136f)
+- when moving data between systems, balance the speed and complexity of the overall operation
+- e.g. you operate nationally within the US and start processing transactions at 7 in the morning and finish by 7 in the evening, the 12 hours between 7 p.m and 7 a.m represent the batch window or time period available to move data into your data warehouse. The duration of a batch window must be taken into account when designing a delta load strategy
 
-
-
+#### Data Collection Methods
+* Application Programming Interfaces (APIs)
+* Web Services
+* Web Scraping
+* Human-in-the-Loop
+* Surveys
+* Survey Tools
+* Observation
+* Sampling
 
 
 
