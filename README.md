@@ -1527,11 +1527,23 @@ facilitate data exchange and tool interoperability
     * web service: an API you can call via HyperText Transfer Protocol (HTTP), the language of the World Wide Web.
     * an API does not have to be a web service e.g. 
 * Web Scraping
+    * data may not be available internally as an API or publicly via a web service, but may exist on a website
+    * web scraping: programmatic retrieval of data from a website
+    * can use software bots to scrape data from a website, Python and R make it easy to create a web scraper
+    * web scraper reads a web page similar to a browser i.e. Chrome, Safari or Edge and they read and parse the HTML to extract the data the web pages contain
+    * must understand how many result pages exist and then iterate through them to harvest the data.
 * Human-in-the-Loop
+    * you can get insight into competitive pricing by scraping your competitors' websites
 * Surveys
+    * collecting data from customers by conducting a survey
 * Survey Tools
+    * instead of designing a custom application to collect survey data, some survey products let you design complex surveys without building a database
+    * Qualtrics is a powerful tool for developing and administering surveys, its API can be used to integrate survey response data into a data warehouse for additional analysis
 * Observation
+    * the act of collecting primary source data from people or machines
+    * can be qualitative (leads to unstructured data challenges) or quantitative
 * Sampling
+    * collecting a sample or subset of the overall population, once collected, statistical methods can be used to make generalizations about the entire population.
 
 
 
