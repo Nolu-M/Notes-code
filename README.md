@@ -1545,6 +1545,30 @@ facilitate data exchange and tool interoperability
 * Sampling
     * collecting a sample or subset of the overall population, once collected, statistical methods can be used to make generalizations about the entire population.
 
+### Working With Data 
+- Data Definition Language (DDL) components of SQL: allows you to turn a database design into an operational database ready to accept data by allowing you to create, modify and delete tables and other associated database objects.
+- a productive analyst needs to generate insights by using the Data Manipulation Language (DML) capabilities of SQL to insert, modify and retrieve information from databases
+- DDL: manages structure of a database
+- DML: manages the data in the database (components of SQL change very slowly)
+
+#### Data Manipulation
+when manipulating data, one of four possible actions occurs:
+1. Create new data
+2. Read existing data
+3. Update existing data
+4. Delete existing data
+
+CRUD (Create, Read, Update, Delete)
+
+- SQL uses verbs for type of activity a specific statement performs
+- each CRUD activiti, there is a corresponding DML verb, known as keywords or words that are part of the SQL language itself.
+
+![image](https://github.com/Nolu-M/Python/assets/119700411/e44222dc-14ca-4dc8-b668-000f9537d9eb)
+
+
+
+
+
 
 
 
