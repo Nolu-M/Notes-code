@@ -1590,19 +1590,37 @@ CRUD (Create, Read, Update, Delete)
   ```
   - AND operator: evaluates Animal_Type and Weight filters together, only returning records that match both criteria
   - OR operator: e.g. if you want to see the name and breed for all dogs and any animals that weight more than 10 pounds regardless of the animal type
-```
-SELECT Animal_Name, Breed_Name
-FROM Animal
-WHERE Animal_Type = 'Dog'
-OR Weight > 10
-```
+    ```
+    SELECT Animal_Name, Breed_Name
+    FROM Animal
+    WHERE Animal_Type = 'Dog'
+    OR Weight > 10
+    ```
 - complex queries use multiple logical operators at the same time, use parentheses around filter conditions
 
 #### Sorting
+- ORDER BY: component of SQL query that makes sorting possible
+- no need to specify the columns you are using to sort the data in the SELECT clause
+- e.g. want to retrieve the animal and breed for dogs over 60 poubds, with the oldest dog listed first
+ ```
+ SELECT  Animal_Name, Breed_Name
+ FROM   Animal
+ WHERE  Animal_Type = 'Dog'
+ AND   Weight> 60
+ ORDER BY Date_of_Birth ASC
+```
+- if you want to return the youngest dog first, change the ORDER BY clause to DESC
+- ASC and DESC keywords work across various data types, include date, alphanumeric and numeric
+  
+#### Date Functions
+- commonly found in OLAP environments, also appear in transactional systems
 
-
-
-
+#### Logical Functions
+- can make data substitutions when retrieving data
+- using IFF logical function: ```IFF(boolean_expression, true_value, false_value)```
+    1. **Boolean Expression**: must return either TRUE or FALSE
+    2. **True Value**: if the Boolean expression returns TRUE, the IFF function will return this value
+    3. **False Value**: if the Boolean expression returns FALSE, the IFF function will return this value
 
 
 
