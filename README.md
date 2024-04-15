@@ -1561,14 +1561,44 @@ when manipulating data, one of four possible actions occurs:
 CRUD (Create, Read, Update, Delete)
 
 - SQL uses verbs for type of activity a specific statement performs
-- each CRUD activiti, there is a corresponding DML verb, known as keywords or words that are part of the SQL language itself.
+- each CRUD activity, there is a corresponding DML verb, known as keywords or words that are part of the SQL language itself.
 
 ![image](https://github.com/Nolu-M/Python/assets/119700411/e44222dc-14ca-4dc8-b668-000f9537d9eb)
 
 - syntax of a query, SELECT, FROM AND WHERE are reserved i.e. **SELECT** <what> **FROM** <source> - SQL SELECT statement
-- SELECT: identifies the columns from the table(s) that are retrieved, if you want to list the name and animal type
+- **SELECT**: identifies the columns from the table(s) that are retrieved, if you want to list the name and animal type e.g. ```SELECT Animal_Name, Breed_Name```
+- **FROM**: identifies the source of data, frequently a databse table, both SELECT and FROM required for example ```SELECT Animal_Name, Breed_Name FROM Animal```
 
+#### SQL Considerations
+- keywords = case-insensitive
+- Select Animal_Name, Breed_Name FROM Animal returns the same results as the previous query
+- SQL can also span multiple lines
 
+#### Filtering
+- a way to reduce the data down to only the rows that you need
+- use **WHERE**: to filter data
+- NOTE: the column you are filtering on does not have to appear in the SELECT clause eg. retrieve the name and breed for only the dogs ```SELECT Animal_Name, Breed_Name FROM Animal WHERE Animal_Type = 'Dog'```
+
+#### Filtering and Logical Operators
+- can use logical operator to account for complex filtering needs
+- e.g. need to retrieve the name and breed for dogs weighing more that 60 pounds;
+  ```
+  SELECT Animal_Name, Breed_Name
+  FROM Animal
+  WHERE Animal_Type = 'Dog'
+  AND Weight > 60
+  ```
+  - AND operator: evaluates Animal_Type and Weight filters together, only returning records that match both criteria
+  - OR operator: e.g. if you want to see the name and breed for all dogs and any animals that weight more than 10 pounds regardless of the animal type
+```
+SELECT Animal_Name, Breed_Name
+FROM Animal
+WHERE Animal_Type = 'Dog'
+OR Weight > 10
+```
+- complex queries use multiple logical operators at the same time, use parentheses around filter conditions
+
+#### Sorting
 
 
 
