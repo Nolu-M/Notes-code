@@ -1565,7 +1565,8 @@ CRUD (Create, Read, Update, Delete)
 
 ![image](https://github.com/Nolu-M/Python/assets/119700411/e44222dc-14ca-4dc8-b668-000f9537d9eb)
 
-
+- syntax of a query, SELECT, FROM AND WHERE are reserved i.e. **SELECT** <what> **FROM** <source> - SQL SELECT statement
+- SELECT: identifies the columns from the table(s) that are retrieved, if you want to list the name and animal type
 
 
 
