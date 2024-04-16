@@ -1644,9 +1644,27 @@ CRUD (Create, Read, Update, Delete)
 - database session: begins when a person/program connects to a database, session lasts until the person/program disconnects
 
 #### Query Optimization
-* Parametrization
-* Indexing
-* Data Subsets and Temporary Tables
+* Parametrization:
+    - SQL query executes, the database has to parse the query
+    - parsing translates human-readable SQL into code the database understands, parsing takes time and impacts how long it takes for query to return data
+    - effective use of parameterization reduces the number of times the database has to parse individual queries
+    - e.g. if people have to login a website then login details serve as parameters to the query to retrieve information for display
+    - use a variable name to deal with performance problem, instead of looking for the exact string match for every customer, the query uses a variable called &customer_name.
+    ![image](https://github.com/Nolu-M/Python/assets/119700411/d6d282e7-1906-4045-b7f4-1f7cd72e07bb)
+
+* Indexing:
+    - when retrieving data from a table, database has to scan each row until it finds the ones that match the filters in the **WHERE** clause.
+    - process is looking at each row is called a **full table scan**
+    - full table scan is like flipping through every page in a book to find a specific piece of data, the more data volume increases, scanning entire table takes a long time and is not efficient.
+    - to speed up query performance = database index, which works like the index at the back of a book to find what you are looking for, using a specific number in the index
+    - can point to a single column or multiple columns
+    - indexing improves query speed, but slows down create, update and delete actvity, indexing strategy needs to match type of system the database supports, be it transactional or reporting.
+* Data Subsets and Temporary Tables:
+    - dealing with large data volumes, work with a subset of records
+    - possible to create a temporary table to make the data more manageable
+    - temporary tables: can store the results of a query and are disposable, get automatically removed when the active session ends
+    - using temporary tables effective method of creating subsetsfor ad hoc analysis
+    - e.g. can establish a database session, create temporary table with the order history for a single customer, run queries against the temp. table and disconnect from the database, when session disconnects, the database automatically purges any temporary tables created in the session.
 * Execution Plan:
     - shows the details of how a database runs a specific query
     - extremely helpful in troubleshooting query performance issues
