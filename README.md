@@ -1621,6 +1621,39 @@ CRUD (Create, Read, Update, Delete)
     1. **Boolean Expression**: must return either TRUE or FALSE
     2. **True Value**: if the Boolean expression returns TRUE, the IFF function will return this value
     3. **False Value**: if the Boolean expression returns FALSE, the IFF function will return this value
+```SELECT Animal_Name, IFF(Sex = 'M', 'Male', 'Female') FROM Animal```
+- with IFF approach, the values for Male and Female come from the function parameters, not from the source table
+- if description in the underlying table gets modified, the results of the IFF query will not reflect the modified data
+```SELECT Animal_Name, IFF(Sex = 'M', 'Boy', 'Girl') FROM Animal```
+- IFF is just one example of a logical function, when using logical functions you need to balance their convenience with the knowledge that you are replacing data from the database with the function's coded values.
+
+#### Aggregate Functions
+- easy way to summarize data
+- they summarize a query's data and return a single value
+    ![image](https://github.com/Nolu-M/Python/assets/119700411/787c4ce0-40bf-4282-a30c-cedf420b3af7)
+- can also aggregate functions to filter data
+- can also operate across subsets of data
+
+#### System Functions
+- frequently used returns the current date
+- current date: a component of transactional records and enables time-based analysis in the future
+
+- also return data about the database environment e.g. whenever a person/automated process uses data from a database, they need to establish a database session.
+- database session: begins when a person/program connects to a database, session lasts until the person/program disconnects
+
+#### Query Optimization
+* Parametrization
+* Indexing
+* Data Subsets and Temporary Tables
+* Execution Plan:
+    - shows the details of how a database runs a specific query
+    - extremely helpful in troubleshooting query performance issues
+    - provide additional information about how a query is spending its time e.g. can tell you if a slow-running query uses a full table scan instead of an index scan, in this case it could be that the query is poorly written and not using the existing indexes or that a column needs a new index.
+
+
+
+
+
 
 
 
