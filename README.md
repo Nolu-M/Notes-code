@@ -1630,7 +1630,8 @@ CRUD (Create, Read, Update, Delete)
 #### Aggregate Functions
 - easy way to summarize data
 - they summarize a query's data and return a single value
-    ![image](https://github.com/Nolu-M/Python/assets/119700411/c1ea9fa7-9513-4ab6-a4ef-0064234f2f02)
+    ![image](https://github.com/Nolu-M/Python/assets/119700411/7a1314cb-d25c-4dc9-b9e2-09779ed03a55)
+
 
 - can also aggregate functions to filter data
 - can also operate across subsets of data
