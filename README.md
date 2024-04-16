@@ -1670,6 +1670,10 @@ CRUD (Create, Read, Update, Delete)
     - extremely helpful in troubleshooting query performance issues
     - provide additional information about how a query is spending its time e.g. can tell you if a slow-running query uses a full table scan instead of an index scan, in this case it could be that the query is poorly written and not using the existing indexes or that a column needs a new index.
 
+# Day 3:
+## Chapter 4: Data Quality
+### Data Quality Challenges
+
 
 
 
