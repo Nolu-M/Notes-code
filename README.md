@@ -1820,7 +1820,23 @@ For example, multiple source systems that perform different business functions a
 
     ![image](https://github.com/Nolu-M/Python/assets/119700411/84568bac-e8d1-49e4-92f5-a1169725de2d)
 
+1. Aggregation:
+    * Data aggregation is the summarization of raw data for analysis
+3. Transposition:
+    * when you want to turn rows into columns or columns into rows to facilitate analysis
+    * when transposing, each value from a column becomes a new column
+5. Normalization:
+    * converts data from different scales to the same scale
+    * if you want to compare columns whose measurements use different units, you want to normalize the data, after normalization is complete, the dataset is ready for statistical analysis
+    * e.g. to compare height and weight = you need to scale the data using the min-max normalization technique that sets 0 and 1 as the lower and upper limits for numeric column values.
+7. Min-Max Normalization:
+    * consider mathematical definition:
+      ```![image](https://github.com/Nolu-M/Python/assets/119700411/b392e0a5-5280-4a79-a9a5-7353e085fe58)```
+    * ```![image](https://github.com/Nolu-M/Python/assets/119700411/6565420f-353e-4f4f-b51c-dc29da406e9c)```
 
+
+9. Parsing/String Manipulation:
+   
 
 </details>
 
