@@ -1693,6 +1693,7 @@ To resolve duplicate data issues, the company has a duplicate resolution process
 - happens when the same data elements exist in multiple places within a system
 - another root cause is an inappropriate database design
 - is a function of integrating multiple systems
+- resolve redundancy by restructuring the tables
 ```
 For example, multiple source systems that perform different business functions and use shared data elements create the conditions for data redundancy. When a record changes in one system, there is no guarantee that its new value changes in another system. Since there is no certainty of data synchronization, a data element can have conflicting values across systems. When integrating multiple data sources, dealing with redundant data is a persistent challenge.
 ```
@@ -1700,7 +1701,46 @@ For example, multiple source systems that perform different business functions a
 - resolving redundancy with an integrated ETL process, this integrated ETL process takes a delta load approach.
 - when an address changes, ETL job sets effective end date for old address and inserts a new row for current address, the additional ETL logic ensures that the warehouse contains the correct values
   
+#### Missing Values
+- occur when you expect an attribute to contain data but nothing is there
+- also known as **null values**
+- **null value**: the absence of a value, a null is not a space, blank or other character
+- some situations where allowing nulls makes sense e.g. if there is a column for Middle Initial, since not everyone has a middle initial, the Middle Initial column should be optional
+- when a column optionally contains data, it is nullable, meaning the column can contain null values, although, having nulls in a dataset poses calculation challenges.
+- to handle missing values = check for their existence
 
+#### Invalid Data
+- values outside the valid range for a given attribute
+- an invalid value violates a business rule instead of having an incorrect data type
+- e.g. -99.999 is a valid number but an invalid temperature for a location on Earth, programming languages do not have native functions to tell you whether or not a value is invalid, it's up to you as a data professional to work with software developers to create these rules based on the needs of an organization.
+
+#### Nonparametric Data
+- data collected from categorical variables
+- sometimes the categories indicate differentiation and sometimes they have a rank order associated with them, the rank order of the values is of significance, not the individual values themselves
+- e.g. ranking stomach pain from a scale of 0 - 10, 10 being severe pain
+
+#### Data Outliers
+- a value that differs significantly from other observations in a dataset
+- need to understand why they exist and whether they are valid in the context of your analysis
+
+#### Specification Mismatch
+- describes the target value for a component
+- occurs when an individual component's characteristics are beyond the range of acceptable values
+- in manufacturing, a specification mismatch causes a component to fail post-production quality checks
+- when data is invalid, it has values that fall outside a given range
+- a specification mismatch occurs when data does not conform to its destination data type e.g. loading data from a file into a database, if the destination column is numeric and you have text data = specification mismatch
+- to resolve the mismatch, you must validate that the inbound data consistently maps to its target data type
+
+#### Data Type Validation
+- ensures that values in a dataset have a consistent data type
+    ![image](https://github.com/Nolu-M/Python/assets/119700411/573c8a72-7c96-4d7a-979e-f95a6ffa8fc3)
+- if you want to load the data from the table below into the schema above, the first 9 rows would load successfully, while row 10 fails because the identifier consists of two asterisks, which is not a valid integer.
+- how the load process handles the data type validation failure determines whether or not the remaining rows load successfully
+- depending on the tool, a single failure may cause the load to stop, alternatively, the load process might write each failed record to an error file before loading the remaining records
+    ![image](https://github.com/Nolu-M/Python/assets/119700411/1721e87b-848d-41b2-a924-cf2d41990df5)
+
+- programming languages including SQL, Python and R all have data type validation functions
+- use these functions to validate the data type for each column in a data file before attempting a database load.
 
 
 
