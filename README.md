@@ -1737,6 +1737,7 @@ For example, multiple source systems that perform different business functions a
 - if you want to load the data from the table below into the schema above, the first 9 rows would load successfully, while row 10 fails because the identifier consists of two asterisks, which is not a valid integer.
 - how the load process handles the data type validation failure determines whether or not the remaining rows load successfully
 - depending on the tool, a single failure may cause the load to stop, alternatively, the load process might write each failed record to an error file before loading the remaining records
+
     ![image](https://github.com/Nolu-M/Python/assets/119700411/1721e87b-848d-41b2-a924-cf2d41990df5)
 
 - programming languages including SQL, Python and R all have data type validation functions
