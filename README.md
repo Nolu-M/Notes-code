@@ -1831,12 +1831,76 @@ For example, multiple source systems that perform different business functions a
     * e.g. to compare height and weight = you need to scale the data using the min-max normalization technique that sets 0 and 1 as the lower and upper limits for numeric column values.
 7. Min-Max Normalization:
     * consider mathematical definition:
-      ```![image](https://github.com/Nolu-M/Python/assets/119700411/b392e0a5-5280-4a79-a9a5-7353e085fe58)```
-    * ```![image](https://github.com/Nolu-M/Python/assets/119700411/6565420f-353e-4f4f-b51c-dc29da406e9c)```
-
+      ![image](https://github.com/Nolu-M/Python/assets/119700411/b392e0a5-5280-4a79-a9a5-7353e085fe58)
+      
+    * ![image](https://github.com/Nolu-M/Python/assets/119700411/6565420f-353e-4f4f-b51c-dc29da406e9c)
 
 9. Parsing/String Manipulation:
-   
+    * raw data can contain columns with composite or distributed structural issues
+    * composite issue: when a raw data source has multiple distinct values combined within a single character column, when this happens each value in a composite column has data that represents more than one attribute
+    * composite columns need to be split into their component parts to aid analysis
+       ![image](https://github.com/Nolu-M/Python/assets/119700411/4d0f6363-2f08-4df7-9552-e129f9fc6844)
+      
+    * can have a distributed structural issue when data in a single column spreads across multiple columns, when this happens, you need to combine the individual columns
+    * whenever you have composite or distributed structural data issues = manipulate the strings before starting your analysis.
+
+### Managing Data Quality
+#### Circumstances to Check for Quality
+- Errors during data acquisition, transformation, manipulation and visualization all contribute to degrading data quality
+    1. Data Acquisition
+    2. Data Transformation and Conversion
+    3. Data Manipulation
+    4. Final Product Preparation
+
+  #### Automated Validation
+  - one way to prevent data entry mistakes from adversely impacting data quality is to automate data validation checks
+  - You first need to understand how source data fields map to their corresponding database columns
+  - when mapping input data, pay attention to the data types in the database e.g. you have a web form where customers supply phone numbers and the destination database uses a numeric data type to store phone data
+  - if the input form allows for free text entry, someone may enter (312) 555-1212, attempting to insert parentheses and a hyphen into a numeric column results in a database error due to a data type mismatch
+  - automating the data type validation before passing the data to the database prevents this from happening.
+
+#### Data Quality Dimensions
+- essential to consider multiple attributes of data when considering its quality
+- 6 dimensions to take into account:
+    1. Data Accuracy,
+    2. Data Completeness,
+    3. Data Consistency,
+    4. Data Timeliness,
+    5. Data Uniqueness
+    6. Data Validity.
+
+#### Data Quality Rules and Metrics
+- data conformity: encompasses elements of accuracy, consistency, uniqueness and validity
+- when consolidating data from multiple source systems into an analytics environment ---> assess the conformity or nonconformity of data
+- if source data does not match the destination data type, size and format, you have **nonconformity** (presents an ETL challenge).
+- to validate a data conformity issue is to confirm how many rows pass successfully to the target environment and how many fail.
+
+#### Methods to Validate Quality
+1. Reasonable Expectations
+    - determine whether or not the data in your analytics environment meets your reasonable expectations
+    - spend time reflecting on what measures are reasonable for your environment, after defining how to measure expectations, automate the reasonable expectation check by creating exception reports as part of your ETL processes
+3. Data Profiling
+    - uses statistical measures to check for data discrepancies, including values that are missing, that occur either infrequently or too frequently or that should be eliminated
+    - can also identify irregular patterns within your data
+4. Data Audits
+    - look at your data and help you understand whether or not you have the data you need to operate your business
+    - use data profiling techniques and can help identify data integrity and security issues
+5. Sampling
+    - statistical technique in which you use a subset of your data to inform conclusions about your overall data
+6. Cross Validation
+    - a statistical technique that evaluates how well predictive models perform
+    - works by dividing data into two subsets: training set and testing/validation set
+    - training set data = build a predictive model, then cross-validate the model using testing/validation
+    - helpful in identifying sampling issues, identify sampling bias since predictions using biased data are inaccurate
+
+
+
+
+
+
+
+
+
 
 </details>
 
