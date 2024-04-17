@@ -1743,6 +1743,65 @@ For example, multiple source systems that perform different business functions a
 - programming languages including SQL, Python and R all have data type validation functions
 - use these functions to validate the data type for each column in a data file before attempting a database load.
 
+### Data Manipulation Techniques
+#### Recoding Data
+- a technique you can use to map original values for a variable into new values to facilitate analysis
+- recoding groups data into multiple categories, creating a categorical variable
+- useful when you have numeric data you want to analyze by category
+- categorical variable = nominal or ordinal
+    - nominal variables: any variable with two or more categories where there is no natural order of the categories e.g. hair colour or eye colour
+    - ordinal variables: are categories with an inherent rank e.g. t-shirt size = small, medium, large and extra-large. variable values fit into a fixed number of categories.
+
+![image](https://github.com/Nolu-M/Python/assets/119700411/df95b084-eb23-4719-bc6b-3d916f68d984)
+
+#### Derived Variables
+- a new variable resulting from a calculation on an existing variable
+- e.g. the Pain_Category categorical variable above is an example of a derived variable
+- don't have to be categorical
+
+    ![image](https://github.com/Nolu-M/Python/assets/119700411/64a46265-d618-451b-96ba-87ac47ce1c5c)
+
+- storing age as a derived column shouldn't be done as it would need constant updates over time
+- you should embed the formula to derive age in code, to avoid potential age-related data errors
+
+#### Data Merge
+- uses a common variable to combine multiple datasets with different structures into a single dataset
+- merging data improves data quality by adding new variables to your existing data
+- ETL processes commonly append data while transforming data for use in analytical environments
+- data merge adds columns to a dataset, therefore, gives you additional data about a specific observation
+- e.g. getting info on a patient from their dentist, dietician, GP etc.
+
+#### Data Blending
+- combines multiple sources of data into a single dataset at the reporting layer
+- similar conceptually to ETL process, the ETL process operates on a schedule, copying data from source systems into analytics environments
+- differs from ETL in that it allows an analyst to combine datasets in an ad hoc manner without saving the blended dataset in a relational database
+- blended dataset exists only at the reporting layer, not in the source databases
+- e.g. data visualization tools such as Tableau allow analysts to connect to different source systems and blend the data using a shared attribute
+- data blending can reduce the burden on IT as it gives analysts the ability to merge data
+
+#### Concatenation
+- the merging of separate variables into a single variable
+- highly effective technique when dealing with a source system that stores components of a single variable in multiple columns
+- need for concatenation frequently occurs when dealing with date and time data
+- useful when generating address information e.g if you want to send an email campaign using first and last names from independent columns, you can concatenate the first and last names together for use in the campaign
+    ![image](https://github.com/Nolu-M/Python/assets/119700411/64a357ff-b784-41b8-881a-6b2323396fbc)
+
+#### Data Append
+- combines multiple data sources with the same structure, resulting in a new dataset containing all the rows from the original datasets
+- when appending data, you save the result as a new dataset for ongoing analysis
+
+#### Imputation
+- a technique for dealing with missing values by replacing them with substitutes
+- when merging multiple data sources, you may end up with a dataset with many nulls in a given column
+- if you are collecting sensor data = possible to have missing values due to collection or transmission issues
+- e.g. weight not measured on 4 occasions, few approaches for an analyst:
+    1. Removing missing data: removing rows with missing values
+    2. Replace with zero: might negatively impact the data
+    3. Replace with overall average: compute average weight value for all rows
+    4. Replace with most frequent (mode): add the frequently occurring value
+    5. Closest value average: use values from the rows before and after missing values
+
+
 
 
 
