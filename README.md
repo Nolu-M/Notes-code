@@ -1668,13 +1668,27 @@ CRUD (Create, Read, Update, Delete)
 * Execution Plan:
     - shows the details of how a database runs a specific query
     - extremely helpful in troubleshooting query performance issues
-    - provide additional information about how a query is spending its time e.g. can tell you if a slow-running query uses a full table scan instead of an index scan, in this case it could be that the query is poorly written and not using the existing indexes or that a column needs a new index.
+    - provide additional information about how a query is spending its time e.g. can tell you if a slow-running query uses a full table scan instead of an index scan, in this case, it could be that the query is poorly written and not using the existing indexes or that a column needs a new index.
 
 # Day 3:
 ## Chapter 4: Data Quality
 ### Data Quality Challenges
+- data warehouses aggregate multiple data sources and provide a platform for conducting analysis
+- each data source has its own unique quality issues that need resolution before finding its way into a data warehouse
+- whether designing an extract, transform and load (ETL) process or digging into a new set of data warehouse tables
+- an analyst needs to examine each data source and resolve underlying quality issues
 
+#### Duplicate Data
+- occurs when data representing the same transaction is accidentally duplicated within a system.
+- e.g. when you double-click on something, the first click is intentional and the second is a duplicate
+- to resolve duplicate data is to prevent creation in the first place, a common approach is a visual warning to alert users
+- having multiple data sources for the same data elements is also a source of duplicate data
+```
+e.g. where Allison wants to update her billing address:
+She speaks with Jackson, who inputs her address information into the Sales database. After some time, Allison moves and wants to update her billing address. This time, she speaks with Rachel. Instead of updating Allison's existing billing information, Rachel adds a new billing address. At this point, Allison has duplicate data in the Sales system.
 
+To resolve duplicate data issues, the company has a duplicate resolution process. This process looks for customers with multiple billing addresses, validates the correct address, and updates the Sales database by removing the duplicate record.
+```
 
 
 
