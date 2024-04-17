@@ -1689,7 +1689,17 @@ She speaks with Jackson, who inputs her address information into the Sales datab
 
 To resolve duplicate data issues, the company has a duplicate resolution process. This process looks for customers with multiple billing addresses, validates the correct address, and updates the Sales database by removing the duplicate record.
 ```
-
+#### Redundant Data
+- happens when the same data elements exist in multiple places within a system
+- another root cause is an inappropriate database design
+- is a function of integrating multiple systems
+```
+For example, multiple source systems that perform different business functions and use shared data elements create the conditions for data redundancy. When a record changes in one system, there is no guarantee that its new value changes in another system. Since there is no certainty of data synchronization, a data element can have conflicting values across systems. When integrating multiple data sources, dealing with redundant data is a persistent challenge.
+```
+- resolving redundant data, one approach synchronizes changes to shared data elements between the Accounting and Sales systems, however, technical/political realities make synchronizing source systems unfeasible.
+- resolving redundancy with an integrated ETL process, this integrated ETL process takes a delta load approach.
+- when an address changes, ETL job sets effective end date for old address and inserts a new row for current address, the additional ETL logic ensures that the warehouse contains the correct values
+  
 
 
 
