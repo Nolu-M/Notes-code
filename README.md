@@ -1807,7 +1807,19 @@ For example, multiple source systems that perform different business functions a
 
 #### Dimensionality Reduction
 - removes attributes from a dataset which reduces the dataset's overall size
-- 
+  
+    ![image](https://github.com/Nolu-M/Python/assets/119700411/efb31d22-a6c1-4460-bbb5-455f1c7bfbe5)
+
+#### Numerosity Reduction
+- reduces the overall volume of data
+- to reduce the volume of quantitative data by creating a histogram (a diagram made up of rectangles/bars, that show how frequently a specific value occurs)
+- when creating a histogram, you can conFigure the width of a rectangle to represent a range of values
+- *histograms*: great at reducing the number of data points you have to consider
+- can also reduce data through sampling; **sampling**: a technique that selects a subset of individual records from the initial dataset
+- most straightforward technique = a random sample and applies in many cases
+
+    ![image](https://github.com/Nolu-M/Python/assets/119700411/84568bac-e8d1-49e4-92f5-a1169725de2d)
+
 
 
 </details>
