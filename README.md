@@ -1801,8 +1801,13 @@ For example, multiple source systems that perform different business functions a
     4. Replace with most frequent (mode): add the frequently occurring value
     5. Closest value average: use values from the rows before and after missing values
 
+#### Reduction
+- the process of shrinking an extensive dataset without negatively impacting its analytical value
+- *dimensionality* reduction and *numerosity* reduction are two techniques for data reduction
 
-
+#### Dimensionality Reduction
+- removes attributes from a dataset which reduces the dataset's overall size
+- 
 
 
 </details>
