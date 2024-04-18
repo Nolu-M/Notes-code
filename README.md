@@ -1893,7 +1893,14 @@ For example, multiple source systems that perform different business functions a
     - training set data = build a predictive model, then cross-validate the model using testing/validation
     - helpful in identifying sampling issues, identify sampling bias since predictions using biased data are inaccurate
 
-
+# Day 4:
+## Chapter 5: Data Analysis and Statistics
+### Fundamentals of Statistics
+- census: when you obtain data for every element of your population
+- collecting a sample is a cost-effective and time effective alternative to gathering census data
+- sample: subset of the population
+- a variable: a unique attribute of a data subject; corresponds to a column in a table
+- 
 
 
 
