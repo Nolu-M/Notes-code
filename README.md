@@ -1945,9 +1945,10 @@ For example, multiple source systems that perform different business functions a
 #### Each sample if Unique
 - take two different samples from a population = variance and standard deviation for each sample will be different. 
     1. Special Normal Distributions: The Central Limit Theorem and empirical rule combine to make the normal distribution in statistics
-    2. Standard Normal Distribution: or Z-distribution is a special normal distribution with a mean of 0 and a standard deviation of 1. You can standardize any normal distribution by converting its values into Z-scores, lets you compare normal distributions with different means and standard deviations ![image](https://github.com/Nolu-M/Python/assets/119700411/559474f8-97dc-4e97-9c1f-d2f4b7e9cd3e)
+    2. Standard Normal Distribution: or Z-distribution is a special normal distribution with a mean of 0 and a standard deviation of 1. You can standardize any normal distribution by converting its values into Z-scores, lets you compare normal distributions with different means and standard deviations
+   ![image](https://github.com/Nolu-M/Python/assets/119700411/559474f8-97dc-4e97-9c1f-d2f4b7e9cd3e)
 
-    3. Student's T-Distribution: commonly known as the t-distribution, and it similar to the standard normal distribution in that has a mean of 0 with a bell-like shape. There is more area under the tails of the t-distribution than of the normal distribution. degrees of freedom represent the number of values that can vary when calculating a statistic.
+    4. Student's T-Distribution: commonly known as the t-distribution, and it similar to the standard normal distribution in that has a mean of 0 with a bell-like shape. There is more area under the tails of the t-distribution than of the normal distribution. degrees of freedom represent the number of values that can vary when calculating a statistic.
 
 #### Measures of Position
 - statisticians commonly use quartiles to describe a specific observation's position
@@ -1956,7 +1957,15 @@ For example, multiple source systems that perform different business functions a
 - Interquartile range (IQR): the combination of the 2nd and 3rd quartiles and contains 50% of the values in the data
 - using the IQR as a dispersion indicator, in addition tot he range, improves your perspective since the IQR excludes outliers.
 
+### Inferential Statistics
+- a branch of statistics that uses sample data to draw conclusions about the overall population
 
+#### Confidence Intervals
+- describes the possibility that a sample statistic contains the true population parameter in a range of values around the mean
+- when calculating a confidence interval, you end up with a lower bound value and an upper bound value
+- given the confidence interval range, the lower bound is the lower limit and the upper bound is the upper limit.
+    1. Confidence Interval Considerations:
+    2. Substituting Sample Standard Deviation For Population Standard Deviaion:
 
 
 
