@@ -1982,7 +1982,43 @@ For example, multiple source systems that perform different business functions a
 - it uses statistical analysis of observable data to determine which of the two statements is most likely to be true
 - consists of two components: the null hypothesis and the alternative hypothesis
 - when designing a hypothesis test, you first develop the null hypothesis
-- Null hypothesis (H<sub>0</sub>)
+- **Null hypothesis (H<sub>0</sub>)**: presumes that there is no effect on the test you are conducting
+- when hypothesis testing, default assumption = the null hypothesis is valid and that you have to have evidence to reject it
+- **Alternative hypothesis (H<sub>a</sub>)**: presumes that the test you are conducting has an effect.
+- ultimate goal is to assess whether the null hypothesis is valid or if there is a statistically significant reason to reject the null hypothesis.
+- to determine statistical significance of whether to accept or reject the null hypothesis, you need to compare a test statistic against a critical value
+- a test statistic: a single numeric value that describes how closely your sample data matches the distribution of data under the null hypothesis
+- to get critical value: choose a significance level also known as alpha (a) is the probability of rejecting the null hypothesis when it is true
+    ![image](https://github.com/Nolu-M/Python/assets/119700411/59229797-2b5b-4f91-b3ca-b6ae4a1fff23)
+
+    ![image](https://github.com/Nolu-M/Python/assets/119700411/bad03489-f6c3-4546-993b-77a39bb6e4b9)
+
+- once you have a test statistic, you can calculate a p-value; the probability that a test statistic is as or more extreme as your actual results, presuming null hypothesis = true
+- two
+    
+### Analysis Techniques
+#### Determine Type of Analysis
+- need to understand the business objectives and desired outcomes; this understanding informs the type of analysis you will conduct
+- ensure you have clarity on business at hand; while reviewing requirements, develop a list of clarifying questions
+- the list can help define scope of analysis and can also identify any gaps between what is achievable given data source and time constraints
+- maintain requirements document as you go about your work, use it track new issues that impact timeline and any adjustments to project scope or ultimate deliverables
+
+#### Types of Analysis
+- trend analysis: seeks to identify patterns by comparing data over time
+- performance analysis: examines defined goals and measures performance against them and can inform the development of future projections, can identify whether properties are achieving those goals
+- combining performance analysis with trend analysis can help develop projections for the future.
+
+#### Exploratory Data Analysis
+- when first exploring a dataset, perform an exploratory data analysis
+- Exploratory data analysis (EDA): uses descriptive statistics to summarize the main characteristics of a dataset, identify ouliers and give you context for further analysis
+    1. Check Data Structure: data is in the coreect format for analysis i.e. tabular format
+    2. Check Data Representation: validate data types and ensure variables contain the data expected
+    3. Check if Data is Missing: check for missing data
+    4. Identify Outliers: determine cause of outliers and consider leaving them or not
+    5. Summarize Statistics: calculate summary statistics for each variable e.g. mean, median and variance etc.
+    6. Check Assumptions: understand the shape of the data.
+
+
 
 
 </details>
