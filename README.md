@@ -1994,7 +1994,29 @@ For example, multiple source systems that perform different business functions a
     ![image](https://github.com/Nolu-M/Python/assets/119700411/bad03489-f6c3-4546-993b-77a39bb6e4b9)
 
 - once you have a test statistic, you can calculate a p-value; the probability that a test statistic is as or more extreme as your actual results, presuming null hypothesis = true
-- two
+- two-tailed test: when the alternative hypothesis seeks to infer that something is not equal to the assertion in the null hypothesis
+    1. Hypothesis testing with the Z-test:
+    2. Hypthesis testing with the T-test: 
+    3. Hypothesis Testing with Chi-Square:
+ 
+#### Simple Linear Regression
+- an analysis technique that explores the relationship between an independent variable and a dependent variable
+- can be used to identify whether the independent vaiable is a good predictore of the dependent variable
+- can be performed in spreadsheets; when plotting the results of a regression, the independent variable is on the x-axis and the dependent variable is on the y-axis
+
+
+
+#### From Simple to Multiple Linear Regression
+- multiple linear regression builds on the concept by examining the effect of numerous independent variables on a dependent variable
+- crucial aspect --> correlation between how far the observations are from the regression line
+- Correlation: a measurement of how well the regression line fits the observations
+- correlation coefficient (r) ranges between -1 and 1 and indicates the strength of the correlation; the stronger the correlation, the more tightly the points wind around the line of best fit
+- perfect correlation is when **r** has a value of either -` or 1.
+- the better the correlation, the stronger the relationship between the independent and dependent variables
+
+
+
+
     
 ### Analysis Techniques
 #### Determine Type of Analysis
