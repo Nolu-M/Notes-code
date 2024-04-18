@@ -1934,13 +1934,31 @@ For example, multiple source systems that perform different business functions a
 
 #### Measures of Dispersion
 - used to create context around data spread
-    1. Range:
-    2. Distribution:
-    3. Normal Distribution:
-    4. Skewed Distribution:
-    5. Bimodal Distribution:
-    6. Variance:
-    7. Standard Deviation:
+    1. Range: the difference between its maximum and minimum values; helps put the data you are looking at into context and can help you determine what to do with outlier values and can also identify invalid values in your data
+    2. Distribution: a function that illustrates probable values for a variable and the frequency with which they occur; histograms
+    3. Normal Distribution: symmetrically dispersed aorund its mean, give a distinctive bell-like shape (bell curve)
+    4. Skewed Distribution: has an asummetrical shape with a single peak and long tail on one side; when skew is to the right, mean > median and if skew is to the left then mean < median
+    5. Bimodal Distribution: two distinct modes, multimodal = multiple distinct modes; has two separate peaks
+    6. Variance: a measure of dispersion that takes the values for each observation in a dataset and calculates how far away they are from the mean value; indicates how spread out the data is in sqaured units; Bessel's correction specifies that when calculating sample variance you need to account for bias, or error in your sample. When variance is large = observations' values are far from the mean and thus far from each other, small variance = values are close together.
+    7. Standard Deviation: a statistic that measures dispersion in terms of how far values od a variable are from its mean; average deviation between individual values and the mean. Also known as the three-sigma rule, the empirical rule states that almost every observation falls within three standard deviations of the mean in a normal distribution. 
+
+#### Each sample if Unique
+- take two different samples from a population = variance and standard deviation for each sample will be different. 
+    1. Special Normal Distributions: The Central Limit Theorem and empirical rule combine to make the normal distribution in statistics
+    2. Standard Normal Distribution: or Z-distribution is a special normal distribution with a mean of 0 and a standard deviation of 1. You can standardize any normal distribution by converting its values into Z-scores, lets you compare normal distributions with different means and standard deviations ![image](https://github.com/Nolu-M/Python/assets/119700411/559474f8-97dc-4e97-9c1f-d2f4b7e9cd3e)
+
+    3. Student's T-Distribution: commonly known as the t-distribution, and it similar to the standard normal distribution in that has a mean of 0 with a bell-like shape. There is more area under the tails of the t-distribution than of the normal distribution. degrees of freedom represent the number of values that can vary when calculating a statistic.
+
+#### Measures of Position
+- statisticians commonly use quartiles to describe a specific observation's position
+- obtaining quartiles is similar to that of determining the median; first sort a numeric dataset from smallest to largest, and divide it positionally into four equal groups
+- each grouping = quartile. Fiest quartile is the group that starts with the minimum value, whereas the fourth quartle is the group that starts with the minimum value, whereas 4th quartile is the group that ends the maximum value.
+- Interquartile range (IQR): the combination of the 2nd and 3rd quartiles and contains 50% of the values in the data
+- using the IQR as a dispersion indicator, in addition tot he range, improves your perspective since the IQR excludes outliers.
+
+
+
+
 
 
 </details>
