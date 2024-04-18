@@ -1965,7 +1965,17 @@ For example, multiple source systems that perform different business functions a
 - when calculating a confidence interval, you end up with a lower bound value and an upper bound value
 - given the confidence interval range, the lower bound is the lower limit and the upper bound is the upper limit.
     1. Confidence Interval Considerations:
+        * when calculating a confidence interval, you need to specify the confidence level in addition to the sample mean, population standard deviation and sample size
+        * based on empirical rule, the confidence level is a percentage that describes the range around the mean, the wider the confidence level, the more confident one can be in capturing the true mean for the sample
+        * high confidence levels have a wide confidence interval, while low confidence levels have a narrower confidence interval
+        * critical value is a Z-score you specify to denote the percentage of values you want the confidence interval to include
+        * also need standard error which measures the standard deviation of the distribution of means for a given sample size, calculated by taking the population standard deviation divided by the sqaure root of the sample size.
     2. Substituting Sample Standard Deviation For Population Standard Deviaion:
+        * when calculating confidence intervals you need to have the standard deviation of the entire population
+        * getting measures about the whole population is challenging, the population standard deviation is likely unknown
+        * if sample size > 30, it's reasonable to use the normal distribution and substitute the sample standard deviation as follows: 
+
+    ![image](https://github.com/Nolu-M/Python/assets/119700411/5df138e6-7c37-4bfe-9d6b-8637d274d5df)
 
 
 
