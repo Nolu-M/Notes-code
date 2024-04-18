@@ -2040,6 +2040,11 @@ For example, multiple source systems that perform different business functions a
     5. Summarize Statistics: calculate summary statistics for each variable e.g. mean, median and variance etc.
     6. Check Assumptions: understand the shape of the data.
 
+# Day 5:
+## Chapter 6: Data Analytics Tools
+### Spreadsheets
+- productivity software packages that allow users to create documents that organize any type of data into rows and columns
+- lack any of the constraints of a relational database
 
 
 
