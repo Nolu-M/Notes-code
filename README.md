@@ -1900,7 +1900,16 @@ For example, multiple source systems that perform different business functions a
 - collecting a sample is a cost-effective and time effective alternative to gathering census data
 - sample: subset of the population
 - a variable: a unique attribute of a data subject; corresponds to a column in a table
-- 
+- univariate analysis: when you explore the characteristics of a single variable, independent of the rest of the dataset
+- an observation: an individual record in a dataset corresponding to a tabular data row
+- sample size: the number of observations you select from the population
+- a statistic: a numeric representation of a property of a sample; used to infer estimates about the population as a whole e.g. avg height is a statistic
+- sample statistic: used to estimate a population parameter
+- a parameter: numeric representation of a property for the population; summarize the entire population
+
+#### Common Symbols in Statistics
+
+![image](https://github.com/Nolu-M/Python/assets/119700411/276cabd1-8a8e-48f0-8a08-47eeb56263f3)
 
 
 
