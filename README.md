@@ -1906,16 +1906,41 @@ For example, multiple source systems that perform different business functions a
 - a statistic: a numeric representation of a property of a sample; used to infer estimates about the population as a whole e.g. avg height is a statistic
 - sample statistic: used to estimate a population parameter
 - a parameter: numeric representation of a property for the population; summarize the entire population
+- population: a total number of things
 
 #### Common Symbols in Statistics
 
 ![image](https://github.com/Nolu-M/Python/assets/119700411/276cabd1-8a8e-48f0-8a08-47eeb56263f3)
 
+### Descriptive Statistics
+- a branch of statistics that summarizes and describes data
+- when initially exploring a dataset, perfomr univariate analysis to answer questions about a variable's values
+- also use descriptive measures to develop summary information about all of a variable's observations.
+- this context helps orient you and informs the analytical techniques you use to continue your analysis
 
+#### Measures of frequency
+- helps you understand how often something happens
+- when encountering a dataset, first understand the size of the datases by counting the number of observations
+    1. Count: count the number of observations; understanding the total number of observations is a frequently performed task 
+    2. Percentage: a frequency measure that identifies the proportion of a given value for a variable with respect to the total number of rows in the dataset; need total number of observations and the total number of observations for a specific value of a variable
+    3. Frequency: describes how often a specific value for a variable occurs in a dataset; typically explored when conducting univariate analysis, use histogram
 
+#### Measures of Central tendency
+- to help establish an overall perspective on a given dataset, an analyst explores various measures of central tendency
+- used to identify the central, or most typical, value in a dataset
+    1. Mean: a measurement of central tendency that computes the arithmetic average for a given set of numeric values; take sum of all values for an observation and divide by the number of observations
+    2. Median: identifies the midpoint value for all observations of a variable; sort data numerically and then identify the median 
+    3. Mode: a variable's most frequently occurring observation; more applicable when working with categorical data
 
-
-
+#### Measures of Dispersion
+- used to create context around data spread
+    1. Range:
+    2. Distribution:
+    3. Normal Distribution:
+    4. Skewed Distribution:
+    5. Bimodal Distribution:
+    6. Variance:
+    7. Standard Deviation:
 
 
 </details>
