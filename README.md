@@ -1975,9 +1975,14 @@ For example, multiple source systems that perform different business functions a
         * getting measures about the whole population is challenging, the population standard deviation is likely unknown
         * if sample size > 30, it's reasonable to use the normal distribution and substitute the sample standard deviation as follows: 
 
-    ![image](https://github.com/Nolu-M/Python/assets/119700411/5df138e6-7c37-4bfe-9d6b-8637d274d5df)
+        ![image](https://github.com/Nolu-M/Python/assets/119700411/5df138e6-7c37-4bfe-9d6b-8637d274d5df)
 
-
+#### Hypothesis Testing
+- hypotheis test consists of two statements, only one can be true
+- it uses statistical analysis of observable data to determine which of the two statements is most likely to be true
+- consists of two components: the null hypothesis and the alternative hypothesis
+- when designing a hypothesis test, you first develop the null hypothesis
+- Null hypothesis (H<sub>0</sub>)
 
 
 </details>
