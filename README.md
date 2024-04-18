@@ -1995,9 +1995,9 @@ For example, multiple source systems that perform different business functions a
 
 - once you have a test statistic, you can calculate a p-value; the probability that a test statistic is as or more extreme as your actual results, presuming null hypothesis = true
 - two-tailed test: when the alternative hypothesis seeks to infer that something is not equal to the assertion in the null hypothesis
-    1. Hypothesis testing with the Z-test:
-    2. Hypthesis testing with the T-test: 
-    3. Hypothesis Testing with Chi-Square:
+    1. Hypothesis testing with the Z-test: when you have a sample size > 30
+    2. Hypthesis testing with the T-test: uses t-distribution instead of standard normal distribution
+    3. Hypothesis Testing with Chi-Square: available when you need to assess the association of two categorical variables; null hypothesis asserts that there is no association between the variables and the alternative hypothesis states that there is an association between them.
  
 #### Simple Linear Regression
 - an analysis technique that explores the relationship between an independent variable and a dependent variable
