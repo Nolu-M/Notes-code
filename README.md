@@ -2047,6 +2047,43 @@ For example, multiple source systems that perform different business functions a
 - lack any of the constraints of a relational database
 
 
+# Day 7: 
+## Chapter 8: Data Governance
+### Data Governance Concepts
+- Data governance: a set of policies, procedures and controls that an organization develops to safeguard its information while making it useful for transactional and analytical purposes.
+- Governments have a method of creating, interpreting and enforcing laws, part of this process ensures that these laws are known to the citizenry
+- for organizations, data governance is an umbrella term covering the creation, interpretation and enforcement of data use
+  
+- organizations develop numerous policies to govern their data, these policies promote data quality, specify the use of data attributes and define access to different data domains.
+- additional governance policies identify how to secure data, comply with regulations, protect data privacy and deal with data over time.
+
+- an organization invests a significant amount of time and resources to define, develop, implement and control access to data.
+- for data governance to succeed, all levels of an organization must appreciate the importance of well-governed data.
+
+#### Data Governance Roles
+- stewardship: denotes looking after something, like an organization or property.
+- Data stewardship: the act of developing the policies and procedures for looking after an organization's data quality, security, privacy and regulatory compliance.
+- organizational data steward/data steward: the person responsible for data stewardship, and is responsible for leading an organizations data governance activities
+- works with various data owners to establish policies
+
+- Data owner: a senior business leader with overall responsibility for a specific data domain.
+- data domain/data subject area: contains data about a particular operational division within an organization, finance, human resources and physical plant are all examples of operational divisions
+- data owners work with the data steward to establish policies and procedures for their data domain.
+
+- subject area data steward: works in the owner's organisation and understand nuances that apply within that organizational unit. Works on behalf of their data owner to handle daily tasks e.g. processing access requests as people rotate in and out of roles is a responsibility a data owner may delegate to their subject area data steward.
+- to implement data governance policies, data stewards work with data custodians.
+
+- Data custodian: a role given to someone who implements technical controls that execute data governance policies. Are frequently information technology employees who configure applications, dashboards and databases.
+- for example: unique laws govern an organization's finances, people and physical plant.
+
+- 
+
+
+
+
+
+
+
 
 </details>
 
