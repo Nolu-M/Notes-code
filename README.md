@@ -2076,13 +2076,59 @@ For example, multiple source systems that perform different business functions a
 - Data custodian: a role given to someone who implements technical controls that execute data governance policies. Are frequently information technology employees who configure applications, dashboards and databases.
 - for example: unique laws govern an organization's finances, people and physical plant.
 
-- 
+- Data access requirements determine which people need access to what data. Access requirements differ by data subject area and can be as granular as a single field. e.g. managers need access to details about their employees, including their names and contact information
 
+- data classification matrix: deines categories, descriptions and disclosure implications for data
+- vital to consider data classification when considering access requirements to ensure proper data stewardship.
 
+- a data steward works with a data owner to establish broad classifications, with subject area data stewards to develop procedures for granting access to information, and with data custodians to ensure the appropriate technical controls are in place to protect information.
 
+Table 1: sample data classification matrix
 
+#### Access Permissions
+- good practice to use role-based access to grant people permission to access data
+- role-based access: means that instead of giving access to individual people, you grant access to the role they occupy
 
+- An alternative to role-based access is user-based access, which assigns permissions directly to individuals
+- user-based access is dangerous because it increases operational complexity and the potential for mistakes
 
+#### Group Permissions
+- best to start visualizing people within an organization when creating data access roles
+- An organization chart documents the reporting within an organization and informs how you develop roles.
+- when developing a role-based access strategy, it is common to implement user group-based permissions.
+
+#### Data Use Agreements
+- a data use agreement (DUA): a contractual document for transferring private data between organizations
+- should establish a DUA before sharing data with an outside party and it is essential to understand the classification for each piece of data when crafting a DUA.
+- the more sensitive a data element is, the more critical it is to prepare appropriate sharing-related language
+- the data sensitivity level should inform your DUA needs
+
+- A DUA provides details governing the transfer, use and disclosure of reporting protocols for the data
+    - Identifying who will receive the data
+    - Identifying how the data can be used
+    - Prohibiting the further distribution of the data
+    - Establishing the method of transfer
+    - Identifying how the recipient will protect the data
+
+- An Institutional Review Board (IRB): a body that formally reviews and approves any sharing of this data
+
+#### Security Requirements
+- encryption: the process of encoding data with a key so that only authorized parties can read it
+- encryption key: a series of letters, numbers and symbols used during the encoding process to make data unreadable
+- once the data is encrypted, you can only access it by decrypting it with a valid key.
+
+- must encrypt data at rest as well as data in transit
+- data at rest is data that exits in permanent storage, locations = databases and flat files.
+- e.g. Oracle and Microsoft have Transparent Data Encryption (TDE) as part of their database offering.
+- TDE ensures the database files and log files are encrypted and even if an unauthorized party gains access to the database server, the database files themselves are encrypted.
+- more challenging to secure flat files, because many of the devices are portable.
+
+- Data in transit: data that is actively moving between one location and another
+- during data transmission, you must encrypt the connection between the locations to ensure the data's security
+
+- Transmitting data over the internet uses HyperText Transfer Protocol (HTTP)
+- To ensure data security, use Transport Layer Security (TLS) as the cryptographic protocol for encrypting the connection
+- adding TLS on top of HTTP = Hypertext Transfer Protocol Secure (HTTPS)
 
 
 </details>
