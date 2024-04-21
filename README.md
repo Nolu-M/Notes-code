@@ -2130,6 +2130,27 @@ Table 1: sample data classification matrix
 - To ensure data security, use Transport Layer Security (TLS) as the cryptographic protocol for encrypting the connection
 - adding TLS on top of HTTP = Hypertext Transfer Protocol Secure (HTTPS)
 
+- ETL processes copy data between transactional and analytical systems. When copying files between the transactional and analytical servers, use the Secure Copy Protocol (SCP) or the Secure File Transfer Protocol (SFTP). Both establish an encrypted tunnel to copy data.
+- Data masking, or data obfuscation, replaces sensitive information with a synthetic version
+- e.g. You may use production data to populate your testing and training environments. While testing or training, using a simulated instead of an actual SSN doesn't diminish the testing or training use case. To protect individual privacy and minimize organizational risk, you can implement a data masking strategy for sensitive information.
+
+- Deidentifying data: The process of removing identifiers that can compromise individual privacy. How you deidentify depends on your use case. One way of deidentifying data is to share only aggregated or summarized data, another way is to remove variables from the data.
+- Reidentifying data: this happens when you take de-identified datasets and join them in a way that establishes the identity of individuals.
+
+#### Storage Environment Requirements
+- local storage: the storage media on an individual device, such as a hard drive in a laptop. Encrypting local storage - always have the encryption key:
+    1. create a password for encrypting the local storage
+    2. determine the operating system
+    3. use the encryption tool appropriate for the chosen operating system.
+
+- shared drive: where groups of people can collaborate on shared documents. Apart from encrypting the physical media, you need to consider who needs access to the share and the type of access they need. when considering access, you need to think about reading, creating, updating and deleting content.
+
+
+
+
+
+
+
 
 </details>
 
