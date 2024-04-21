@@ -2145,7 +2145,40 @@ Table 1: sample data classification matrix
 
 - shared drive: where groups of people can collaborate on shared documents. Apart from encrypting the physical media, you need to consider who needs access to the share and the type of access they need. when considering access, you need to think about reading, creating, updating and deleting content.
 
+- user-facing cloud-based storage is similar to a shared drive, except that the contents reside on computers run by the cloud provider instead of an internal IT team.
+- By default, cloud storage offerings like Microsoft OneDrive, Google Drive, Box and Dropbx all automatically encrypt files using login credentials.
+- when evaluating cloud storage offerings, an organization needs to assess the available administrative controls to minimize the risk of unintended data sharing.
 
+- Amazon Web Services, Microsoft, and Google are three large providers of cloud infrastructure.
+- essential to ensure encryption at rest
+- consider using a customer-managed encryption key. With a customer-managed key, the cloud service provider can't decrypt and use your data.
+
+#### Use Requirements
+- Use requirements: specify how to collect, process, use, store, retain and remove data.
+- consider requirements along each stage of the data life cycle from the moment you create data until the point at which it gets removed or archived.
+- determining and documenting use requirements at each stage of the data life cycle facilitates effective data governance.
+
+- for data processing, identify where people can work with organizational data. You need to think through data sensitivity, encryption at rest and encryption in transit.
+
+- from a data retention perspective, you need policies that specify how long to keep data. There are legal data retention obligations to consider. i.e. you need to retain tax-related data for seven years.
+
+- In addition to retention, think about data deletion requirements. Once the cost of keeping the data exceeds its value to the organization, you need to govern its removal.
+
+- An acceptable use policy (AUP): defines an individual's responsibilities when accessing, using, sharing and removing organizational data. AUPs describe acceptable locations for storing propriety information; what to do in the event of theft, loss or unauthorized disclosure; and methods of disposal.
+
+#### Entity Relationship Requirements
+- Entity Relationship Diagrams (ERDs) give database designers a way of visualizing the relationships between individual entities in a standardized format.
+- Implementing foreign keys for the ERD relationships enforces data constraints.
+- To avoid data linkage problems, organizations invest in data professionals who design analytical systems. As part of the design process, data architects look for duplicate data across source systems and create linking tables,
+
+#### Data Classification Requirements
+- Data classification: the process of analyzing data and organizing it into risk-based categories.
+- When classifying data, you put data elements into one of four classifications, similar to those in the data classification matrix.
+- Instead of Public, Internal, Sensitive, and Highly Sensitive, you may come across Public, Internal-Only, Confidential, and Restricted.
+- it is vital to understand the attributes of each category so that you can make the appropriate category assignment.
+
+- NOTE: South Africa has requirements such as the POPIA (The Protection of Personal Information Act) which governs the law of data protection and privacy in South Africa. The act was passed to regulate the right to privacy, as enshrined by section 14 of the Constitution of South Africa. 
+Personally Identifiable Information (PII) is any data that can uniquely identify a person and the information below can be applied to other countries.
 
 
 
