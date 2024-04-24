@@ -2045,7 +2045,116 @@ For example, multiple source systems that perform different business functions a
 ### Spreadsheets
 - productivity software packages that allow users to create documents that organize any type of data into rows and columns
 - lack any of the constraints of a relational database
+- That does, of course, reduce the usefulness of the spreadsheet, but the user of spreadsheet software has total flexibility in how they organize their data.
+- Microsoft Excel is the most commonly used desktop spreadsheet application.
+### Programming Languages
+- Programming languages allow skilled software developers to write their own instructions to the computer, allowing them to directly specify the actions that should take place during the analytics process.
 
+#### R
+- extremely popular among data analysts because it is focused on creating analytics applications.
+
+#### Python
+- Python is about the same age as R, but Python is a general-purpose programming language
+- it is capable of creating software to meet just about any need you might imagine.
+- Python also has specialized libraries that focus on the needs of analysts and data scientists.
+- In particular, the Python Data Analysis Library (pandas) provides a set of tools for structuring and analyzing data.
+
+#### Structured Query Language (SQL)
+- the language of databases, SQL is divided into two major sublanguages:
+    1. The Data Definition Language (DDL) is used mainly by developers and administrators. It's used to define the structure of the database itself. It doesn't work with the data inside a database, but it sets the ground rules for the database to function.
+    2. The Data Manipulation Language (DML) is the subset of SQL commands that are used to work with the data inside of a database. They do not change the database structure, but they add, remove, and change the data inside a database.
+
+# Day 6:
+## Chapter 7: Data Visualization with Reports and Dashboards
+### Understanding the Business Requirements
+- A report is a static electronic or physical document that reflects information at a given point in time
+- A dashboard is an interactive visualization that encourages people to explore data dynamically.
+- The most important thing to define when developing a report or dashboard is answering the question, “Who is the audience?”
+- As an analyst, your job is to ensure that you have access to the appropriate data sources.
+
+- Report parameters let you define data range limits for the data elements in your report
+- people who want to access the report digitally --> pull approach
+- With a pull approach, you publish a report to a known location, like a web page, and let people know the frequency and timing of when the report updates
+- alternatively, push approach --> With a push approach, the report is automatically sent to the appropriate people as it becomes available. When designing a push approach, you need to think through distribution considerations
+    - For example, a report may prove to be too large to distribute via email. In that case, you could use a blended distribution approach.
+    - blended approach, you store the report centrally and let people know when the report has been updated and is ready for use.
+    - With the blended approach, you inform people that the report is available while maintaining central control of the report itself.
+
+### Understanding Report Design Elements
+- When creating a report or a dashboard, you can use existing design principles as guideposts
+- These design principles, known as the “five Cs” of creating visualizations, will help ensure that your reports and dashboards communicate clearly and efficiently.
+    1. **Control** has to do with how you focus the attention of your audience.
+    2. **Correctness** makes sure that your information is accurate and that there are no spelling mistakes.
+    3. **Clarity** refers to selecting the right visualization tool for communicating your message, making sure the visualization is easy to interpret and visually crisp, and using fonts and sizes that are easy to read.
+    4. **Consistency** refers to using the same design and documentation elements throughout your report or dashboard to give your visualization a cohesive and complete feel.
+    5. **Concentration** refers to using visuals to focus your audience's attention on the most relevant information without overwhelming them with details.
+
+#### Report Cover Page
+-  Since the cover page is the first thing a person sees, it is vital that it sets expectations about the observations and insights the reader will find within.
+-  a concise title that describes the contents of the report
+-  Ideally, a cover page will also communicate a significant insight from the report itself.
+-  Accompanying the title page should be clear instructions on how to use the report.
+
+#### Executive Summary
+- The executive summary provides an overview of the report's contents.
+- begin with the end in mind, summarizing crucial observations and insights
+- With time as an executive's most precious resource, the summary needs to convey the big ideas, while the body of the report details the analysis that led to those ideas
+
+#### Design Elements
+- Color schemes, page layout, font size and style, charts, and corporate standards are among the many design elements you should consider.
+  
+#### Color Schemes
+- The first decision to make is whether you need to use a monochromatic color palette or have the flexibility to use more than one color
+- A monochromatic palette limits you to working with shades of a single color
+- A complementary palette starts with two contrasting colors
+
+#### Layouts
+- determines the arrangement of its component parts
+- When developing the layout for a report, begin with a summary before diving into the supporting details.
+- For a long, multipage report, use a table of contents so that the reader can efficiently navigate to a topic of interest, as well as headings for sections and subsections.
+- Use brief paragraphs and bullet points to focus the reader's attention.
+- Ensure parallel construction when developing bullet points.
+- Parallel construction is when all bullet points use the same form and have the same style and approximate length.
+
+#### Fonts
+- When choosing a font style, pick one that is easy for people to read by avoiding ornate fonts
+- In typography, a serif is a finishing detail for each letter in a typeface.
+- A serif font style includes serifs (the curls), whereas a sans serif font style does not.
+- After selecting a font style, determine the appropriate font size for your title, table of contents, headings, subheadings, and body text. 
+
+#### Graphics
+- Think through the key chart elements when designing charts, including the chart's title, labels, and legends.
+- When developing a chart, make sure you specify a chart title.
+- A chart title uses a large font size and concise wording to clearly describe what the chart depicts.
+- a label describes what each axis represents.
+- When a chart shows multiple categories, use a legend to help the reader distinguish between categories.
+
+### Corporate Reporting Standards
+- When developing any type of visualization, be mindful of any existing corporate reporting standards.
+- For instance, your organization may have a style guide for reporting.
+- A style guide: is a set of standards that drives consistency in communication.
+- style guides define the use of a variety of branding elements, including page layout, font selection, corporate color codes, logos, and trademarks.
+- Style guides can also incorporate watermarks. Typically, text or a logo, or a watermark is superimposed over a report or web page.
+    - If you do not want people to share your visualization outside your organization, you could use an “INTERNAL USE ONLY” watermark
+
+#### Documentation Elements
+- To help establish trust, you can incorporate documentation elements, including version numbers, reference data sources, and reference dates.
+- Reference dates include the initial creation date, report run date, and data refresh date.
+
+#### Version Number
+- a numeric value that refers to a specific version of a report.
+- help you keep track of changes to content and layout over time.
+- Reference data sources identify where data in the report originates.
+
+#### Reference Data Sources
+- help people understand what to expect in terms of data recency
+
+#### Frequently Asked Questions
+- When developing a report or a dashboard, it is good to maintain a set of frequently asked questions (FAQs)
+- A FAQ provides answers to people's most common questions.
+
+#### Appendix
+- use an appendix to include supporting details that are inappropriate to include in the main body
 
 # Day 7: 
 ## Chapter 8: Data Governance
