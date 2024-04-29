@@ -1064,7 +1064,7 @@ the application should have a configurable GUI for the admin to interact with, b
 </details>
 
 <details>
-<summary> Data Analytics Week-1</summary>
+<summary> Data Analytics </summary>
     
 # Day 1:
 ## Introduction and Induction
@@ -2306,10 +2306,16 @@ Personally Identifiable Information (PII) is any data that can uniquely identify
 </details>
 
 <details>
-    <summary>Data Governance Accelerator</summary>
+<summary>Data Governance Accelerator</summary>
     
 # Chapter 1: Defining Data Governance
-## 
+## Understanding Data Governance
+### What is meant by data governance
+- governance: the manner in which an entity chooses to oversee the control and direction of an area of interest
+- typically takes the form of how decisions are made, regulated and enforced
+- when entities grow in complexity, formal governance becomes important. Left ungoverned = chaos
+
+
 
 </details>
 
