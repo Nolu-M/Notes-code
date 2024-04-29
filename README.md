@@ -2303,11 +2303,13 @@ Personally Identifiable Information (PII) is any data that can uniquely identify
     * A business associate agreement (BAA) requires that the business partner also complies with HIPAA provisions.
     * exceptions to HIPAA include: employement records, student education that is covered by the Family Educational Rights and Privacy Act (FERPA) and de-identified data.
 
+</details>
 
-<summary>Data Governance Accelerator</summary>
+<details>
+    <summary>Data Governance Accelerator</summary>
+    
 # Chapter 1: Defining Data Governance
 ## 
-
 
 </details>
 
