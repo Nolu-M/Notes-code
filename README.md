@@ -2052,6 +2052,14 @@ For example, multiple source systems that perform different business functions a
 
 #### R
 - extremely popular among data analysts because it is focused on creating analytics applications.
+- avaiable to everyone as a free, open-source langauge developed by a community of of committed developers
+- R redistributable package, offered as open-source code on the Comprehensive R Archive Network (CRAN), a worldwide repository of popular R code.
+- the creation of R packages known as the Tidyverse by Hadley Wickham etc.
+    - simplifies the use of the language and makes it accessible to anyone willing to invest a few hours in learning some basic syntax.
+- RStudionis the IDE used to write, test and deploy code
+- a graphical interface provides a well-designed environment to manage your code, monitor its progress, and troubleshoot issues that might arise in your R scripts
+
+![image](https://github.com/Nolu-M/Python/assets/119700411/70d36422-10cc-4ff1-9f4c-83e0ec76b709)
 
 #### Python
 - Python is about the same age as R, but Python is a general-purpose programming language
@@ -2061,8 +2069,46 @@ For example, multiple source systems that perform different business functions a
 
 #### Structured Query Language (SQL)
 - the language of databases, SQL is divided into two major sublanguages:
-    1. The Data Definition Language (DDL) is used mainly by developers and administrators. It's used to define the structure of the database itself. It doesn't work with the data inside a database, but it sets the ground rules for the database to function.
-    2. The Data Manipulation Language (DML) is the subset of SQL commands that are used to work with the data inside of a database. They do not change the database structure, but they add, remove, and change the data inside a database.
+    1. **The Data Definition Language (DDL)** is used mainly by developers and administrators. It's used to define the structure of the database itself. It doesn't work with the data inside a database, but it sets the ground rules for the database to function.
+    2. **The Data Manipulation Language (DML)** is the subset of SQL commands that are used to work with the data inside of a database. They do not change the database structure, but they add, remove, and change the data inside a database.
+
+- three DDL commands:
+    1. CREATE: used to create a new table within your database or a new database on your server.
+    2. ALTER: used to change the structure of a table that you've already created.
+    3. DROP: deletes an entire table or database from your server.
+
+- four DML commands:
+    1. SELECT: used to retrieve information from a database.
+    2. INSERT: used to add new records to a database table e.g. adding new rows.
+    3. UPDATE: used to modify rows in the database.
+    4. DELETE: used to delete rows from a database table.
+
+- a developer, administrator, or power user who knows SQL might directly access the database server and send it a SQL command for execution
+- happens through a graphical user interface, such as the Azure Data Studio interface
+- allows you to write database queries in SQL, send them to the database, and then view the results.
+
+- Azure Data Studio also offer a graphical way for database administrators to reconfigure a database.
+- many query and report builder tools are available that simplify database access for end users, allowing them to click through a series of menus and drag objects around on the screen to retrieve data from a database.
+- The tool then translates those actions into a SELECT statement that retrieves the desired information from the database.
+
+### Statistics Packages
+#### IBM SPSS
+- most popular pieces of statistical software is IBM's SPSS package
+- one of the oldest statistical software packages, first released in 1968
+
+#### Stata
+- dates back to the 1980s
+- offers same features as SPSS and SAS and provides users with both a graphical interface and a command-line interface depending on their personal preference.
+- less widely used than the more popular SAS and SPSS tools
+
+#### Minitab
+
+
+
+
+
+
+
 
 # Day 6:
 ## Chapter 7: Data Visualization with Reports and Dashboards
