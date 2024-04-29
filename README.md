@@ -2102,10 +2102,78 @@ For example, multiple source systems that perform different business functions a
 - less widely used than the more popular SAS and SPSS tools
 
 #### Minitab
+- The final statistical software package covered on the Data+ exam is Minitab
+- shares most of the same features as SPSS, SAS, and Stata but fits into the same category as Stata - an older tool that is not widely used today
 
+### Machine Learning
+- graphical tools are designed to help analysts build machine learning models without requiring them to actually write the code to do so
+- aim to make machine-learning techniques more accessible
 
+#### IBM SPSS Modeler
+- builds graphical machine learning models
+- provides an intuitive interface where analysts can select the tasks they would like the software to carry out and connect them in a flowchart-style interface
+  
+![image](https://github.com/Nolu-M/Python/assets/119700411/a5940ad5-b620-43fb-8182-5443b9f699f8)
 
+#### RapidMiner
+- works in a manner similar to IBM SPSS Modeler
+- offers access to hundreds of different algorithms that may be placed in a visually designed machine-learning workflow
+- also offers prebuilt analytic templates for common business scenarios
+  
+![image](https://github.com/Nolu-M/Python/assets/119700411/603069eb-ee6b-4341-ad58-01925ed6b8bf)
 
+### Analytics Suites
+- provides powerful capabilities that cross all phases of an analytical process
+- the tools allow analysts to ingest and clean data, perform exploratory statistical analysis, visualize their data, produce models, make predictions, and communicate and report their results.
+
+#### IBM Cognos
+- uses a web-based platform to offer analysts within an organization access to their data and is backed by IBM's Watson artificial intelligence capability
+- major components:
+    - **Cognos Connection:** a web-based portal that offers access to other elements of the Cognos suite.
+    - **Query Studio:** provides access to data querying and basic reporting tools.
+    - **Report Studio:** offers advanced report design tools for complex reporting needs.
+    - **Analysis Studio enables advanced modeling and analytics on large datasets.
+    - **Event Studio:** provides real-time data monitoring and alerting, allowing business leaders to be immediately notified when certain events take place and/or provide automated responses to those events.
+    - **Metric Studio:** offers the ability to create scorecards for business leaders to quickly analyze key metrics from across the organization.
+    - **Cognos Viewer:** allows stakeholders to easily interact with data and analyses prepared using Cognos.
+
+#### Microsoft Power BI
+- major components:
+    - **Power BI Desktop:** a Windows application for data analysts, allowing them to interact with data and publish reports for others.
+    - The **Power BI service:** Microsoft's software-as-a-service (SaaS) offering that hosts Power BI capabilities in the cloud for customers to access.
+    - **Mobile apps:** for Power BI provide users of iOS, Android, and Windows devices with access to Power BI capabilities.
+    - **Power BI Report Builder:** allows developers to create paginated reports that are designed for printing, email, and other distribution methods.
+    - **Power BI Report Server:** offers organizations the ability to host their own Power BI environment on internal servers for stakeholders to access
+
+#### MicroStrategy
+- offers many of the same tools as its counterparts
+- making it easy for users to build dashboards and reports and apply machine learning techniques to their business data.
+
+#### Domo
+- a *software-as-a-service (SaaS)* analytics platform that allows businesses to ingest their data and apply a variety of analytic and modeling capabilities. 
+
+#### Datorama
+- Salesforce Datorama focuses on a specific component of an organization's business: sales and marketing.
+- focused on applying machine learning, visualization, and other analytics techniques to the sales and marketing process
+
+#### AWS QuickSight
+- a dashboarding tool available as part of the Amazon Web Services cloud offering
+- available on a pay-as-you-go basis and its integration with the powerful data storage, data warehousing, machine learning, and artificial intelligence capabilities offered by the Amazon cloud
+
+#### Tableau
+- easy ingestion of data from a wide variety of sources and powerful visualization capabilities
+- allows analysts and business leaders to quickly identify trends in their data and drill down into specific details
+
+#### Qlik
+- popular SaaS analytics platform
+- offers access to cloud-based analytics capabilities
+- major products offered:
+    - **QlikView:** the company's original analytics platform that focuses on providing rapid insights.
+    - **Qlik Sense:** a more advanced platform providing more sophisticated analytics capabilities (at a higher cost).
+
+#### BusinessObjects
+- an enterprise reporting tool from SAP that is designed to provide a comprehensive reporting and analytics environment for organizations
+- has the ability to integrate BusinessObjects reports with other applications, allowing organizations to integrate analytics into other portions of their workflow.
 
 
 
