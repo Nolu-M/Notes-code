@@ -2132,7 +2132,7 @@ For example, multiple source systems that perform different business functions a
     - **Cognos Connection:** a web-based portal that offers access to other elements of the Cognos suite.
     - **Query Studio:** provides access to data querying and basic reporting tools.
     - **Report Studio:** offers advanced report design tools for complex reporting needs.
-    - **Analysis Studio enables advanced modeling and analytics on large datasets.
+    - **Analysis Studio:** enables advanced modeling and analytics on large datasets.
     - **Event Studio:** provides real-time data monitoring and alerting, allowing business leaders to be immediately notified when certain events take place and/or provide automated responses to those events.
     - **Metric Studio:** offers the ability to create scorecards for business leaders to quickly analyze key metrics from across the organization.
     - **Cognos Viewer:** allows stakeholders to easily interact with data and analyses prepared using Cognos.
@@ -2174,9 +2174,6 @@ For example, multiple source systems that perform different business functions a
 #### BusinessObjects
 - an enterprise reporting tool from SAP that is designed to provide a comprehensive reporting and analytics environment for organizations
 - has the ability to integrate BusinessObjects reports with other applications, allowing organizations to integrate analytics into other portions of their workflow.
-
-
-
 
 # Day 6:
 ## Chapter 7: Data Visualization with Reports and Dashboards
@@ -2269,6 +2266,16 @@ For example, multiple source systems that perform different business functions a
 
 #### Appendix
 - use an appendix to include supporting details that are inappropriate to include in the main body
+
+### Understanding Dashboard Development Methods
+- are dynamic, their design, development, and delivery mechanisms are more complex than the considerations for developing reports
+
+#### Consumer Types
+- C-level executives: CEOs, CFOs (most senior leadership)
+- dashboard needs to consolidate critical performance metrics with the ability to get additional detail on an as-needed basis to assist people with C-level responsibilities in making strategic decisions
+-  spend sufficient time identifying the key performance indicators (KPIs) crucial to senior leaders
+-  KPI: a metric that leadership agrees is crucial to achieving the organization's business objectives.
+
 
 # Day 7: 
 ## Chapter 8: Data Governance
