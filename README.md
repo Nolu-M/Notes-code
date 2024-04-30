@@ -2524,7 +2524,8 @@ Personally Identifiable Information (PII) is any data that can uniquely identify
 
 ## Preparing for Data Governance
 - data governance requires careful treatment, beginning with understanding whether an organization is ready to accept it
-- involves determing the extent to which a 
+- involves determing the extent to which a data culture exists
+- can conclude that an immature, reactive data culture, where data is simply handled in an adhoc manner, is an entirely different experience than a sophisticated data-driven culture
 
 
 
