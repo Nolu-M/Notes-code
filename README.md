@@ -2538,7 +2538,40 @@ Personally Identifiable Information (PII) is any data that can uniquely identify
 - increase chances of success = understand the data culture of your organization and determine how to broaden and mature it if necessary (need an environment for success)
 - **NOTE:**data culture is how your organization values data and how it manages and uses it. There’s a wide chasm between companies that simply manage data as a consequence of doing business versus those that consider data central to how their organization operates and makes decisions (the latter being the qualities exhibited by a mature data culture).
 
-- 
+- effective data cultures support and empower all employees, from newest --> CEO, to access and use meaningful and timely data for their work
+- such cultures ensure that employees have attained the skills they need to use data analytics and can make good data-driven decisions
+
+- to succeed, leverage the enormous power and value of data --> this aknowledgement and the actions that senior leaders take to foster the use of data is the primary success factor in the development and maturity of an effective data culture
+- trust comes next --> take data-driven decisions if they trust the data they're using, this is built when data is high-quality, its origin and value are understood, team members know how it can contribute to the goals of the business.
+
+- to start --> assess maturity of your organization's data culture, interview leaders and team members
+- also observe how people make decisions, how decisions are communicated and the degree to which data is currently governed and managed
+
+## Managing the Data Culture
+- consider the following to better prepare the organization for data governance:
+    1. help leaders communicate value of data and model the type of behaviour that demonstrates that data is a priority --> must include positive results of using data
+    2. Provide basic tools and education for data use that include manipulating dat, analytics, data cleaning, basic query commands and visualization and (spreadsheets)
+    3. show progress, even if it's small
+    4. resistance & frustration are part of the journey --> find ways to bring comfort and rewards to team members, provide feedback and positive discussion
+
+### Assessing Data Governance Readiness
+- basic checklist of items to help determine data governance readiness of organization:
+    - basis of data culture exists
+    - program is aligned with business strategy
+    - senior leadership is committed to the progam and its goals
+    - senior leadership understands this is a strategic, enterprise program and not just the IT department
+    - one or more sponsors have been identified at an executive level
+    - program has the commitment to fund its creation and to maintain it in the long term
+    - organization understands this is an ongoing program and not a one-off project
+    - return-on-investment (ROI) has been documented
+    - legal and compliance teams (internally or externally) understand and support the goals of the program
+    - fundamental data skills exist for the data governance journey
+    - the IT organization is capable and resourced to support the program
+
+
+
+
+
 
 
 
