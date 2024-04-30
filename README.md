@@ -2430,9 +2430,43 @@ Personally Identifiable Information (PII) is any data that can uniquely identify
 # Chapter 1: Defining Data Governance
 ## Understanding Data Governance
 ### What is meant by data governance
-- governance: the manner in which an entity chooses to oversee the control and direction of an area of interest
+- **governance:** the manner in which an entity chooses to oversee the control and direction of an area of interest
 - typically takes the form of how decisions are made, regulated and enforced
 - when entities grow in complexity, formal governance becomes important. Left ungoverned = chaos
+- data governanace is simply about proactively managing the quality of your data to help your organization achieve its strategy and goals (video 1)
+  
+- **NOTE** governance: is the system that formalizes control, processes, and accountabilities so that specific results such as meeting goals or sustaining standards can be attained.
+- project governance e.g. focuses on a process for how project decisions are made and hoe communications are managed between stakeholders
+- land governance e.g. deals with issues relative to land ownership and the rules under which decisions are made around land use and control
+
+- well-managed data can be transformational and it can support the desirable qualities of a data-driven culture
+- this is when decisions at all levels of the organizations are made using data in an informed and structured manner such as that they deliver better outcomes internally and to customers
+
+- risk is minimized, and data compliance and regulatory requirements can be met with ease when there is successful data governance
+  
+- EIM (enterprise information management): a discipline within an organization that acts in recognition of the value of its information assets (fancy term for data with specific value to an organization, i.e. customer or product record)
+- governing and managing data well is a central enabler of EIM, includes using technologies and processes to elevate data to be shared enterprice asset
+
+#### Data Governance Versus Data Management
+- **data governance** is focused on roles and responsibilities, policies, definitions, metrics, and the lifecycle of data
+- **data management** is the technical implementation of data governance e.g. databases, data warehouses and lakes, application programming interfaces (APIs), analytics software, encryption, data crunching, and architectural design anf implementation are all data management features and functions
+
+#### Data Governance versus Information Governance 
+- **data governance** = focused on data, independent of its meaning e.g. governing the security of patient data and staff data from a policy and process perspective, despite their differences
+- **information governance** is concerned with the meaning of the data and its relationship in terms of outcomes and value to the organization, customers and other stakeholders
+
+#### The Value of Data Governance
+- **NOTE** data governance is driven by a desire to increase the value of data and reduce the risks associated with it. It forces a leap from an ad hoc approach to data to one that is strategic in nature
+- Advantages of good data governance:
+
+
+
+
+
+
+
+
+
 
 
 
