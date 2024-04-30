@@ -1065,8 +1065,8 @@ the application should have a configurable GUI for the admin to interact with, b
 
 <details>
 <summary> Data Analytics </summary>
-    
-# Day 1:
+
+# Data Analytics:
 ## Introduction and Induction
 ### The Cape Innovation and Technology Initiative
 * non-profit organization established in 1998
@@ -1104,7 +1104,8 @@ the application should have a configurable GUI for the admin to interact with, b
 * both components can operate independently
 * aim is to extract actionable insighs and valuable information from data
 * achieved through coding, low-code platforms or no-code solutions
-  
+
+# Module 1: The Basics of Data
 ## Chapter 1: The Data Analyst
 
 ### What is Data Analytics
@@ -1329,7 +1330,7 @@ facilitate data exchange and tool interoperability
 - a markup language for documents designed to be displayed in a web browser, tag based
 - HTML pages serve as the foundation of how people interact with the World Wide Web
 
-# Day 2:
+# Module 2: Data Preparation and Exploration
 ## Chapter 3: Databases and Data Acquision
 
 ### Exploring Databases 
@@ -1670,7 +1671,6 @@ CRUD (Create, Read, Update, Delete)
     - extremely helpful in troubleshooting query performance issues
     - provide additional information about how a query is spending its time e.g. can tell you if a slow-running query uses a full table scan instead of an index scan, in this case, it could be that the query is poorly written and not using the existing indexes or that a column needs a new index.
 
-# Day 3:
 ## Chapter 4: Data Quality
 ### Data Quality Challenges
 - data warehouses aggregate multiple data sources and provide a platform for conducting analysis
@@ -1893,7 +1893,6 @@ For example, multiple source systems that perform different business functions a
     - training set data = build a predictive model, then cross-validate the model using testing/validation
     - helpful in identifying sampling issues, identify sampling bias since predictions using biased data are inaccurate
 
-# Day 4:
 ## Chapter 5: Data Analysis and Statistics
 ### Fundamentals of Statistics
 - census: when you obtain data for every element of your population
@@ -2040,7 +2039,7 @@ For example, multiple source systems that perform different business functions a
     5. Summarize Statistics: calculate summary statistics for each variable e.g. mean, median and variance etc.
     6. Check Assumptions: understand the shape of the data.
 
-# Day 5:
+# Module 3: Data Analytics and Reporting
 ## Chapter 6: Data Analytics Tools
 ### Spreadsheets
 - productivity software packages that allow users to create documents that organize any type of data into rows and columns
@@ -2175,7 +2174,6 @@ For example, multiple source systems that perform different business functions a
 - an enterprise reporting tool from SAP that is designed to provide a comprehensive reporting and analytics environment for organizations
 - has the ability to integrate BusinessObjects reports with other applications, allowing organizations to integrate analytics into other portions of their workflow.
 
-# Day 6:
 ## Chapter 7: Data Visualization with Reports and Dashboards
 ### Understanding the Business Requirements
 - A report is a static electronic or physical document that reflects information at a given point in time
@@ -2277,8 +2275,8 @@ For example, multiple source systems that perform different business functions a
 -  KPI: a metric that leadership agrees is crucial to achieving the organization's business objectives.
 
 
-# Day 7: 
-## Chapter 8: Data Governance
+# Module 4: Data Governance 
+## Chapter 8: Defining Data Governance
 ### Data Governance Concepts
 - Data governance: a set of policies, procedures and controls that an organization develops to safeguard its information while making it useful for transactional and analytical purposes.
 - Governments have a method of creating, interpreting and enforcing laws, part of this process ensures that these laws are known to the citizenry
