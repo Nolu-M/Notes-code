@@ -2569,9 +2569,22 @@ Personally Identifiable Information (PII) is any data that can uniquely identify
     - the IT organization is capable and resourced to support the program
 
 
+# Chapter 2: Exploring a World Overflowing with Data
+## Defining Data
+- data governance is not the same as data management
 
+### Why all the focus on data?
+- data: refers to collections of digitally stored units; stuff that is kept on a computing device
+- these units represent something meaningful when processed for a human or a computer
+- datum: single units of data and multiple units of data
+- raw data: data in abstract and the most basic form
 
-
+- data also defined based on its captured format. Specifically, at a high level, it falls into one of the following categories:
+    - structured: data that has been formatted to a set structure; each data unit fits into a table in a database and it is ready for analysis.
+    - unstructured: data that are stored in a native format must be processed to be used and further work is required to enable analysis
+    - semi-structured: data that contains additional information to enable the native format to be searched and analyzed
+      
+- data processing term has been replaced with information technology (IT)
 
 
 
