@@ -2526,11 +2526,19 @@ Personally Identifiable Information (PII) is any data that can uniquely identify
 - data governance requires careful treatment, beginning with understanding whether an organization is ready to accept it
 - involves determing the extent to which a data culture exists
 - can conclude that an immature, reactive data culture, where data is simply handled in an adhoc manner, is an entirely different experience than a sophisticated data-driven culture
+- prerequisites for data governance include ensuring that the organization's strategy is fully aligned with the proposed program
+- any misalignment is the number one reason why data governance program deployements fail
 
+### What is data culture?
+- culture will always defeat the greatest strategies almost every time
+- e.g. designing and deploying a data governance program for an organization that has little or no data culture
+- every organization has some form of a data culture; it just might not be in an ideal state
 
+### Assessing the Data Culture
+- increase chances of success = understand the data culture of your organization and determine how to broaden and mature it if necessary (need an environment for success)
+- **NOTE:**data culture is how your organization values data and how it manages and uses it. There’s a wide chasm between companies that simply manage data as a consequence of doing business versus those that consider data central to how their organization operates and makes decisions (the latter being the qualities exhibited by a mature data culture).
 
-
-
+- 
 
 
 
