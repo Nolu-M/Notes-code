@@ -2436,7 +2436,7 @@ Personally Identifiable Information (PII) is any data that can uniquely identify
 - data governanace is simply about proactively managing the quality of your data to help your organization achieve its strategy and goals (video 1)
 
 ### What is data governance
-- **NOTE** governance: is the system that formalizes control, processes, and accountabilities so that specific results such as meeting goals or sustaining standards can be attained.
+- **NOTE:** governance is the system that formalizes control, processes, and accountabilities so that specific results such as meeting goals or sustaining standards can be attained.
 - project governance e.g. focuses on a process for how project decisions are made and hoe communications are managed between stakeholders
 - land governance e.g. deals with issues relative to land ownership and the rules under which decisions are made around land use and control
 
@@ -2457,7 +2457,7 @@ Personally Identifiable Information (PII) is any data that can uniquely identify
 - **information governance** is concerned with the meaning of the data and its relationship in terms of outcomes and value to the organization, customers and other stakeholders
 
 ### The Value of Data Governance
-- **NOTE** data governance is driven by a desire to increase the value of data and reduce the risks associated with it. It forces a leap from an ad hoc approach to data to one that is strategic in nature
+- **NOTE:** data governance is driven by a desire to increase the value of data and reduce the risks associated with it. It forces a leap from an ad hoc approach to data to one that is strategic in nature
 - Advantages of good data governance:
     - imrpoved data quality
     - expanded data value
@@ -2471,7 +2471,7 @@ Personally Identifiable Information (PII) is any data that can uniquely identify
     - reduced data management costs
     - established rules for handling data
 
-- **IMPORTANT** data governance does not emerge by chance. It's a choice and requires organizational commitment and investment
+- **IMPORTANT:** data governance does not emerge by chance. It's a choice and requires organizational commitment and investment
 
 ## Creating a Data Governance Program
 - basic steps for creating a data governance program
@@ -2487,6 +2487,46 @@ Personally Identifiable Information (PII) is any data that can uniquely identify
 - achieved through a set of common elements
 
     ![image](https://github.com/Nolu-M/Python/assets/119700411/eec864ee-fdfd-4e9c-bae8-d8757f079703)
+
+## Developing a Data Governance Framework
+- organizations must implement a program relative to its level interest, as well as its needs, budget and capabilities
+- **data governance framework:** a basic set of guiding concepts and a structure in which to apply them
+- **NOTE:** While there are many framework variations to choose from, including ISACA’s Control Objectives for Information and Related Technologies (COBIT) IT governance framework, they share some common components that address people, processes, and technology.
+- common components of a data governance framework (not in a a specific order, exception = leadership and strategy, which is prerequisite for the rest of the framework):
+
+    ![image](https://github.com/Nolu-M/Python/assets/119700411/de7f9e35-9049-4ec9-8753-11babccb7fd5)
+
+### Leadership and Strategy
+- data governance program = aligned with the strategy for the organization e.g. how can data governance support the role that data plays in enabling growth in specific markets
+- data plays a role in many aspects of organizational strategy, including risk management, innovation and operational efficiencies
+
+### Roles and Responsibilities
+- every data governance framework includes the identification and assignment of specific roles and responsibilities, ranging from the information technology (IT) team to data stewards
+
+### Policies, Processed and Standards
+- there are policies, process and standards that guide reponsibilities and support uniformity across the organization
+- each of these must be designed, developed and deployed
+- **IMPORTANT:** Policies, processes, and standards must include accountability and enforcement components; otherwise it’s possible they will be dead on arrival.
+
+### Metrics
+- data governance program must have a mechanism to measure whether it is delivering the expected results
+- metrics allow us to see if the efforts made are delivering on the promise of the program
+- based on the metrics, you and your team can make continuous improvements (or radical changes) to ensure that the program is producing value
+
+### Tools
+- tools include for master data management, data catalogs, search, security, integration, analytics and compliance
+- ease-of-use and automation = better management and deriving value from data
+
+### Communications and Collaboration
+- high-quality communications are key
+- it could be in-person meetings, emails, newsletters and workshops
+  
+
+## Preparing for Data Governance
+
+
+
+
 
 
 
