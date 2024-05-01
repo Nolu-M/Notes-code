@@ -2598,6 +2598,9 @@ Personally Identifiable Information (PII) is any data that can uniquely identify
 - Yottabyte and Brontobyte possible in the near future
     ![image](https://github.com/Nolu-M/Python/assets/119700411/af721e91-6a7c-4c4f-8222-ad3b43506e36)
 
+    ![image](https://github.com/Nolu-M/Python/assets/119700411/bf3d0e88-75d3-427f-a2e5-0aafdcaae424)
+
+
 
 
 
