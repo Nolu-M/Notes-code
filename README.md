@@ -2583,8 +2583,19 @@ Personally Identifiable Information (PII) is any data that can uniquely identify
     - structured: data that has been formatted to a set structure; each data unit fits into a table in a database and it is ready for analysis.
     - unstructured: data that are stored in a native format must be processed to be used and further work is required to enable analysis
     - semi-structured: data that contains additional information to enable the native format to be searched and analyzed
-      
 - data processing term has been replaced with information technology (IT)
+
+## Welcome to The Zettabyte Era
+- qualitative and quantitative nature of data types:
+    ![image](https://github.com/Nolu-M/Python/assets/119700411/0937778e-74b9-4d6c-9dd5-c96cc65b0771)
+
+- a Zettabyte is a big number. A really big number. It’s 1021, or a 1 with 21 zeros after it. It looks like this: 1,000,000,000,000,000,000,000 bytes.
+- 
+
+
+
+
+
 
 
 
