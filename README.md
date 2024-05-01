@@ -2600,6 +2600,9 @@ Personally Identifiable Information (PII) is any data that can uniquely identify
 
     ![image](https://github.com/Nolu-M/Python/assets/119700411/bf3d0e88-75d3-427f-a2e5-0aafdcaae424)
 
+## From Data to Insight
+- the assumption is that you have data for a reason; it must be converted to information to have meaning.
+    ![image](https://github.com/Nolu-M/Python/assets/119700411/191a1b37-1a2c-462c-a96b-4fa6103e8905)
 
 
 
