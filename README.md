@@ -2698,20 +2698,77 @@ Harry Styles is a singer and was in the group, One Direction
 ## The Lifecycle of Data
 ![image](https://github.com/Nolu-M/Python/assets/119700411/bcbaad99-9b8e-46fb-91d0-cadbe6a4ac75)
 
-1. Creation: data comes into being; manual or automated and gets created internally or externally through various activities i.e. system inputs and outputs
-2. Storage: data must be stored after being created; will be contained and managed in a database --> local hard drive, server or cloud service
-3. Usage: data may need to be processed; cleansing it of errors, transforming it to another format and securing access rights
-4. Archival: identify data that is not being used currently --> move to a long-term storage system and out of production environment --> can be retrieved & used later
-5. Destruction: there's a point where destruction makes sense or is required by regulation/policy. data destruction involves making data inaccessible and unreadable; can include the physical destruction of a device i.e. a hard drive
+1. *Creation:* data comes into being; manual or automated and gets created internally or externally through various activities i.e. system inputs and outputs
+2. *Storage:* data must be stored after being created; will be contained and managed in a database --> local hard drive, server or cloud service
+3. *Usage:* data may need to be processed; cleansing it of errors, transforming it to another format and securing access rights
+4. *Archival:* identify data that is not being used currently --> move to a long-term storage system and out of production environment --> can be retrieved & used later
+5. *Destruction:* there's a point where destruction makes sense or is required by regulation/policy. data destruction involves making data inaccessible and unreadable; can include the physical destruction of a device i.e. a hard drive
 
 - **NOTE:** The idea that data is in different states at different times is an essential context of data governance. Depending on the stage of its life, data may be treated differently and have unique requirements. For example, the security needs of data being regularly used will differ from data in an archival state.
 
 ## Understanding the Impact of Big Data
--
+- Romans used ledgers to keep track of their various activities across their expansive empire
+- 20th century: The Cold War was instrumental in the technological leaps that resulted in microprocessors and the classical computing we use today
+    - by-product = the space race between the U.S. and the Soviet Union, accelerated innovation in computing and telecommunications
 
+### The Role of The U.S. Census in The Information Revolution
+- processing data in some form of computing device has been around since the late 1800s
+- the origin of data processing --> the need for a mechanism to better tabulate the results of the U.S. constitutional requirement to conduct a population census every 10 years
+- counting all the people and other data points in the 1880 census = took almost 8 years
+    - Tabulating Machine Company, founded in 1896 = automated and commercialized the processing of the data
+      
+- to count census results --> handwritten results are converted to punched holes in cards e.g. if a result for an individual was a “man,” then this was represented by a punched hole
+- a rod would attempt to pass through the hole to make an electrical connection with a pad on the other side
+- electrical connection made = a counter would progress with an addition of one
+- these punch cards would be considered a form of data storage
 
+- Tabulating Machine Company = International Business Machines, IBM
+- IBM infiltrated the industry and had the desire to increase automation in the office, military, academia and factories
 
+- these major developments and others culminated in what we know as the *third industrial revolution:* the information age
+- data became raw material feeding a new generation of productivity and ideas
+- connectivity provided the arteries for information to freely flow across devices, organizations and geographies with few limitations
 
+- result = data creation, storage and use exploded
+- data volume and velocity had become so unwieldy that it was creating a data swamp
+- data swamp: out-of-control amounts of data; makes it difficult for traditional software applications to manage
+- big data: the scale and challenge of all the data
+
+## Defining Big Data
+- **NOTE:** Big data is structured and unstructured data that is so massive and complex in scale, that it’s difficult and often impossible to process via traditional data management techniques.
+
+### Defining Big Data
+- defined through 5 Vs:
+    1. Volume: the sheer scale of data being produced is unprecedented and requires new tools, skills and processes
+    2. Variety: a lot of legacy file formats, such as CSV and MP3, and with new innovations, new formats are emerging all the time. This requires different methods of handling, from analysis to security.
+    3. Velocity: With so many collection points, digital interfaces, and ubiquitous connectivity, data is being created and moved at increasing speed
+    4. Variability: The fact that the creation and flow of data are unpredictable
+    5. Veracity: The quality, including accuracy and truthfulness, of large volumes of disparate sets of data, can differ considerably, causing challenges to data management
+
+### Drivers of Big Data
+- **NOTE:** Big data was a thing even before Android and Apple smartphones and apps started generating data. This was before we had connected billions of devices, called the Internet of Things (IoTs), which would eventually begin collecting all manner of data. Big data even predates videos of cats published every day on social media platforms.
+- 3rd decade of 21st century --> many devices connected, world in digital transformation therefore volume of data being created had experienced a Cambrian explosion
+- in 2021, global technology generated 79 zettabytes of data --> 180 zettabytes in 2025
+
+### Consequences of Big Data
+- **IMPORTANT:** For starters, up to 80 percent of data is unstructured. That’s a challenge right there. The vast majority of organizations struggle with unstructured data. In addition, a lot of this data is duplicative. Some of it will be bad data, which means it can’t be trusted, has errors, or includes some other substantive challenge
+- **NOTE:** data at scale is providing incredible value to all types of organizations. It’s also the source of remarkable innovation, from self-driving cars to optimized supply chains.
+- 19th century U.S. retailer John Wanamaker stated: half his advertising budget was wasted but he just didn’t know which half
+    - Marketers using the latest technology can better understand the marketplace in granular detail.
+    - They can target specific audiences, and even specific individuals, where the chance of a sale is highest.
+
+### What about small data?
+- **NOTE:** Think about all the spreadsheets that come by your inbox, the short surveys, or those go-to lists that we’ve all compiled and can’t live without. It’s not nearly as glamorous as big data, but in some cases, it may be argued as valuable
+- big data = meaningful when broken into smaller, more manageable chunks --> an increasingly popular definition of small data
+- smaller, logically arranged data can be the way to make sense of big data; can be the only way sometimes
+
+### Enter the Realm of Smart Data
+- small data = new term that defines big data
+- For example, marketing teams can target potential customers with precision. Analytics applications can use high-quality real-time data generated in a manufacturing setting.
+- smart data uses new processes and tools to make the data more useful
+    - e.g. increasing use of artificial intelligence (AI) is now being applied to find patterns in unstructured big data and extract the data that is most relevant for a given application
+    - AI reduces time, lowers errors and enables the creation of data subsets that may not have been previously possible
+    - smart data solutions are often applied at the point of collection rather than a post-processing solution
 
 
 
