@@ -2628,12 +2628,52 @@ Harry Styles is a singer and was in the group, One Direction
                               |
                             DATA
                               |
-                        HARRY STYLES
+                        Harry Styles
 ```
+![image](https://github.com/Nolu-M/Python/assets/119700411/898cc7a3-0cda-40e1-bf43-13b2b26a2b04)
 
+![image](https://github.com/Nolu-M/Python/assets/119700411/4581317e-0d79-4dcc-bf63-663e44e74507)
 
+## The Role of Data in the 21st Century
+- the value of data that has been added over many decades has not remained flat
+- since mid-20th century, as more computers came online = role of data has grown
+- both quantity and quality of data have increased and the availability of it to so many people
+- the arrival of the internet in the mid-1990s resulted in the reality of the Information Industry Association's 1970's motto, "Putting information at your fingertips."
+- In the late 1980s, Bill Gates, co-founder and former CEO of Microsoft
+- **NOTE:** In these early decades of the 21st century, we are producing more data than we can handle, and the depth, breadth, and quality of the data that is being used are reshaping not just the tools and capabilities of our industries and cities, but the nature of how we learn, socialize, and entertain ourselves. It’s also elevating risks that we may previously have characterized as annoyances to a world today where a cyberattack can result in millions of dollars of losses in hours.
 
+## Data-Driven Decision-Making
+- data helps us all make better decisions
+- e.g. deciding on a restaurant based on reviews; less complex end
 
+- entering a new market with an existing product/service = deep understanding that can come from rich sets of data
+- if data exists and the tools to process and interpret it = good position to make the right decision
+- without good data and the skills and tools to analyze it = bad and costly decisions may result
+- **IMPORTANT:** The availability of abundant good quality data has been a boon for decision-making.
+    - Consider this; if you decide based on bad data, your challenges will be entirely different.
+    - *Abundant data* is a product of the *21st century*, but *quality data* is the product of *deliberate actions*.
+    - Data governance plays a central role when aspiring for data quality.
+
+## Data is The New Oil
+- coined by Clive Humbly in 2006
+- data is driving and growing new economies
+- data has value but must be processed to be useful
+- e.g. oil is refined to make gas, plastics etc. and data must be organized and analyzed to understand patterns, make decisions, identify problems and feed other systems
+- without the processing; oil and data are notably messy and unusable in their raw form
+
+- oil powered industrial economies of the 19th and 20th centuries, data is powering the digital economies of the 21st century
+- big economic powerhouses are being powered by data i.e. technology firms Facebook & Google
+- many are moving data management from a cost centre to a profit centre by making data power their businesses and generate new sources of revenue
+
+- like oil, those who control large repositories of high-value data have disproportionate power
+
+## Data Ownership
+- **TIP:** For something to be properly managed, someone needs to be responsible. We create accountability in job descriptions and projects. Without that, how will we know that something will get done?
+
+### Data Ownership
+- **data ownership:** the rights a person, team or organization has over one or more data sets
+- may span from lightweight oversight and control to rigorous rules that are legally enforceable
+    - e.g. data associated with intellectual property --> items such as copyrights and trade secrets; will have high degrees of protection, from accessibility rights to who can use the data for what purpose.
 
 
 
