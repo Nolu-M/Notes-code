@@ -2602,8 +2602,34 @@ Personally Identifiable Information (PII) is any data that can uniquely identify
 
 ## From Data to Insight
 - the assumption is that you have data for a reason; it must be converted to information to have meaning.
-    ![image](https://github.com/Nolu-M/Python/assets/119700411/191a1b37-1a2c-462c-a96b-4fa6103e8905)
+    ![image](https://github.com/Nolu-M/Python/assets/119700411/134f9660-1317-4d6f-b03b-16d2e24f2f0e)
 
+- *knowledge* = information applied coupled with broader contextual concepts, practical application and experience; knowledge is actionable
+- *wisdom* = knowledge where reasoning, values, and the broader universe of our knowledge, and deep experiences are applied
+    - with wisdom, we know what to do with knowledge --> determine its contextual validity
+    - all wisdom includes knowledge, but not all knowledge is wisdom
+- *insight* = an outcome that can emerge from knowledge but is best demonstrated through a combination of knowledge and wisdom
+```
+                            INSIGHT
+                              |
+Ensuring that Columbia Records make the decision to sign Harry Styles before anyone else does
+                              |
+                           WISDOM
+                              |
+One Direction was a very successful band with talented and popular individuals, and knowing that Harry Styles is a creative artist who now wants a solo record deal
+                              |
+                         KNOWLEDGE
+                              |
+Harry Styles has aspirations to become a solo artist and is looking for a record deal
+                              |
+                        INFORMATION
+                              |
+Harry Styles is a singer and was in the group, One Direction
+                              |
+                            DATA
+                              |
+                        HARRY STYLES
+```
 
 
 
