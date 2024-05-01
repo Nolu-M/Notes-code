@@ -2675,6 +2675,47 @@ Harry Styles is a singer and was in the group, One Direction
 - may span from lightweight oversight and control to rigorous rules that are legally enforceable
     - e.g. data associated with intellectual property --> items such as copyrights and trade secrets; will have high degrees of protection, from accessibility rights to who can use the data for what purpose.
 
+## Data Architecture
+- **Enterprise Architecture (EA):** designing technical needs of an organization to support its business strategy
+- using standards and established principles, organizations can analyze, design, plan and implement the right technologies, policies and projects to support business goals
+
+- **data architecture:** is a subset of EA
+    - is the agreed blueprint for how data supports an organization's functions and technologies
+    - in other words, it is how data design and management decisions are made to align with EA and in turn, with the business
+- **NOTE:** When high-quality enterprises and data architectures both exist, organizations run more smoothly, and they can transform as conditions (either internally or in the marketplace) dictate. The absence or poor implementation of both can stifle digital transformation efforts, create high levels of complexity, and increase the possibility of failure
+
+- data architecture considers and supports the following:
+    1. ensuring data is available to those who need it and are approved to use it
+    2. Reducing the complexity of accessing and utilizing data
+    3. Creating and enforcing data protections to support organizational policies and obligations.
+    4. Adopting and agreeing to data standards
+    5. Optimizing the flow and efficient use of data to eliminate bottlenecks and duplication
+
+- data architecture = direct reflection of data governance
+- established and functioning data architecture signals the organization values data, manages it as a critical business asset and has controls in place to ensure that it aligns with business needs
+- data architecture = cross-organizational responsibility
+  
+## The Lifecycle of Data
+![image](https://github.com/Nolu-M/Python/assets/119700411/bcbaad99-9b8e-46fb-91d0-cadbe6a4ac75)
+
+1. Creation: data comes into being; manual or automated and gets created internally or externally through various activities i.e. system inputs and outputs
+2. Storage: data must be stored after being created; will be contained and managed in a database --> local hard drive, server or cloud service
+3. Usage: data may need to be processed; cleansing it of errors, transforming it to another format and securing access rights
+4. Archival: identify data that is not being used currently --> move to a long-term storage system and out of production environment --> can be retrieved & used later
+5. Destruction: there's a point where destruction makes sense or is required by regulation/policy. data destruction involves making data inaccessible and unreadable; can include the physical destruction of a device i.e. a hard drive
+
+- **NOTE:** The idea that data is in different states at different times is an essential context of data governance. Depending on the stage of its life, data may be treated differently and have unique requirements. For example, the security needs of data being regularly used will differ from data in an archival state.
+
+## Understanding the Impact of Big Data
+-
+
+
+
+
+
+
+
+
 
 
 
