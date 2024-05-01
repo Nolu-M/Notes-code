@@ -2590,7 +2590,14 @@ Personally Identifiable Information (PII) is any data that can uniquely identify
     ![image](https://github.com/Nolu-M/Python/assets/119700411/0937778e-74b9-4d6c-9dd5-c96cc65b0771)
 
 - a Zettabyte is a big number. A really big number. It’s 1021, or a 1 with 21 zeros after it. It looks like this: 1,000,000,000,000,000,000,000 bytes.
-- 
+- by 2020 = 64 zettabytes of data, the number continues to grow
+- **datasphere:** used to describe all the data created; projected to reach over 100 zettabytes by 2023 and may double in 3-4 years
+- 1 terabyte drive = one billion of those drives to store just one zettabyte of data
+
+- A = 01000001, “hello” converted to binary reads: 01001000 01100101 01101100 01101100 01101111
+- Yottabyte and Brontobyte possible in the near future
+    ![image](https://github.com/Nolu-M/Python/assets/119700411/af721e91-6a7c-4c4f-8222-ad3b43506e36)
+
 
 
 
