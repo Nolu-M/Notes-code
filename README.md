@@ -2867,9 +2867,13 @@ Harry Styles is a singer and was in the group, One Direction
 1. Artificial Intelligence (AI):
     1. data considered fuel of AI and it required a high volume of good data
     2. large quantities of data = outcomes of AI imporve and from this data AI learns patterns, identifies relationships, and determines probabilities, and is used to improve the quality and use of data in organizations
-3. Problem-solving:
-    1. 
-5. Data reuse:
+2. Problem-solving:
+    1. data plays a role in how a problem is defined, determining what solutions are available, evaluating which solution to use and measuring the success or failure of the solution that is chosen and applied
+3. Data reuse:
+    1. data that has been collected, used and stored can be retrieved and used by a different team at another time - they need permissiong, including access and legal rights
+    2. e.g. sales team collects name and address to fulfill and order, same data later used by marketing team to create awareness about other products and services
+    3. data reuse = positive, it reduces data collection duplication and increases value of data but it must be managed with care so that it doesn't break data rules
+    4. **NOTE:** master data = high-value shared data sets and in governance are subject to master data management.
 
 
 
