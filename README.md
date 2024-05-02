@@ -2938,12 +2938,59 @@ Harry Styles is a singer and was in the group, One Direction
  
 # Chapter 4: Transforming through Data
 ## Examining the Broader Value of Data
+- **data democratization:** the ability of team members to access data that they need for their work without having to rely on specialists
+- **IMPORTANT:** As organizations grow and more systems are employed, eventually no single person knows what data is available and where it is in the enterprise. Without this knowledge, the ability to properly govern your data and leverage its value is greatly hampered. Without deliberate actions, data democratization becomes elusive.
 
+- **data silo:** a data repository controlled by an entity in an organization but not frequently shared or known by other parts of the business
+    - hinder business efficiencies because they reduce collaboration and increase data inconsistencies
+    - they are a source of risk, including security and regulatory issues
+ 
+- data governance helps eliminate unnecessary data siloes and make data discoverable and available whenever and wherever it adds value
+- data catalogs are an essential way that data governance can help solve these limitations
 
+- data sprawl: a term for the myriad of data types and sources that most businesses grapple with today
+- can find information about an organization by Googling rather than using your own internal search systems but if the data is protected behind the organization's firewall, a public search engine won't help
+- knowing what data is available is essential for the following reasons:
+    - Better informed decision-making.
+    - Ensuring compliance and regulatory requirements.
+    - Lower costs by avoiding duplicate system and data efforts.
+    - Improved data analytics and reporting.
+    - Higher performing systems.
+    - More efficient operations.
+    - Reducing data inconsistencies across the enterprise.
 
+## Data Catalogs
+- can assist team members find data by creating an enterprise search engine which can have some limitations such as the discoverability of confidential data that is deliberately siloed
+    - common purpose is to provide you with the location of the data
+- data discoverability = creation of an enterprise data catalog
+    - data catalog: lists the availability of data sets and includes a wide range of valuable details about that data
 
+- essential benefits of data catalogs:
+    - finding data: helps users identify and locate data that may be useful
+    - Understanding data: answers a wide variety of data questions i.e. its purpose and who uses it
+    - making data more useful: creates visibility, describes value and provides access to information
+    ![image](https://github.com/Nolu-M/Python/assets/119700411/49cf038a-358b-4554-8823-5b9c0d1fcf1a)
 
-
+- metadata: contains data about the data (why datalogs are valuable)
+- three types of metadata:
+    - Technical metadata: data about the design of a data set i.e. its tables, columns, file names etc
+    - Business metadata: organizational data i.e. business description, how it is used, its relevancy, an assessment of data quality and users and their interactions
+    - Operational metadata: data such as when the data was last accessed, who accessed it, and when it was last backed up
+- examples of metadata:
+    ```
+    Associated systems.
+    File names.
+    File locations.
+    Data owners.
+    Data descriptions.
+    Dates created.
+    Dates last modified.
+    List of database tables and views.
+    Data stewards.
+    Size of data sets.
+    Quality score.
+    Comments.
+    ```
 
 
 
