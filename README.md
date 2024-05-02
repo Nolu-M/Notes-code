@@ -2770,7 +2770,38 @@ Harry Styles is a singer and was in the group, One Direction
     - AI reduces time, lowers errors and enables the creation of data subsets that may not have been previously possible
     - smart data solutions are often applied at the point of collection rather than a post-processing solution
 
+# Chapter 3: Driving Value through Data
+## Identifying the Roles of Data
+- critical to ensure that data is high quality, secure, compliant and accessible to the right people at the right time
+- **NOTE:** Data matters to everyone
 
+### Operations
+- each business has different needs, and operational functions reflect these specific requirements i.e. payroll, order management and marketing
+- performance of operations is quantified by data e.g. in HR function, they'll want to know how many openings there are, how long openings are taking to fill and who is accepting offers
+  
+- in HR --> data is created by the activities of the function e.g. candidates enter data when they apply for a position, data is entered when evaluating an applicant and all along the way the supporting systems log a variety of automated data i.e. time, data and how long an application took to complete online
+- in this example and others; data is created in abundance as a result of and in support of functions
+
+- operations --> use data to make decisions, enable systems to run and deliver data to internal and external entities e.g. regional sales team will deliver their monthly results to headquarters to be presented to vice presidents or the C-suite
+
+- many data operations are automated e.g. a warehouse inventory system may automatically generate a replenishment order when stock drops to a certain level
+- e.g. all the notifications that systems generate based on triggers i.e. email notification
+
+### Strategy
+- every organization has a strategy; this is about creating a plan that supports objectives and goals
+- about understanding the challenges to delivering on the organization's purpose and then agreeing on the proposed solutions to those challenges
+- strategy can be adopted at the department and division levels, but the intent is the same: understand the journey ahead and make a plan
+
+- strategy --> implementation; requires the support of operations to realize its goals
+- strategy and operations = two sides of the same coin
+
+- creating a strategy = begins with analysis of the environment --> some conclusions on what has been gathered --> a plan is developed, driven by some form of guiding principles
+    - principles may be derived from the nature of the work, the values of the founders etc.
+
+- **TIP:** Deeply tied to all these steps is the availability of good quality data that can be processed and analyzed and then turned into actionable insights.
+- there needs to be room for other perspectives i.e. strength of belief that people with experience bring to the discussion and right mix of data and non-data sources must be considered, too much of one or the other may not deliver the expected results
+
+- **NOTE:** consider ongoing process, when it comes to the best practices for strategy development. No need to update the strategy every month, as they are intended to last for several years but revist the strategy every 6 months and tweak it as necessary. Revisions should be guided by new data
 
 
 
