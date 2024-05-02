@@ -2875,7 +2875,7 @@ Harry Styles is a singer and was in the group, One Direction
     3. data reuse = positive, it reduces data collection duplication and increases value of data but it must be managed with care so that it doesn't break data rules
     4. **NOTE:** master data = high-value shared data sets and in governance are subject to master data management.
 
-### Improving Outcomes with Data
+## Improving Outcomes with Data
 - how data can be leveraged to acquire its maximum value begins with recognizing that data is an organization asset
 - **NOTE:** Perhaps the function that is most associated with data is the process of exploring it and looking for insights. Called data analytics, this is a comprehensive organizational function that requires skilled staff and tools. With the emergence of big data, data analytics has become more complex and requires deeper skills, but it’s also made data more valuable and important to the business
 
@@ -2900,6 +2900,49 @@ Harry Styles is a singer and was in the group, One Direction
 - need to understand how the data is being managed and who has responsibility for it
 
 - **Bottom line:** Data is an asset and for its value to be leveraged, it must be governed. This may be one of the most important motivations for good data governance.
+
+## Data Analytics
+- data analytics: the process of examining data in order to produce answers or find conclusions
+    ![image](https://github.com/Nolu-M/Python/assets/119700411/a8818235-22f2-49a9-bc28-bcc2a009c563)
+
+- four primary types:
+    - Descriptive: existing data sets of historical data accessed, analyzed for stakeholders about performance of a key performance indicator (KPI) = insight on past performance
+    - Diagnostic: analysis tries to glean from data the answer to why something happened = takes descriptive analysis and looks at the cause
+    - Predictive: techniques are used to determine what may occur in the future. it applies tools and techniques to historical data and trends to predict the likelihood to certain outcomes
+    - Prescriptive: focuses on what action should be taken --> in combination with predictive analytics, prescriptive techniques provide estimates of the probabilities of a variety of future outcomes
+
+    ![image](https://github.com/Nolu-M/Python/assets/119700411/13a1cfc7-0d85-418a-8344-87ae283e0e2a)
+
+## Data Management
+- **data management:** is the implementation of data governance
+- all organizations implement data management; what matters is the degree of sophistication that is applied to managing the value and quality of data sets --> if it's on the low side, data may be a disadvantage than an advantage
+- poor data management = data silos across an organization, security and compliance issues, errors in data sets and overall low confidence in the quality of data
+
+### Who would choose to make decisions based on bad data?
+- well-executed data management can translate to reduced data security breaches, and lower compliance, regulatory and privacy issues
+- **data management processes** involve the collection, storage, organization, maintenance and analytics of an organization's data
+    - includes the architecture of technology systems such as that data can flow across the enterprise and be accessed whenever and by whom it is approved for use
+    - responsibilities = areas such as data standardization, encryption and archiving
+
+- **NOTE:** In summary, good data management provides the opportunity for significantly enhanced organizational performance.
+
+### Governing Data
+- governing data: means that some level of control exists to support a related policy e.g. organization may decide to reduce risk, needs to be a policy that requires data to be backed up every day
+    - the control would be the documentation of the process and enforcement of that policy
+    - if in the review of the policy adherence, data wasn't getting backed up = governance was not working for some reason
+
+- success of governing data can be reduced to 3 essential factors:
+    - People:
+    - Policies:
+    - Metrics:
+
+
+
+
+
+
+
+
 
 
 
