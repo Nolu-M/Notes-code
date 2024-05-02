@@ -3052,10 +3052,39 @@ Harry Styles is a singer and was in the group, One Direction
 - **IMPORTANT:** Those tasked with delivering insights often cite data quality, data volume, work effort, and integrating data from various sources as the top reasons that make it difficult and create a deterrent to adoption.
 
 ## Data Analytics
+- analytics unlocks the power embedded in good-quality data
 
+- data analysis: concerned with identifying a data set, examining it and reporting on any findings
+    - subset of data analytics and focuses on what data from the past tells us
+- data analytics: a complete science that involves collecting, cleaning, organizing, storing, administering and analyzing data --> informs you about the past and helps you project into the future
 
+- the source of data for analytics is one or a combination of the following:
+    - **First-party data:** Data that an organization collects
+    - **Second-party data:** Data that is obtained from another organization
+    - **Third-party data:** Aggregated data obtained from a provider
 
+- typically uses of contemporary data analytics and techniques include:
+    ```
+    - Vastly improved decision-making
+    - Focused marketing campaigns
+    - Understanding the competitive landscape
+    - Designing more innovative products
+    - Better customer service
+    - Improved operations
+    - Insights on customer behavior
+    ```
 
+## Data Monetization
+- an asset: something owned that has the expectation of delivering value
+- data falls into the same category as assets such as copyrights and software
+
+- data doesn't show up on the balance sheet --> those assets that are required to be included in the accounts are carefully assessed so that an accurate picture can be captured of an organization's financials
+
+- data valuation: without a process to place a price on a data set; value of a given data set may be highly subjective and may differ considerably between perspectives of team members
+- Without this knowledge, it’s much harder to take advantage of the opportunities that some data sets may provide, such as business growth and operational excellence.
+
+- data monetization: when data provides an economic benefit to an organization
+- Data valuation, while generally recommended in larger enterprises, is a requirement for advanced data monetization such as selling or licensing data
 
 
 
