@@ -2978,20 +2978,47 @@ Harry Styles is a singer and was in the group, One Direction
     - Operational metadata: data such as when the data was last accessed, who accessed it, and when it was last backed up
 - examples of metadata:
     ```
-    Associated systems.
-    File names.
-    File locations.
-    Data owners.
-    Data descriptions.
-    Dates created.
-    Dates last modified.
-    List of database tables and views.
-    Data stewards.
-    Size of data sets.
-    Quality score.
-    Comments.
+    - Associated systems.
+    - File names.
+    - File locations.
+    - Data owners.
+    - Data descriptions.
+    - Dates created.
+    - Dates last modified.
+    - List of database tables and views.
+    - Data stewards.
+    - Size of data sets.
+    - Quality score.
+    - Comments.
     ```
+- with a data catalog, an organization can:
+    ```
+    - Know what data it has (and by extension, know what data is missing).
+    - Reduce data duplication.
+    - Increase operational efficiencies and innovation.
+    - Understand data quality.
+    - Manage compliance.
+    - Enjoy cost savings from improved operations.
+    ```
+- **NOTE:** a data catalog is often the basis for delivering successful data governance and data management.
 
+## Case Study: Unlocking Data Silos With a Data Catalog
+### background
+- 
+
+#### Problem Statement
+
+
+
+
+
+#### The solution
+
+
+#### Results and Lessons Learned
+
+
+### From Data to Insights
 
 
 
