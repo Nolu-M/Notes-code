@@ -2864,20 +2864,42 @@ Harry Styles is a singer and was in the group, One Direction
 - right information, in the right format, at the right time, business leaders are empowered to make better decisions, solve problems, and communicate plans and policies.
 
 ### Other Roles for Data
-1. Artificial Intelligence (AI):
+1. **Artificial Intelligence (AI):**
     1. data considered fuel of AI and it required a high volume of good data
     2. large quantities of data = outcomes of AI imporve and from this data AI learns patterns, identifies relationships, and determines probabilities, and is used to improve the quality and use of data in organizations
-2. Problem-solving:
+2. **Problem-solving:**
     1. data plays a role in how a problem is defined, determining what solutions are available, evaluating which solution to use and measuring the success or failure of the solution that is chosen and applied
-3. Data reuse:
+3. **Data reuse:**
     1. data that has been collected, used and stored can be retrieved and used by a different team at another time - they need permissiong, including access and legal rights
     2. e.g. sales team collects name and address to fulfill and order, same data later used by marketing team to create awareness about other products and services
     3. data reuse = positive, it reduces data collection duplication and increases value of data but it must be managed with care so that it doesn't break data rules
     4. **NOTE:** master data = high-value shared data sets and in governance are subject to master data management.
 
+### Improving Outcomes with Data
+- how data can be leveraged to acquire its maximum value begins with recognizing that data is an organization asset
+- **NOTE:** Perhaps the function that is most associated with data is the process of exploring it and looking for insights. Called data analytics, this is a comprehensive organizational function that requires skilled staff and tools. With the emergence of big data, data analytics has become more complex and requires deeper skills, but it’s also made data more valuable and important to the business
 
+## Approaching Data as an Asset
+- asset: something owned by a person, an organization or government with the exception that it can bring some economic benefit, including generation of income, reduction of expenses or an increase in net worth
+- **NOTE:** An asset can be tangible or intangible. Tangible assets are physical things such as inventory, machines, and property. That’s stuff you can see and touch. An intangible asset is the opposite; it’s a non-physical thing like software, copyrights, a brand, and goodwill. Data is an intangible asset.
 
+- Listing the value of assets presents the true state of any organization and reflects its financial health and capturing and valuing assets is required for determining tax obligations and for acquiring loans
+- economic value of data examples:
+    - Improves operations.
+    - Increases existing revenue.
+    - Produces new forms of revenue.
+    - Builds relationships with customers and other stakeholders.
+    - Improves the quality of products and services.
+    - Contributes to competitive advantage.
+    - Enables innovation.
+    - Reduces risk.
+- you need to know what you have and where it is, as well as have an expression of its value
+- if data has no value, consider whether you should be managing it
 
+- data as an asses --> is it good or bad, pay attention to the data's accuracy, completeness, validity etc.
+- need to understand how the data is being managed and who has responsibility for it
+
+- **Bottom line:** Data is an asset and for its value to be leveraged, it must be governed. This may be one of the most important motivations for good data governance.
 
 
 
