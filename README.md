@@ -3004,13 +3004,13 @@ Harry Styles is a singer and was in the group, One Direction
 
 ## Case Study: Unlocking Data Silos With a Data Catalog
 ### background
-- 
+- European power company embraced data governance in support of its mission of decarbonizing the production of electricity
+- organizaion generates and distributes energy across multiple countries
+- data is essential for daily operations e.g. evaluating equipment performance
+- business must adhere to the regulatory requirements in all countries where they operate - also comply with Europe's General Data Protection Regulations (GDPR): governs the use of personal data
 
 #### Problem Statement
-
-
-
-
+- how to power its mission by enabling business units and partners to collaborate using the business and technical data locked away in siloed systems, while also ensuring a high degree of data compliance
 
 #### The solution
 
