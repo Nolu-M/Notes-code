@@ -2847,12 +2847,29 @@ Harry Styles is a singer and was in the group, One Direction
 - begins with gathering and analyzing data from different sources
 - to determine what data to process = those responsible for insight management must understand the organization's information needs, be knowledgeable about what data has value and must know how information flows across the organization and who it must reach
 
-- 
+- with data gathered and processed, analytics will be applied - this is the enterpretation of data and it imlications
 
+- insight management: involves designing and creating the most effective manner to communicate any findings --> different mechanisms for different audiences
+- **TIP:** For an insight to be most valuable, it must be the right information, at the right time, in the right format, for the right people. But this in general is no simple task.
+- knowledge management: the organizational support structures and tools to enable insight to be available to employees for whatever reason they need it
 
+### Reporting
+-  Creating, delivering, receiving, and acting on reports are fundamental functions of any organization
+-  content of a report, which can be summarized or detailed, contains data and information in a structured manner
+    - e.g. an expenditure report would provide basic overview of the purpose of the report and then support it with relevant information
+    - could include a list of all expenditures for a department over a certain period or it could be a total amount --> depends on audience and purpose
+- **NOTE:** Reports are typically online or physical presentations of data and information on some aspect of an organization. Sometimes a report is given verbally in person or via a live or recorded video. It is developed for a particular audience with a specific purpose
 
+- purpose of reporting is about improved decision-making
+- right information, in the right format, at the right time, business leaders are empowered to make better decisions, solve problems, and communicate plans and policies.
 
-
+### Other Roles for Data
+1. Artificial Intelligence (AI):
+    1. data considered fuel of AI and it required a high volume of good data
+    2. large quantities of data = outcomes of AI imporve and from this data AI learns patterns, identifies relationships, and determines probabilities, and is used to improve the quality and use of data in organizations
+3. Problem-solving:
+    1. 
+5. Data reuse:
 
 
 
