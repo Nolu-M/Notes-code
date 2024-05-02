@@ -2936,6 +2936,8 @@ Harry Styles is a singer and was in the group, One Direction
     - **Policies:** data policy = a set of adopted rules by an organization that apply to the handling of data in specific conditions and for particular desired outcomes and these policies apply in areas such as quality, privacy, retention and security. Number of policies = reflection of size of organization, the industry and the degree to which data is considered a high-priority asset
     - **Metrics:** what gets measured gets managed but you need to consider how the data is measured. Metrics must be in support of both technical and business needs.
  
+# Chapter 4: Transforming through Data
+## Examining the Broader Value of Data
 
 
 
