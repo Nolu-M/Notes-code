@@ -2932,10 +2932,10 @@ Harry Styles is a singer and was in the group, One Direction
     - if in the review of the policy adherence, data wasn't getting backed up = governance was not working for some reason
 
 - success of governing data can be reduced to 3 essential factors:
-    - People:
-    - Policies:
-    - Metrics:
-
+    - **People:** handling and benefiting from data is still a highly people-centric exercise, even in a machine-centric context --> people are the responsible for defining, designing and maintaining data use and in governing data, people are responsible for quality and they oversee and manage all related processes and responsibilities
+    - **Policies:** data policy = a set of adopted rules by an organization that apply to the handling of data in specific conditions and for particular desired outcomes and these policies apply in areas such as quality, privacy, retention and security. Number of policies = reflection of size of organization, the industry and the degree to which data is considered a high-priority asset
+    - **Metrics:** what gets measured gets managed but you need to consider how the data is measured. Metrics must be in support of both technical and business needs.
+ 
 
 
 
