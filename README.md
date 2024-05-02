@@ -3013,12 +3013,58 @@ Harry Styles is a singer and was in the group, One Direction
 - how to power its mission by enabling business units and partners to collaborate using the business and technical data locked away in siloed systems, while also ensuring a high degree of data compliance
 
 #### The solution
-
+- solution was in the implementation of data catalog with robust data governanc functionality
+- data catalog facilitated collaboration and innovation by enabling vastly improved search and discovery of data across the organization
+- compliance requirments were improved by the catalog interface guiding compliant behaviour using workflows --> the data taught people how to use data compliantly and ensured they followed the relevant policies based on the data at hand
 
 #### Results and Lessons Learned
+- lessons gleaned from their data governance journey included:
+    - make data governance part of hw all datt users work with data, not an external task force or project
+    - start small and grow steadily
 
+- curate metadata facilitates data search and discovery across the organization
+- business glossary helps define standard terminology to ensure that all users have a common understanding of critical business terms
+
+- by using a data catalog to put the right data into the right hands ata the right time (with the right compliance guidance), the organization build trust in their data
+- this in turn, generated efficiency and profitability, along with reduced risk
 
 ### From Data to Insights
+- whether an organization uses insight to support decisions or drive actions is a choice
+- when insights are used primarily to drive action, the value of the underlying data is truly realized
+- actionable data is the most valuable data to an organization
+
+- acquiring and applying insight from data means defining the following:
+    1. Context: Understanding the environment and objectives of the outcome
+    2. Need: determining how insight will help to accomplish the objective
+    3. Vision: having ideas about how insight will elp and what that might look like in practice
+    4. Outcome: specifying how insights will be adopted and success will be measured
+
+- these dimensions can be used to answer questions such as:
+    ```
+    - What data is required?
+    - Does the data exist?
+    - Is it current?
+    - Is it easily available?
+    - What format is the data in?
+    - What kind of data analysis is required?
+    - How will the data be presented?
+    ```
+- **IMPORTANT:** Those tasked with delivering insights often cite data quality, data volume, work effort, and integrating data from various sources as the top reasons that make it difficult and create a deterrent to adoption.
+
+## Data Analytics
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
