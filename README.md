@@ -2801,11 +2801,26 @@ Harry Styles is a singer and was in the group, One Direction
 - **TIP:** Deeply tied to all these steps is the availability of good quality data that can be processed and analyzed and then turned into actionable insights.
 - there needs to be room for other perspectives i.e. strength of belief that people with experience bring to the discussion and right mix of data and non-data sources must be considered, too much of one or the other may not deliver the expected results
 
-- **NOTE:** consider ongoing process, when it comes to the best practices for strategy development. No need to update the strategy every month, as they are intended to last for several years but revist the strategy every 6 months and tweak it as necessary. Revisions should be guided by new data
+- **NOTE:** consider ongoing process, when it comes to the best practices for strategy development. No need to update the strategy every month, as they are intended to last for several years but revist the strategy every 6 months and tweak it as necessary. Revisions should be guided by new data (new knowledge or new insights)
 
+### Decision-Making 
+- highest form of value derived from data is the ability to make better-informed decisions
+- **NOTE:** Without even creating a single unit of raw data, there’s a universe of existing data and information at our fingertips. In addition, increasing numbers of easy-to-use analysis capabilities and tools are democratizing access to insight
 
+- within organizations, access to abundant data and information has resulted in quicker, timeous and better-quality business decisions e.g. executives can understand their strengths, weaknesses, opportunities and threats closer to real time
+- **IMPORTANT:** While there’s little surprise that data-driven decision-making is a fundamental business competency, it all hinges on decision-makers getting access to quality data at the right time. Abundant and out-of-date data are not synonymous with data value. Bad data may be worse than no data. Bad data processed into information and then used as the basis for decisions will result in failure. The outcome of decisions based on bad data could range from a minor mistake to job termination right up to the closing of the business.
 
+### Measuring
+- organizations = continuous state of measurement
+- what gets measured gets managed but some things are hard to measure and not everything gets measured
+- **TIP:** Data measurements can be quantitative or qualitative. Quantitative data is most often described in numerical terms, whereas qualitative data is descriptive and expressed in terms of language.
 
+- **NOTE:** The type of information desired directly correlates to the measurement approach. This is going to inform your choices of at least what, when, where, and how data is captured. A general rule is only to capture and measure what matters.
+- William Bruce Cameron = “Not everything that can be counted counts, and not everything that counts can be counted.”
+    - teaches us that being overly passionate to believe that you can always find relevance in any type of data, be the mere fact that you can identify data elements.
+
+### Monitoring
+- 
 
 
 
