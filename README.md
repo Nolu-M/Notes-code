@@ -2820,7 +2820,46 @@ Harry Styles is a singer and was in the group, One Direction
     - teaches us that being overly passionate to believe that you can always find relevance in any type of data, be the mere fact that you can identify data elements.
 
 ### Monitoring
+- ongoing process of collecting and evaluating the performace of e.g. a project, process, system etc
+- collected results compared against some existing values or desired targets e.g. a machine on a factory floor may be expected to produce 100 widgets per hour
+    - monitoring in order to inform whether this expectation is being met
+ - monitoring also helps to ensure the continuity, stability and reliability of that being supervised
+
+ - **NOTE:** Involved in monitoring is the data produced by the thing being evaluated. It’s also the data that is produced as a product of monitoring. For example, the deviation from the expected result.
+ - the data produced through monitoring feedss reports, real-time systems and software-based dashboards
+
+ - monitoring: another process that converts data into insight and as such, exists as the mechanism to guide decisions
+ - role of data in measurement and monitoring = go hand-in-hand (measure something you want to monitor)
+ - data is a type of connective tissue that binds business functions
+ - this required oversight and controls, as stakeholders often have different responsibilities and permissions e.g. people responsible for providing measurement data on processes may belong to a different team from those who have to monitor and report on the measurement data
+ - thos who take action may also belong to a different department in the organization
+
+ - Data monitoring: also the process of evaluating the quality of data and determining if it is fit for purpose
+    - achieving this requires processes, technologies and benchmarks
+    - data monitoring begins with establishing data quality metrics and then measuring results over time on a continuous basis
+    - monitoring metrics may include areas such as completeness and accuracy
+  
+### Insight Management
+- data forms the building blocks of many business functions
+- business insight: information that can make a difference
+- **IMPORTANT:** insight management means ensuring that data and information are capable of delivering insight
+
+- begins with gathering and analyzing data from different sources
+- to determine what data to process = those responsible for insight management must understand the organization's information needs, be knowledgeable about what data has value and must know how information flows across the organization and who it must reach
+
 - 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
