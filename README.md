@@ -3087,10 +3087,10 @@ Harry Styles is a singer and was in the group, One Direction
 - Data valuation, while generally recommended in larger enterprises, is a requirement for advanced data monetization such as selling or licensing data
 
 - ways to determine data valuation:
-    - Cost value method 🇧🇻
-    - Market value approach:
-    - Economic value approach:
-    - With-and-without method:
+    - Cost value method: value calculated by determining production cost, storage and replacement of data; doesn't necessary account for economic value that the data can produce
+    - Market value approach: value calculated by researching how comparable data is being priced in the open market; great if market-based comparable data exists; doesn;t work for vast number of data sets that are not traded
+    - Economic value approach: value calculated by measuring impact a data set has on the business's bottom line; difficult method
+    - With-and-without method: value calculated by quantifying impact on cash flow if a data set needs to be replaced; with or without data scenarios are explored and the difference between cash flow is used to determine data value; challenging to pinpoint specific impact on data set
 
 
 
