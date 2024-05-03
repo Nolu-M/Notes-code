@@ -3102,15 +3102,35 @@ Harry Styles is a singer and was in the group, One Direction
 - executives who demonstrate DDDM are role models for the entire enterprise; enabling the right people use the right data at the right time required data security and data-use policies = core cunctions of data governance
 
 - six step process to data-driven decision-making
-    1. Define the objectives: understanding the objectives relative to the effort anf their alignment with organizational goals; helps scope the work and define metrics = useful to work backwards
-    2. Identify the data: in addition to using a data catalogue, enterprise search etc requires engaging with impacted stakeholders --> getting input from a diverse group of people & teams helps; consult data stewards, owners etc with data governance responsibilities
-    3. Prepare the data: if data is easily accessible and high-quality = good shape; otherwise deep data science skills are needed to prepare the data for use in data analytics platform
-    4. Analyze the daya: complex analysis = tools like ETL architecture; data extracted from one system and made ready and available for use in another; visualizations such as graphs, charts used
-    5. Determine the findings: display data in a variety of ways and ask questions about it
-    6. Take action: make decisions which would result in actions
+    1. **Define the objectives:** understanding the objectives relative to the effort anf their alignment with organizational goals; helps scope the work and define metrics = useful to work backwards
+    2. **Identify the data:** in addition to using a data catalogue, enterprise search etc requires engaging with impacted stakeholders --> getting input from a diverse group of people & teams helps; consult data stewards, owners etc with data governance responsibilities
+    3. **Prepare the data:** if data is easily accessible and high-quality = good shape; otherwise deep data science skills are needed to prepare the data for use in data analytics platform
+    4. **Analyze the data:** complex analysis = tools like ETL architecture; data extracted from one system and made ready and available for use in another; visualizations such as graphs, charts used
+    5. **Determine the findings:** display data in a variety of ways and ask questions about it
+    6. **Take action:** make decisions which would result in actions
 
 ## Developing a Data Strategy for Improved Results
+reasons that organizations don’t take a proactive approach to managing data:
+    - “If it ain’t broke”, why fix it?
+    - It’s too expensive and time-consuming to focus on data.
+    - It’s far too complicated.
+    - Data management and governance — what is that?
+- **NOTE:** The purpose of any type of strategy is to agree on a set of guiding principles that inform decision-making in support of a desired outcome. In simple terms, it’s the roadmap on how to reach your goals.
 
+- people must agree on how decisions will be made and how resources will be allocated
+- strategy = have clarity and make it easy for all leaders and team members to know what they need to do, what to avoid and how actions should be prioritized
+
+- some organizations do not have a current and well-communicated strategy; hard to create a strategy and often a bureaucratic effort when some leaders believe all the energy should be on execution every day
+
+- strategies consider the vision, mission as well as guiding principles and can apply to processes and assets too
+- needed in order to elevate data to become a strategic resources; strategy should reflect the size and complexity of your businesses and the industry in which you operate
+- good strategy = guide decision-making & resource allocation around data in support of organization; it will demonstrate and communicate data as a priority and ensure success of the organization is optimized 
+
+## Creating a Data Strategy
+before jumping in after creating a data strategy, consider the following characteristics as a guide:
+- **Data maturity:** 
+
+- **Industry and size:**
 
 
 
