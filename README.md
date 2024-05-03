@@ -3087,7 +3087,7 @@ Harry Styles is a singer and was in the group, One Direction
 - Data valuation, while generally recommended in larger enterprises, is a requirement for advanced data monetization such as selling or licensing data
 
 - ways to determine data valuation:
-    - Cost value method🇧🇻
+    - Cost value method 🇧🇻
     - Market value approach:
     - Economic value approach:
     - With-and-without method:
