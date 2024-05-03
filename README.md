@@ -3075,18 +3075,22 @@ Harry Styles is a singer and was in the group, One Direction
     ```
 
 ## Data Monetization
-- an asset: something owned that has the expectation of delivering value
+- *an asset:* something owned that has the expectation of delivering value
 - data falls into the same category as assets such as copyrights and software
 
 - data doesn't show up on the balance sheet --> those assets that are required to be included in the accounts are carefully assessed so that an accurate picture can be captured of an organization's financials
 
-- data valuation: without a process to place a price on a data set; value of a given data set may be highly subjective and may differ considerably between perspectives of team members
+- *data valuation:* without a process to place a price on a data set; value of a given data set may be highly subjective and may differ considerably between perspectives of team members
 - Without this knowledge, it’s much harder to take advantage of the opportunities that some data sets may provide, such as business growth and operational excellence.
 
-- data monetization: when data provides an economic benefit to an organization
+- *data monetization:* when data provides an economic benefit to an organization
 - Data valuation, while generally recommended in larger enterprises, is a requirement for advanced data monetization such as selling or licensing data
 
-
+- ways to determine data valuation:
+    - Cost value method🇧🇻
+    - Market value approach:
+    - Economic value approach:
+    - With-and-without method:
 
 
 
