@@ -2486,6 +2486,7 @@ Personally Identifiable Information (PII) is any data that can uniquely identify
 
 - achieved through a set of common elements
 - most common elements of a data governance program:
+  
     ![image](https://github.com/Nolu-M/Python/assets/119700411/eec864ee-fdfd-4e9c-bae8-d8757f079703)
 
 ## Developing a Data Governance Framework
