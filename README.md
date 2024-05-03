@@ -1091,7 +1091,7 @@ the application should have a configurable GUI for the admin to interact with, b
     - built in sources for help
     - develop and use your support network
       
-### learning new Computing Skills
+### Learning new Computing Skills
 - use websites and Youtube videos
 - try out and explore, errors will occur and modern software will warn you and allow you to undo them
 - look for patterns, differences/similarities so you can begin to guess what to expect
@@ -3092,10 +3092,24 @@ Harry Styles is a singer and was in the group, One Direction
     - Economic value approach: value calculated by measuring impact a data set has on the business's bottom line; difficult method
     - With-and-without method: value calculated by quantifying impact on cash flow if a data set needs to be replaced; with or without data scenarios are explored and the difference between cash flow is used to determine data value; challenging to pinpoint specific impact on data set
 
+- *data asset management:* a business must know what data sets it has and understand their value; it must have a plan for utilization and a mechanism to measure return on investment
 
+## Data-Driven Decision Making
+- **NOTE:** data-driven decision-making (DDDM) is the process of using data to drive business decisions
+- DDDM can be effective anc contribute to high performance when an organization has data culture and specific skills and tools
 
+- organizations that excel in DDDM do so through deliberate actions and investments;
+- executives who demonstrate DDDM are role models for the entire enterprise; enabling the right people use the right data at the right time required data security and data-use policies = core cunctions of data governance
 
+- six step process to data-driven decision-making
+    1. Define the objectives: understanding the objectives relative to the effort anf their alignment with organizational goals; helps scope the work and define metrics = useful to work backwards
+    2. Identify the data: in addition to using a data catalogue, enterprise search etc requires engaging with impacted stakeholders --> getting input from a diverse group of people & teams helps; consult data stewards, owners etc with data governance responsibilities
+    3. Prepare the data: if data is easily accessible and high-quality = good shape; otherwise deep data science skills are needed to prepare the data for use in data analytics platform
+    4. Analyze the daya: complex analysis = tools like ETL architecture; data extracted from one system and made ready and available for use in another; visualizations such as graphs, charts used
+    5. Determine the findings: display data in a variety of ways and ask questions about it
+    6. Take action: make decisions which would result in actions
 
+## Developing a Data Strategy for Improved Results
 
 
 
