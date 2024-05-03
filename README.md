@@ -3128,9 +3128,46 @@ reasons that organizations don’t take a proactive approach to managing data:
 
 ## Creating a Data Strategy
 before jumping in after creating a data strategy, consider the following characteristics as a guide:
-- **Data maturity:** 
+- **Data maturity:** the degree to which the organization already uses and optimized data and has experience & skills, as well as the quality of the existing data
 
-- **Industry and size:**
+- **Industry and size:** two frameworks = *defense* - deals with fundamental areas such as data security and quality and *offense* - using data for insight management and market-facing initiatives; every organization does both but most emphasize on over the other depending on industry & size
+
+- data strategy should account for these 5 areas of data requirments:
+    - **Identify:** data should be clearly defined and described i.e. file name, format and metadata
+    - **Store: Provision:** design & develop capabilities for supporting the place and process for hosting data and how it will be shared, accessed and processed
+    - **Provision: determine processes to share & reuse data and define guidelines for access
+    - **Process:** raw dat transformed, including processes for data cleansing, standardization and integration with other data sets
+    - **Govern:** institute processes to manage and communicate data policies for data use with the organization
+
+- four data strategy components:
+    1. **Alignment with the business:** data strategy = subset of overall business strategy, therefore, it must support and advance larger goals of organization; map out goals clearly/how they support business strategy
+    2. **Identifying roles and responsibilities:** requires people to take specific actions
+    3. **Data architecture:** processes, systems and applications that support working with data; include defining data storage needs and analysis tools --> also includes data catalogs, a data warehouse & the tools for data pipelines, movement of data and related ETL functions; data strategy should support data architecture scalability etc.
+    4. **Data management:** broad umbrella of activities that manage full lifecycle of data in an organization; recognizes that data is a strategic asset and must have the attendant processes, procedures, policies, skills and tools to ensure it is treated in such as manner --> includes management of data security & privacy, quality, metadata, integration, master data management and analytics
+
+- **NOTE:** Data governance establishes the rules for data use, and data management ensures that, in the act of realizing data value in the organization, these rules are followed. For example, a data governance policy may state that data with a certain confidentiality classification may only be accessible by a specific role level in the organization. Data management will be the processes, tools, and staff that ensure that this governance rule is followed.
+
+    ![image](https://github.com/Nolu-M/Python/assets/119700411/284a9e9a-d112-4bce-98f1-4c412afee92e)
+
+## Managing and Monitoring Your Data Strategy
+- have a buy-in, a roadmap and execution underway, but accompanying data governance and data management functions must also be in place
+- **TIP:** All strategies must be open to periodic modification. It’s not realistic to expect a strategy to be fixed for its duration in a fast-moving business world. Your evolving customer expectations, organizational needs, the economy, and more all play a role in forcing a strategy to adapt.
+
+- a strategy is created with information you have + assumptions; as strategy plays out, errors and gaps can be found
+- it will become apparent whether objectives, goals and metrics were correctly calibrated = problematic if any are off the mark --> triggers you to go back and review plan & make adjustments
+
+- **NOTE:** The worst thing you can do is design a strategy, implement it, and place the plan on a shelf only to revisit it three to five years later. Unfortunately, this happens more often than not. It is something you experience often in your organization.
+
+- monitoring your data strategy = having right metrics, getting feedback regularly from participants and auditing related outcomes
+- all strategies, including data strategy = regulalarly reviewd & modified as necessary.
+
+
+
+
+
+
+
+
 
 
 
