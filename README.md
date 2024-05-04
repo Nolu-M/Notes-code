@@ -2617,7 +2617,8 @@ Ensuring that Columbia Records make the decision to sign Harry Styles before any
                               |
                            WISDOM
                               |
-One Direction was a very successful band with talented and popular individuals, and knowing that Harry Styles is a creative artist who now wants a solo record deal
+One Direction was a very successful band with talented and popular individuals,
+and knowing that Harry Styles is a creative artist who now wants a solo record deal
                               |
                          KNOWLEDGE
                               |
@@ -2640,7 +2641,7 @@ Harry Styles is a singer and was in the group, One Direction
 - since mid-20th century, as more computers came online = role of data has grown
 - both quantity and quality of data have increased and the availability of it to so many people
 - the arrival of the internet in the mid-1990s resulted in the reality of the Information Industry Association's 1970's motto, "Putting information at your fingertips."
-- In the late 1980s, Bill Gates, co-founder and former CEO of Microsoft
+- In the late 1980s, Bill Gates, co-founder and former CEO of Microsoft would later build on this and champion the idea that eventually, “any piece of information you want should be available to you.” 
 - **NOTE:** In these early decades of the 21st century, we are producing more data than we can handle, and the depth, breadth, and quality of the data that is being used are reshaping not just the tools and capabilities of our industries and cities, but the nature of how we learn, socialize, and entertain ourselves. It’s also elevating risks that we may previously have characterized as annoyances to a world today where a cyberattack can result in millions of dollars of losses in hours.
 
 ## Data-Driven Decision-Making
