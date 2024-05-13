@@ -3268,8 +3268,11 @@ before jumping in after creating a data strategy, consider the following charact
 
 ### Notifications
 - important part of the Insights capabilities in Power BI
-- 
+- Power BI automatically runs insights analysis, when it identifies insights = presented with a notficiation (can choose to see or ignore insights)
+- great way to proactively interact with suggested insights to ensure you are not missing anything important i.e. if sales in specific region have increased
+- top insights = noteworthy, based on factors like recency and significance of the trend or anomaly
 
+## Get 
 
 
 
