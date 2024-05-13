@@ -3249,7 +3249,11 @@ before jumping in after creating a data strategy, consider the following charact
 - examples of available transformations include removing a column from table, dupicating column under a new name or replacing values
 
 ### Clean data
-- 
+- Power Bi visualization and modeling tools work best with columnar data
+- a table layout that looks good to the eye might not be optimal for automated queries e.g spreadsheet that has headers that span multiple columns
+  ![image](https://github.com/Nolu-M/Python/assets/119700411/68c8d24c-4575-44f9-ac7e-f9b7d4e2f9cb)
+- when cleaning data, might combine those rows into a single item to better format the data to fit your needs or may have a series of numeric data that would need to be aggregated to display better
+
 
 </details>
 
