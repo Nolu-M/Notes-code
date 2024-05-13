@@ -3163,22 +3163,15 @@ before jumping in after creating a data strategy, consider the following charact
 - monitoring your data strategy = having right metrics, getting feedback regularly from participants and auditing related outcomes
 - all strategies, including data strategy = regulalarly reviewd & modified as necessary.
 
+</details>
 
-
-
-
-
-
-
-
-
-
-
-
+<details>
+<summary>Power BI</summary>
+    
+# Get started with Power BI
 
 
 </details>
-
 
 
 
