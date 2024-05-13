@@ -3254,6 +3254,27 @@ before jumping in after creating a data strategy, consider the following charact
   ![image](https://github.com/Nolu-M/Python/assets/119700411/68c8d24c-4575-44f9-ac7e-f9b7d4e2f9cb)
 - when cleaning data, might combine those rows into a single item to better format the data to fit your needs or may have a series of numeric data that would need to be aggregated to display better
 
+## Describe using AI Insights to spot trends and anomalies
+- anomalies and trends in your data can be identified as you intercat with the data and consume elements such as reports, dashboards and visualizations
+- it notifies you of any interesting insights and provides explanations for them
+- it works out-of-th-box on any report, so you can automatically start getting insights from your reports without any setup
+
+- Power BI has multiple insights features that use artificial intelligence (AI):
+    - **Insights for reports:** Analyzes data and finds anomalies and trends in your data as you interact with reports
+    - **Insights for individual visuals:** Analyzes and explains the fluctuations of data points in visuals.
+    - **Insights for dashboard tiles:** Looks at the data being used to render that tile and presents them in interactive visuals.
+    - **Quick Insights for datasets:** Automatically generate data insights on a dataset in the Power BI service.
+    - **AI Insights for data models in Power Query:** Provide access to pretrained machine learning models from Azure Cognitive Services.
+
+### Notifications
+- important part of the Insights capabilities in Power BI
+- 
+
+
+
+
+
+
 
 </details>
 
