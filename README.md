@@ -3216,11 +3216,23 @@ before jumping in after creating a data strategy, consider the following charact
 - when you open an app = presented with a dashboard, to access underlying report, select dashboard tile that was pinned from a report
 - by default, report opens in Reading view, select **Edit report** to open in editing view
 
+### Dashboards
+- single canvas that contains zero or more tiles and widgets
+- each tile pinned from a report or from Q&A displays a single visualization created from a dataset and pinned to the dashboard
+- why create dashboards:
+    - to see all information for decision making
+    - to monitor important information
+    - ensure colleagues are on the same page, viewing and using same information
+    - monitor health of business, product, business unit etc.
+    - create personalized view of larger dashboard and show all metrics that matter
+- when dashboard open, associated dashboards listed under **Dashboards tab**, select to open
 
+### Template Apps
+- enable Power BI partners to build Power BI apps with little or no coding and deploy them to any Power BI customer
+- Power BI partner can create a set of out-of-the-box content for customers and publish it yourself
 
-
-
-
+- can build tamplate apps that allow customers to connect within their own accounts
+- domain experts can unlock data in a way that is easy for their business users to consume
 
 
 
