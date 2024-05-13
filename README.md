@@ -3234,6 +3234,15 @@ before jumping in after creating a data strategy, consider the following charact
 - can build tamplate apps that allow customers to connect within their own accounts
 - domain experts can unlock data in a way that is easy for their business users to consume
 
+## Describe cleaning and transforming data in Power BI Desktop
+- cleaning and transforming data is how you prepare data for use
+- use the Power BI Desktop application for transforming and cleaning data
+- Power BI Desktop has 3 views:
+    - **Report view:** can create queries to build compelling visualizations you can share
+    - **Data view:** see data in your report in data model format, can add measures, create new columns and manage relationships
+    - **Model view:** get a graphical representation of relationships established in data model and manage or modify them as needed
+- Power BI Desktop includes the **Power Query Editor tool:** can help you shape & transform data for models and visualizations
+- select **Edit** from **navigator** window to launch Power Query Editor, can also be launched from Power BI Desktop using **Transform Data** button on Home ribbon
 
 
 
