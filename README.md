@@ -3169,7 +3169,30 @@ before jumping in after creating a data strategy, consider the following charact
 <summary>Power BI</summary>
     
 # Get started with Power BI
-## Describe using Power BI to build data-drive
+## Describe using Power BI to build data-driven analytics
+- Microsoft Power BI (Business Intelligence): a collection of software services, apps and connectors that work together to turn unrelated sources of data into coherent, visually immersive and interactive insights
+- lets you easiily connect to your data sources, clean and model your data without affecting underlying source, visualize (or discover) what's important and share that with anyone/everyone
+- consists of a **Microsoft Windows desktop application** ---> **Power BI Desktop**, an **online SaaS (Software as a Service) service** ---> **the Power BI service** and **mobile Power BI apps** that are available on phones and tablets
+- these three elements are designed to let people create, share and consume business in a way that serves them or their role most effectively.
+
+## Explore the different Power BI elements
+- to create Power BI Solutions, several building blocks which are elements that help with the data being presented and its appearance to those users who are consuming it.
+    - elements = datasets, reports and dashboards, organized into workspaces and created on capacities.
+
+### Capacities
+- core Power BI concept representing a set of resources used to host and deliver your Power BI content
+- are shared (shared with other Microsoft customers) or dedicated (fully committed to single customer, require subscription)
+- by default, *workspaces are created on a shared capacity*.
+
+### Workspaces
+- containers for dashboards, reports, datasets and dataflows in Power BI
+- two types:
+    1. **My workspace:** personal workspace for any Power BI customer to work with their own content, only have access to your My workspace, can share dashboards and reports for collaboration use workspace.
+    2. **Workspaces:** used to collaborate and share content with colleagues, can add colleagues to your workspaces and collaborate on dashboards, reports and datasets, with one exception = all workspace members need Power BI pro licenses.
+
+
+
+
 
 </details>
 
