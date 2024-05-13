@@ -3188,7 +3188,39 @@ before jumping in after creating a data strategy, consider the following charact
 - containers for dashboards, reports, datasets and dataflows in Power BI
 - two types:
     1. **My workspace:** personal workspace for any Power BI customer to work with their own content, only have access to your My workspace, can share dashboards and reports for collaboration use workspace.
-    2. **Workspaces:** used to collaborate and share content with colleagues, can add colleagues to your workspaces and collaborate on dashboards, reports and datasets, with one exception = all workspace members need Power BI pro licenses.
+    2. **Workspaces:** used to collaborate and share content with colleagues, can add colleagues to your workspaces and collaborate on dashboards, reports and datasets, with one exception = all workspace members need Power BI pro licenses. Also the place to create, publish and manage apps for organization - staging areas & containers for content that makes up a Power BI app.
+        - app = a collection of dashboards and reports built to deliver key metrics to the Power BI consumers in organization.
+        - apps are interactive, consumers can't edit them and app consumers as well as colleagues who have access to apps don't need Pro licenses.
+
+### Semantic models
+- a collection of data that you import or connect to, also can source data from dataflows
+- associated with workspaces, single semantic model can be part of multiple workspaces
+- when workspaces is opened, associated semantic models are listed under **semantic models tab**, each representing a collection of data e.g. semantic model can contain data from an Excel workbook on OneDrive, an on-premises SSAS tabular semantic model and/or Salesforce semantic model
+- semantic models added by one workspace member are available to other workspace members with an admin member, or contributor role.
+
+### Shared semantic models
+- important to establish standardized semantic models that can be the 'one sources of truth' discovering and reusing those standardized semantic models is key
+- expert data modelers create and share optimized semantic models, report creators can start with those semantic models to build accurate reports
+- organization = consistent data for decisions & a healthy data culture
+- to consume shared semantic models, choose **Power BI semantic models** when creating Power BI report
+
+### Reports
+- one or more pages of visualizations i.e. line charts, maps, and other elements
+- can be created from scratch, import them from shared dashboards or have Power BI generate them when connecting datasets
+- e.g. when you connect to an Excel workbook that contains Power View sheets, Power BI creates a report based on those sheets, and when you connect SaaS application, Power BI imports a prebuilt report
+- two models to view and interact with reports:
+    - Reading view: report opened by user
+    - Editing view: individuals that have edit permissions, used to modify different elements on the report an how they're presented
+- workspace opened =  associated reports listed under **Reports** tab, each report represents one or more pages of visualizations based on only one og the underlying datasets
+
+- when you open an app = presented with a dashboard, to access underlying report, select dashboard tile that was pinned from a report
+- by default, report opens in Reading view, select **Edit report** to open in editing view
+
+
+
+
+
+
 
 
 
