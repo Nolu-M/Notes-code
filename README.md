@@ -3244,8 +3244,12 @@ before jumping in after creating a data strategy, consider the following charact
 - Power BI Desktop includes the **Power Query Editor tool:** can help you shape & transform data for models and visualizations
 - select **Edit** from **navigator** window to launch Power Query Editor, can also be launched from Power BI Desktop using **Transform Data** button on Home ribbon
 
+### Transforming data
+- process of putting data into a format what is useable
+- examples of available transformations include removing a column from table, dupicating column under a new name or replacing values
 
-
+### Clean data
+- 
 
 </details>
 
