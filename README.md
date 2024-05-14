@@ -3287,7 +3287,41 @@ insights pane currently shows 3 types of insights:
 #### Anomalies
 - an abnormality in time-series data, such as unexpected spikes and dips in the data
 - algorithm = a boundary around what is considered a normal or expected value, any value found outside this boundary is marked as an anomaly
-- three 
+- three types of anomaly insights
+    1. Significant anomaly: the anomaly has a high score, anomaly score = how far the point is from expected range
+    2. Recent anomaly: the most recent anomaly in the measure
+    3. Anomaly summary: insight type summarizes multiple anomalies in the measure
+- when anomly in data is flagged, Power BI runs an analysis across different dimentions in data model to look for spikes/dips in the measure that correlates to anomaly, they're shown as possible explanations ranked by strength
+    ![image](https://github.com/Nolu-M/Python/assets/119700411/5094fa4b-473f-41f1-9c2d-00dbe573931d)
+  
+#### Trends
+- occurs when theres a prolonged increase or decrease in time-series data
+- Power BI algorithm follows a series of steps to find meaningful trends by
+    - first performs data smoothening, interpolation and time-series sampling.
+    - trends are then identifies for statistical significance based on slop and length of a change in value
+    - algorithm removes noise like seasonality and outliers e.g. if sales jump in December, algorithm doesn't mark that as noteworthy trend because it's common for sales to jump during holidays
+- four main trends flagged:
+    - **Long trend:** significant and the longest trend within a single series or across multiple series in a visual
+    - **Steep trend:** trend is signifcant and steepest trend with a single series or across multiple series in a visual
+    - **Recent trend:** trend is significant and most recent within single or across multiple series in a visual
+    - **Trend reversal:** recent trend ina single series or across multiple series in a visual where the reversal is significant, compared to the previous trend segment
+
+- when trend is flagged, Power BI looks for and identifies categories that most influence the increase/decrease in the identified trend
+- possible explanations are ranked based on the relative contributions from different categories to the increase/decrease trend
+    ![image](https://github.com/Nolu-M/Python/assets/119700411/34401e99-c0d3-496e-9aab-80e099c2032f)
+
+#### KPI analysis
+- KPI analysis with a target looks at the variance of the current value to its target, significant = variance if high or low compared to other segments
+- KPI analysis without a target looks at the value itself and flags ones that are high or low compared to other segments
+
+- KPI analysis explanations --> Power BI looks for and identifies categores that have higher or lower than anticipated values
+- for KPI analysis with target --> possible explanat
+
+
+
+
+
+
 
 
 
