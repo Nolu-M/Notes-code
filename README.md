@@ -3377,7 +3377,7 @@ insights pane currently shows 3 types of insights:
 - can export entire reports to PowerPoint or PDF
 #### Cross highlight and cross filter report content
 - highlight or select a value in one visual and instantly view its impact on the other visuals
-    https://learn.microsoft.com/en-us/training/modules/explore-power-bi-service/media/1-1/power-bi-cross-filter.gif
+    ![](https://learn.microsoft.com/en-us/training/modules/explore-power-bi-service/media/1-1/power-bi-cross-filter.gif)
   
 
 
