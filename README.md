@@ -3282,9 +3282,12 @@ before jumping in after creating a data strategy, consider the following charact
 insights pane currently shows 3 types of insights:
 - Anomalies: something out of the ordinary from what is expected e.g. smart thermostat reading 100F instead of 72F, which would be considered an anomaly
 - Trends: a pattern found in time-series datasets e.g. company's sales are steadily increasing through the month of April
-- Key Performance Indicator (KPI) analysis:
+- Key Performance Indicator (KPI) analysis: helps evaluate current value against a defined target e.g. company sets sales goal at 1.2 million, currently they are at 1 million
 
-
+#### Anomalies
+- an abnormality in time-series data, such as unexpected spikes and dips in the data
+- algorithm = a boundary around what is considered a normal or expected value, any value found outside this boundary is marked as an anomaly
+- three 
 
 
 
