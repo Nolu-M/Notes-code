@@ -3367,12 +3367,18 @@ insights pane currently shows 3 types of insights:
 
 #### Display details on a visual
 - visuals are made up of datapoints, hovering over datapoint = view details
-    ![image](https://github.com/Nolu-M/Notes-code/assets/119700411/04aeb582-5f15-43c8-a76f-e65bb7560354)
 
+#### Show data that is used to create a visual
+- **show data feature** = to view data that Power BI is using to build a visual and selected visual expands to fill the canvas, and the data displays under or alongsied the visual
 
-
-
-
+#### Export data
+- can export data and view it in Microsoft Excel --> when exporting to Excel you are creating a separate document, a spreadsheet that isn't part of Power BI
+- changes made to Excel do not impact the data in Power BI
+- can export entire reports to PowerPoint or PDF
+#### Cross highlight and cross filter report content
+- highlight or select a value in one visual and instantly view its impact on the other visuals
+    https://learn.microsoft.com/en-us/training/modules/explore-power-bi-service/media/1-1/power-bi-cross-filter.gif
+  
 
 
 </details>
