@@ -3168,8 +3168,8 @@ before jumping in after creating a data strategy, consider the following charact
 <details>
 <summary>Power BI</summary>
     
-# Get started with Power BI
-## Describe using Power BI to build data-driven analytics
+# Get started with Power BI - 3 modules
+## Describe using Power BI to build data-driven analytics - Module 1
 - Microsoft Power BI (Business Intelligence): a collection of software services, apps and connectors that work together to turn unrelated sources of data into coherent, visually immersive and interactive insights
 - lets you easiily connect to your data sources, clean and model your data without affecting underlying source, visualize (or discover) what's important and share that with anyone/everyone
 - consists of a **Microsoft Windows desktop application** ---> **Power BI Desktop**, an **online SaaS (Software as a Service) service** ---> **the Power BI service** and **mobile Power BI apps** that are available on phones and tablets
@@ -3350,6 +3350,18 @@ insights pane currently shows 3 types of insights:
 - Miami Heat basketball team used Power BI to transform their customer interactions and business operations - were able to boost season ticket sales by 30% and save appr. $1 million on operations
 - they wanted to understand the family of customers that enter their arena or interact with them online and the challenge was to understand a single customer when there are so many
 - by analyzing their data, the Miami Heat operations team increased their revenue but also improved the allocation of resources by predicting customer behaviour
+
+## Explore what Power BI can do for you - Module 2
+### What can I do with the Power BI service as a consumer?
+- Power BI makes the job easier by converting all that data into charts and graphs to help you visualize your data in meaningful ways
+- data updates and refreshes automatically, so you can work with your colleagues from the same dashboards and reports
+- 
+
+
+
+
+
+
 
 
 </details>
