@@ -3367,7 +3367,8 @@ insights pane currently shows 3 types of insights:
 
 #### Display details on a visual
 - visuals are made up of datapoints, hovering over datapoint = view details
-
+    ![](https://learn.microsoft.com/en-us/training/modules/explore-power-bi-service/media/1-1/power-bi-hover.gif)
+  
 #### Show data that is used to create a visual
 - **show data feature** = to view data that Power BI is using to build a visual and selected visual expands to fill the canvas, and the data displays under or alongsied the visual
 
