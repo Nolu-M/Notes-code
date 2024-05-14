@@ -3346,6 +3346,11 @@ insights pane currently shows 3 types of insights:
 - initially dashboards that you create one are only visible to the person that created them, however, by sharing the link to your dashboard and report with others who have a Power BI account, they too can interact with it, but can't save changes.
 - if you allow it, they can reshare with others or build a new report based on the underlying dataset
 
+## Consider the business value of Power BI
+- Miami Heat basketball team used Power BI to transform their customer interactions and business operations - were able to boost season ticket sales by 30% and save appr. $1 million on operations
+- they wanted to understand the family of customers that enter their arena or interact with them online and the challenge was to understand a single customer when there are so many
+- by analyzing their data, the Miami Heat operations team increased their revenue but also improved the allocation of resources by predicting customer behaviour
+
 
 </details>
 
