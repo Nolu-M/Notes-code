@@ -3355,8 +3355,19 @@ insights pane currently shows 3 types of insights:
 ### What can I do with the Power BI service as a consumer?
 - Power BI makes the job easier by converting all that data into charts and graphs to help you visualize your data in meaningful ways
 - data updates and refreshes automatically, so you can work with your colleagues from the same dashboards and reports
-- 
+- contens is not static = explore data further by looking for trends, insights and other business intelligence
+- intutive features of Power BI allow you to slice content and ask questions using own words
 
+#### How to know if you're a Power BI consumer
+- the way you interact with Power BI depends on job role --> consumer = receives dashboards, reports and apps from designers who create them, also work in online version of Power BI = Power BI service to review & interact with data
+
+#### Safely interact with content
+- can explore and interact with content, filter, slice, subscribe and export content without affecting underlying dataset or original dashboards, reports or apps
+- changes can be saved but they only affect your view of the content and you revert to the original default view by **selecting reset button**
+
+#### Display details on a visual
+- visuals are made up of datapoints, hovering over datapoint = view details
+    ![image](https://github.com/Nolu-M/Notes-code/assets/119700411/04aeb582-5f15-43c8-a76f-e65bb7560354)
 
 
 
