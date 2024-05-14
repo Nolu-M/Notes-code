@@ -3292,6 +3292,7 @@ insights pane currently shows 3 types of insights:
     2. Recent anomaly: the most recent anomaly in the measure
     3. Anomaly summary: insight type summarizes multiple anomalies in the measure
 - when anomly in data is flagged, Power BI runs an analysis across different dimentions in data model to look for spikes/dips in the measure that correlates to anomaly, they're shown as possible explanations ranked by strength
+  
     ![image](https://github.com/Nolu-M/Python/assets/119700411/5094fa4b-473f-41f1-9c2d-00dbe573931d)
   
 #### Trends
@@ -3308,6 +3309,7 @@ insights pane currently shows 3 types of insights:
 
 - when trend is flagged, Power BI looks for and identifies categories that most influence the increase/decrease in the identified trend
 - possible explanations are ranked based on the relative contributions from different categories to the increase/decrease trend
+  
     ![image](https://github.com/Nolu-M/Python/assets/119700411/34401e99-c0d3-496e-9aab-80e099c2032f)
 
 #### KPI analysis
