@@ -3321,10 +3321,22 @@ insights pane currently shows 3 types of insights:
 - KPI analysis **without** a target --> possible explanations are ranked based on **Z-scores of the value itself**
 
 ## Build a basic dashboard
+- with Power BI you can easily create and share a dashboard with a manager by connecting to a data source i.e. Excel spreadsheet
+    - **prepare data:** data is in a format that Power BI can easily consume
+    - **build a report:** report contains visuals to be included in dashboard, buile either with Power BI Desktop or Power BI service
+    - **pin the report visuals to a dashboard:** dashboards = primary element that users use to view data, can include data from multiple reports as needed
+    - **share a link to the dashboard:** any users with the link and necessary permissions are able to view and interact with the data
 
+### Prepare the data
+- prepare data for consumption = data cleansing and transforming using Power Query, if connecting to Excel sheet --> make sure datd is in a flat table and each column contains right data type, total operations are handled in Power BI as we create the visuals
 
+### Upload your data to the Power BI service
+- Power BI service = create reports that connect to your data sources, includes Excel files
+- can attach to a dataset, and Power BI creates a blank dashboard where you're able to place visuals later
 
-
+### Build your report
+- once connected to data, create a new report or edit an existing report --> edit report using editing view, on the right = **Visualizations, Filters and Fields** panes
+- Excel workbook table = **Fields** pane
 
 
 
