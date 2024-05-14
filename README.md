@@ -3315,8 +3315,10 @@ insights pane currently shows 3 types of insights:
 - KPI analysis without a target looks at the value itself and flags ones that are high or low compared to other segments
 
 - KPI analysis explanations --> Power BI looks for and identifies categores that have higher or lower than anticipated values
-- for KPI analysis with target --> possible explanat
+- for KPI analysis **with** target --> possible explanations, are ranked based on **Z-scores of the difference of the value from the target**
+- KPI analysis **without** a target --> possible explanations are ranked based on **Z-scores of the value itself**
 
+## Build a basic dashboard
 
 
 
