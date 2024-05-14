@@ -3266,13 +3266,14 @@ before jumping in after creating a data strategy, consider the following charact
     - **Quick Insights for datasets:** Automatically generate data insights on a dataset in the Power BI service.
     - **AI Insights for data models in Power Query:** Provide access to pretrained machine learning models from Azure Cognitive Services.
 
-### Notifications
+#### Notifications
 - important part of the Insights capabilities in Power BI
 - Power BI automatically runs insights analysis, when it identifies insights = presented with a notficiation (can choose to see or ignore insights)
 - great way to proactively interact with suggested insights to ensure you are not missing anything important i.e. if sales in specific region have increased
 - top insights = noteworthy, based on factors like recency and significance of the trend or anomaly
 
-## Get 
+### Get insights on reports and visuals
+
 
 
 
