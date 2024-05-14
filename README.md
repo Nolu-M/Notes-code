@@ -3273,8 +3273,16 @@ before jumping in after creating a data strategy, consider the following charact
 - top insights = noteworthy, based on factors like recency and significance of the trend or anomaly
 
 ### Get insights on reports and visuals
+- notification capabilities alert and notify you of insights as you're on reports
+- as you're working on Power BI reports and visuals, can select **Get insights** to open the Insights pane
+- pane only shows insights about the current report page, and it updates when you select a different image on the report
+    - when working on individual visualizations, select **More options (...)** in upper-right corner of a visual, then **Get insights** to see insights about just that visual
 
-
+#### Insights
+insights pane currently shows 3 types of insights:
+- Anomalies: something out of the ordinary from what is expected e.g. smart thermostat reading 100F instead of 72F, which would be considered an anomaly
+- Trends: a pattern found in time-series datasets e.g. company's sales are steadily increasing through the month of April
+- Key Performance Indicator (KPI) analysis:
 
 
 
