@@ -3379,7 +3379,29 @@ insights pane currently shows 3 types of insights:
 #### Cross highlight and cross filter report content
 - highlight or select a value in one visual and instantly view its impact on the other visuals
     ![](https://learn.microsoft.com/en-us/training/modules/explore-power-bi-service/media/1-1/power-bi-cross-filter.gif)
-  
+
+#### Collaborate with colleagues
+- can add personal comment or start a conversation with colleagues about a dashboard etc.
+
+#### Let Power BI work for you
+- Power BI sends information to you by email, on a schedule that you set
+
+##### Subscribe to reports and dashboards
+- can subscribe to report pages and dashboards, snapshot sent to you by email
+
+##### Get alerts when your data reaches a threshold
+- notified when data changes beyond or beneath a threshold that you've set, use data alerts.
+- emails is sent when value passes any upper or lower limit that is set
+
+
+
+
+
+
+
+
+
+
 
 
 </details>
