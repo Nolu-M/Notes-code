@@ -3338,7 +3338,13 @@ insights pane currently shows 3 types of insights:
 - once connected to data, create a new report or edit an existing report --> edit report using editing view, on the right = **Visualizations, Filters and Fields** panes
 - Excel workbook table = **Fields** pane
 
+### Pin to a dashboard
+- dashboards are easy to build because you are determining which visuals from your created reports you want to include
+- easy to have detailed dashboards that include data from multiple data sources, even if those data sources might be unrelated
 
+### Share a link to your dashboard
+- initially dashboards that you create one are only visible to the person that created them, however, by sharing the link to your dashboard and report with others who have a Power BI account, they too can interact with it, but can't save changes.
+- if you allow it, they can reshare with others or build a new report based on the underlying dataset
 
 
 </details>
