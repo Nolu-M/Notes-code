@@ -3393,13 +3393,20 @@ insights pane currently shows 3 types of insights:
 - notified when data changes beyond or beneath a threshold that you've set, use data alerts.
 - emails is sent when value passes any upper or lower limit that is set
 
+# Get data in Power BI
+## Get data from files
+- **flat file:** a type of file that has only one data table and every row of data is in the same structure, file doesn't contain hierarchies
+- e.g. comma-separated values (.csv) files, delimited text (.txt) files, and fixed width files. Another type of file would be the output files from different applications, like Microsoft Excel workbooks (.xlsx)
+-  can find a list of the available options when you use the Get data feature in Power BI Desktop
 
+### Flat file location
+- local
+- OneDrive for Business
+- OneDrive - personal
+- SharePoint - Team Sites
+Using a cloud option such as OneDrive or SharePoint Team Sites is the most effective way to keep your file and your semantic model, reports, and dashboards in Power BI in-sync
 
-
-
-
-
-
+### Connect to data in a file
 
 
 
