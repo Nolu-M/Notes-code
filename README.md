@@ -3169,7 +3169,7 @@ before jumping in after creating a data strategy, consider the following charact
 <summary>Power BI</summary>
     
 # 1. Get started with Power BI - 3 modules
-## Describe using Power BI to build data-driven analytics - Module 1
+## Module 1 - Describe using Power BI to build data-driven analytics
 - Microsoft Power BI (Business Intelligence): a collection of software services, apps and connectors that work together to turn unrelated sources of data into coherent, visually immersive and interactive insights
 - lets you easiily connect to your data sources, clean and model your data without affecting underlying source, visualize (or discover) what's important and share that with anyone/everyone
 - consists of a **Microsoft Windows desktop application** ---> **Power BI Desktop**, an **online SaaS (Software as a Service) service** ---> **the Power BI service** and **mobile Power BI apps** that are available on phones and tablets
@@ -3413,7 +3413,86 @@ Using a cloud option such as OneDrive or SharePoint Team Sites is the most effec
 
 # 4. Build Power BI visuals and reports
 
-# 5. Distribute Power BI insights
+# 5. Distribute Power BI insights - 2 modules
+## Module 1 - Publish and share in Power BI
+### Introduction to using workspaces
+sharing reports and dashboards with coworkers and friends
+
+##### Share and collaborate with colleagues in Power BI
+- Publish your reports from **Power BI Desktop** to the **Power BI service**.
+- Create **Apps** that package a dashboard, report, and dataset to send to your colleagues, who can use the content pack as a starting point and further enhance it.
+- Create **Groups**, which you can use as a security model to identify a subset of users who have access to dashboards, reports, and datasets that you create.
+- **Publish to the web** so that live reports can be embedded in a webpage.
+
+### Publish Power BI Desktop reports
+- After you've completed writing your report, select the Publish button on the Home tab
+- Power BI packages your report and data, including visualizations, queries, and custom measures, and uploads them to the Power BI service
+- **NOTE:** It's common to refer to Power BI Desktop reports as .pbix files, which is the extension that they're given in Microsoft Windows.
+- When the upload is complete, a dialog box appears, informing you that the publishing process succeeded, and provides a link to your report in the Power BI service.
+
+### Print and export dashboards and reports
+- In the Power BI service, select File in the top-left side of the service and then select Print this page to open a print dialog box.
+
+#### Export data from a visual
+- You can also export the data from any visual in the Power BI service. Select the ellipsis on any visual and then select Export to .csv.
+- You can also print or export directly from a report. When you are viewing a report in the Power BI service, select File > Print to open the print dialog box.
+
+#### Manually republish and refresh your data
+- To update reports and datasets that you've already published from Power BI Desktop to the Power BI service, select Publish on the Home tab.
+- When you republish a report in the Power BI service, you're prompted to confirm that you want to replace the previous dataset and reports.
+- When you select Replace, the datasets and reports in the Power BI service are overwritten with the new datasets and reports.
+
+### Introducing Power BI Mobile
+- keep track of data while on the move
+- Sign in to your account by using your Power BI service account information.
+- first screen displays all the content to which you have access, including reports, dashboards, and groups. The workspace also includes sample dashboards that you can explore for inspiration.
+
+- Tap any dashboard to open it. Within a dashboard, you can tap a dashboard tile to focus on it in a larger view. Note any insights that you discover by tapping the Annotate button.
+    - **Annotate feature** allows you to draw on a focused tile to highlight areas of interest. The annotation tools are along the bottom of the screen.
+    - Share your annotated tile by tapping the Share link.
+
+### Create workspaces in Power BI
+- **workspace:** defines a set of users who have access to specific dashboards, reports, and datasets.
+- Workspaces are places to collaborate with colleagues to create and refine collections of dashboards, reports, and paginated reports
+- 2 types of workspaces in Power BI:
+    - **Classic workspaces:** groups are based on the groups in Microsoft 365. If you've been using Microsoft 365 groups to manage your group's email, calendar, and documents, then you'll find that Power BI offers the same features. When you create a group in Power BI, you're actually creating an Microsoft 365 group.
+    - **New workspaces:** are now the default workspace in Power BI
+        - Assign workspace roles to user groups: security groups, distribution lists, Microsoft 365 groups, and individuals.
+        - Create a workspace in Power BI without creating a Microsoft 365 group.
+        - Use more granular workspace roles for more flexible permissions management in a workspace.
+        - The Power BI admin can control who can create workspaces in Power BI.
+#### Setting up a new workspace
+- By clicking on Workspaces users can Create a workspace which will allow everybody or nobody in an organization to create new workspaces.
+- They can also limit creation to members of specific security groups.
+
+#### Setting up a classic workspace
+- same steps as setting up a new workspace, with an additional step
+- In the workspace dialog box you need to click on revert to classic to set up a classic workspace
+- In the Create a workspace dialog box, under Advanced you can click on Specific users and groups and type email addresses, security groups, and distribution lists. Then select Save to save the group.
+
+#### Build apps
+- Click on the workspace you published your Power BI Desktop report to, and select the Create app button in the upper right corner to start the process of creating and publishing an app from the workspace.
+- **NOTE:** You cannot publish an app from "My Workspace"
+- On Setup, fill in the name and description to help people find the app
+- Choose whether to distribute the app to specific people or to groups, and then give the app a title. Provide a detailed description in the Description box so that people know what your app provides.
+- On the bottom of the dialog box, you can upload an image for the app and then select the dashboard to include in the app. When you publish, the app is added to the organization's content gallery.
+
+### Use apps
+- Select the workspace that you previously created
+- Power BI imports the dashboards, reports, and datasets that are in the app
+- Create a copy of the app that you can use to make changes and keep it disconnected from the published version of the app. By creating a copy
+
+### Update apps
+- To edit an app that you created previously and see how other people use your app, start in the Power BI Service in My Workspace.
+- Anytime that you make changes to the app you can click on Update app in the upper right hand side of the screen.
+- The Update app dialog box will open, you can make your changes and click Update app.
+- Power BI processes those changes and publishes the updated app to the app gallery.
+    - If the distribution list is large you may get a notification like the one below. Anyone who has connected to your app will receive a message that the app has changed, and they will have the option to accept the changes or to keep the older version.
+    - As the app owner, you can manage the versions that your colleagues are using.
+
+### Integrate OneDrive for Business with Power BI
+- use your Power BI and Office365 groups to collaborate and share by using Microsoft OneDrive for Business
+
 
 # 6. Introduction to Power BI administration - 2 modules
 ## Module 1 - Understand the Power BI administrator role
