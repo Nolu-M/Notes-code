@@ -3407,7 +3407,7 @@ insights pane currently shows 3 types of insights:
 Using a cloud option such as OneDrive or SharePoint Team Sites is the most effective way to keep your file and your semantic model, reports, and dashboards in Power BI in-sync
 
 ### Connect to data in a file
-
+- **TIP:** The Home tab contains quick access data source options, such as Excel, next to the Get data button.
 
 
 
