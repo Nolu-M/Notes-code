@@ -3415,8 +3415,9 @@ Using a cloud option such as OneDrive or SharePoint Team Sites is the most effec
 
 # 5. Distribute Power BI insights
 
-# 6. Introduction to Power BI administration
-## Introduction
+# 6. Introduction to Power BI administration - 2 modules
+## Module 1 - Understand the Power BI administrator role
+### Introduction
 - Power BI allows business users to access the data wherever it resides and gain actionable business insights
 - Power BI allows users to:
     - Harness data from Excel spreadsheets, on-premises data sources, big data, streaming data, and cloud services
@@ -3432,28 +3433,28 @@ Using a cloud option such as OneDrive or SharePoint Team Sites is the most effec
     - Power BI seamlessly integrates with Microsoft business applications (apps) like Dynamics 365 and Office 365, arming users with insights directly within the Microsoft apps
     - integrating intelligence at the point of action leads to automation within systems that trigger commands based on preset thresholds, further operationalizing business insight throughout an organization.
 
-## Power BI tools
+### Power BI tools
 - tools to promote optimal use fall into two categories:
     1. Power BI desktop
     2. Power BI service
 
-### Power BI desktop
+#### Power BI desktop
 - **Power Query Editor:** primary data preparation experience, connect wide range data sources & apply hundreds of different data transformations by previewing data and selecting transformations from the UI
 - **Data modeling:**  Supports the process of creating a visual representation of a whole information system or parts of it to delineate connections between data points and structures
 - **Visualization:** After you have a data model, you can drag fields onto the report canvas to create visuals, visual = graphic representation of the data in your model
 
-### Power BI service
+#### Power BI service
 - **datasets:** A source of data ready for reporting and visualization.
 - **Reports:** Generate reports from the Power BI service from My Workspace or in a new workspace experience. You can also create reports from endorsed datasets
 - **Dashboards:** A single page, often called a canvas, that tells a story through visualizations
 - **Workspaces:** containers for dashboards, reports, workbooks, datasets, and dataflows, *My workspace* is the personal workspace for any Power BI customer to work with your own content and *Workspaces* are used to collaborate and share content with colleagues
 - **Dataflows:** Reusable transformation logic that can be shared by many datasets and reports
 
-## Steward or captain?
+### Steward or captain?
 Are you a steward or a captain?
     ![image](https://github.com/Nolu-M/Notes-code/assets/119700411/4a26444e-7436-4e2c-9a34-cb998ff88e3b)
 
-## Power BI administrator role
+### Power BI administrator role
 - helps the business and empowers the organization while enforcing rules and limits
 - ![image](https://github.com/Nolu-M/Notes-code/assets/119700411/f62239e9-80a5-4cec-8007-b19e38fc295e)
 - To administer Power BI for organization = must be one of the following roles:
@@ -3465,7 +3466,7 @@ Are you a steward or a captain?
 - Power BI capacity and workspace administrator aren't part of Azure and are configured in Power BI.
 - Microsoft Power Platform service administrator uses Microsoft Power Platform admin center to manage environments and settings for Power Apps, Power Automate,     - and the following customer engagement apps, Dynamics 365 Sales, Customer Service, Field Service, Marketing, and Project Service Automation.
 
-## Typical administrative tasks
+### Typical administrative tasks
 
 1. Office 365 global administrator:
     - **Assigning licenses:** In the Power BI service, users have defined capabilities based on the type of per-user license they have (free or Pro) and whether the content they're interacting with is in a workspace assigned to a Power BI Premium capacity. Licenses are assigned in the O365 portal and you must be a global or user - account administrator to assign these licenses.
@@ -3478,7 +3479,7 @@ Are you a steward or a captain?
 4. Microsoft Power Platform administrator:
     - **Manage gateways**: On-premises data gateways act as a bridge, providing quick and secure data transfer between on-premises data - data that isn't in the cloud, and Power BI, Power Automate, Logic Apps, and Power Apps services.
 
-## Typical administrator tools
+### Typical administrator tools
 ![image](https://github.com/Nolu-M/Notes-code/assets/119700411/c74deb47-aa93-4c0c-9b4d-881b6887392b)
 
 - **Power BI admin portal:** Used to manage a Power BI tenant, including the configuration of governance policies, usage monitoring, and provisioning of licenses, capacities, and organizational resources
@@ -3489,6 +3490,56 @@ Are you a steward or a captain?
 - **Azure Active Directory portal:** Advanced Azure AD management tasks such as conditional access is managed here, any developer application registration is also done here and it's also where you start setup of your on-premises gateways.
 - **Powershell:** owerShell cmdlets for app creators and administrators, you can automate many of the monitoring and management tasks that are only possible manually today in Power Apps.
 - **REST APIs:** Automate common Power BI administrator tasks with REST APIs. 
+
+## Module 2 - Establish a Power BI environment
+### Introduction
+- **Power BI tenant:** an additional service subscription and a part of an Office 365 suite that is attached to a domain
+    - When setting up a Power BI environment, you need to understand in which Azure data store the Power BI tenant will be located. Tenant location is based on an organization's Office 365 country;region or Azure Active Directory (AAD) data center.
+    - Power BI tenant should reside in the same Azure region as other O365 services the organization uses.
+ 
+#### How to determine where your Power BI tenant is located
+- find region tenant is in and:
+    - In the Power BI service, in the top menu, select help (?) then About Power BI.
+    - Look for the value next to Your data is stored in. It's the region where your tenant is located. value is also the region where your data is stored unless you're using capacities in different regions for your workspaces.
+
+#### How the data region is selected
+- based on the country or region you select when you create the tenant.
+- selection applies to sign up for both Microsoft 365 and to Power BI, because this information is shared. If this is a new tenant, select the appropriate country/region from the list when you sign up
+- Power BI chooses a data region closest to your selection, which determines where data is stored for your tenant.
+- **IMPORTANT:** You cannot change the country/region selection after you create the tenant.
+
+#### Other things to keep in mind about tenant location
+- Power BI tenants are created in an Azure Data Center.
+- Tenant location is based on Office 365 country/region or Azure Active Directory data center.
+- Think about other Azure services the organization might be considering. Choosing the wrong location could result in Egress charges.
+
+### User accounts versus guest accounts
+- **User accounts** are created in the Azure AD tenant. These users can consume content based on access level and license type
+- **Guest accounts:** are external to the organization. These accounts are part of Azure AD B2B and B2C, and enable users external to the organization to consume or even edit content. The B2C approach allows users with accounts like @gmail and @outlook to view Power BI content.
+
+#### User accounts
+- Exist within the organization
+- Can create and consume content based on access and license
+- Mobile app can be used
+
+#### Guest accounts
+- External to the organization
+- Part of Azure AD B2B & B2C
+- Can consume content (or edit with appropriate permissions)
+- Must have direct URL to shared content
+- Can be consumer accounts such as @outlook.com or @gmail.com)
+- **NOTE:** The Power BI mobile app cannot be used for external content.
+
+### Power BI licensing
+There are two ways for users to get a license:
+- Power BI admins can assign an existing license to users.
+- Users can use their work or school account to sign up for a free Power BI Desktop license, or purchase a Power BI Pro, or Power BI Premium.
+    ![image](https://github.com/Nolu-M/Notes-code/assets/119700411/f7a67a1e-9d27-4ed7-a396-7ffa759b0f94)
+
+#### Who can purchase and assign licenses?
+- must have a Microsoft 365 admin role to purchase or assign licenses for your organization.
+- ![image](https://github.com/Nolu-M/Notes-code/assets/119700411/3a35174e-f2bf-4fa6-9eb8-04272128f639)
+
 
 
 
