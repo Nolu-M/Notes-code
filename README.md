@@ -3478,7 +3478,17 @@ Are you a steward or a captain?
 4. Microsoft Power Platform administrator:
     - **Manage gateways**: On-premises data gateways act as a bridge, providing quick and secure data transfer between on-premises data - data that isn't in the cloud, and Power BI, Power Automate, Logic Apps, and Power Apps services.
 
+## Typical administrator tools
+![image](https://github.com/Nolu-M/Notes-code/assets/119700411/c74deb47-aa93-4c0c-9b4d-881b6887392b)
 
+- **Power BI admin portal:** Used to manage a Power BI tenant, including the configuration of governance policies, usage monitoring, and provisioning of licenses, capacities, and organizational resources
+- **Power BI gateway management:** view and manage on-premises data gateways
+- **Microsoft Power Platform admin center:** Provides a unified portal for administrators to manage environments and settings for Power Apps, Power Automate, and customer engagement apps (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Customer Insights - Journeys, and Dynamics 365 Project Service Automation).
+- **Microsoft 365 admin center:** manage users and their license assignment and you can launch into many of the individual admin centers from here.
+- **Security & compliance center:** administrators can come here to search the Audit log to see Power Automate audit events.
+- **Azure Active Directory portal:** Advanced Azure AD management tasks such as conditional access is managed here, any developer application registration is also done here and it's also where you start setup of your on-premises gateways.
+- **Powershell:** owerShell cmdlets for app creators and administrators, you can automate many of the monitoring and management tasks that are only possible manually today in Power Apps.
+- **REST APIs:** Automate common Power BI administrator tasks with REST APIs. 
 
 
 
