@@ -3432,9 +3432,51 @@ Using a cloud option such as OneDrive or SharePoint Team Sites is the most effec
     - Power BI seamlessly integrates with Microsoft business applications (apps) like Dynamics 365 and Office 365, arming users with insights directly within the Microsoft apps
     - integrating intelligence at the point of action leads to automation within systems that trigger commands based on preset thresholds, further operationalizing business insight throughout an organization.
 
+## Power BI tools
+- tools to promote optimal use fall into two categories:
+    1. Power BI desktop
+    2. Power BI service
 
+### Power BI desktop
+- **Power Query Editor:** primary data preparation experience, connect wide range data sources & apply hundreds of different data transformations by previewing data and selecting transformations from the UI
+- **Data modeling:**  Supports the process of creating a visual representation of a whole information system or parts of it to delineate connections between data points and structures
+- **Visualization:** After you have a data model, you can drag fields onto the report canvas to create visuals, visual = graphic representation of the data in your model
 
+### Power BI service
+- **datasets:** A source of data ready for reporting and visualization.
+- **Reports:** Generate reports from the Power BI service from My Workspace or in a new workspace experience. You can also create reports from endorsed datasets
+- **Dashboards:** A single page, often called a canvas, that tells a story through visualizations
+- **Workspaces:** containers for dashboards, reports, workbooks, datasets, and dataflows, *My workspace* is the personal workspace for any Power BI customer to work with your own content and *Workspaces* are used to collaborate and share content with colleagues
+- **Dataflows:** Reusable transformation logic that can be shared by many datasets and reports
 
+## Steward or captain?
+Are you a steward or a captain?
+    ![image](https://github.com/Nolu-M/Notes-code/assets/119700411/4a26444e-7436-4e2c-9a34-cb998ff88e3b)
+
+## Power BI administrator role
+- helps the business and empowers the organization while enforcing rules and limits
+- ![image](https://github.com/Nolu-M/Notes-code/assets/119700411/f62239e9-80a5-4cec-8007-b19e38fc295e)
+- To administer Power BI for organization = must be one of the following roles:
+    - Office 365 Global Administrator
+    - Power BI Service Administrator
+    - Microsoft Power Platform Service Administrator
+
+- Key tasks such as licensing are managed by the Office 365 Global or billing administrator, and subscriptions are managed in the O365 admin tool.
+- Power BI capacity and workspace administrator aren't part of Azure and are configured in Power BI.
+- Microsoft Power Platform service administrator uses Microsoft Power Platform admin center to manage environments and settings for Power Apps, Power Automate,     - and the following customer engagement apps, Dynamics 365 Sales, Customer Service, Field Service, Marketing, and Project Service Automation.
+
+## Typical administrative tasks
+
+1. Office 365 global administrator:
+    - **Assigning licenses:** In the Power BI service, users have defined capabilities based on the type of per-user license they have (free or Pro) and whether the content they're interacting with is in a workspace assigned to a Power BI Premium capacity. Licenses are assigned in the O365 portal and you must be a global or user - account administrator to assign these licenses.
+    - **Audit logging:** Gather telemetry data, unique users - launches for Power BI users. 
+3. Power BI administrator:
+    - **Controlling access:** Control user access to record-level and task-based privileges.
+    - **Controlling Power BI tenant features:** Tenant settings are managed in the admin portal and can restrict capabilities and features to a limited set of users.
+    - **Activity log:** Knowing who is taking what action on which item in your Power BI tenant can be critical in helping your organization fulfill its requirements, like meeting regulatory compliance and records management. 
+    - **Monitoring usage:** Monitor how your dashboard and reports are being used. Views per day, unique users per day, views per user, and shares per day are a few of the metrics that can be reported on and monitored.
+4. Microsoft Power Platform administrator:
+    - **Manage gateways**: On-premises data gateways act as a bridge, providing quick and secure data transfer between on-premises data - data that isn't in the cloud, and Power BI, Power Automate, Logic Apps, and Power Apps services.
 
 
 
