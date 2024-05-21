@@ -3540,9 +3540,17 @@ There are two ways for users to get a license:
 - must have a Microsoft 365 admin role to purchase or assign licenses for your organization.
 - ![image](https://github.com/Nolu-M/Notes-code/assets/119700411/3a35174e-f2bf-4fa6-9eb8-04272128f639)
 
+#### License types
+- To use the Power BI service, users must sign in with an identity that Azure Active Directory supports for commercial licenses.
+- can add Power BI to any Microsoft license that uses Azure Active Directory for identity services. Some licenses, such as Microsoft 365 E5, include a Power BI Pro license, so no separate sign-up for Power BI is needed.
+- two kinds of Power BI licenses for organizations:
+    - **standard, self-service Power BI Pro license**, Microsoft 365 admins assign per user licenses. There's a per user monthly fee for Power BI Pro licenses. This license type enables collaboration, publishing, sharing, and ad-hoc analysis. Content is saved to shared storage capacity that is fully managed by Microsoft.
+    - **Power BI Premium license** allocates a capacity to an organization. Suitable for enterprise BI, big data analytics, and cloud and on-premises reporting, Premium provides advanced administration and deployment controls.
 
+- Dedicated compute and storage resources are managed by capacity admins in the organization.
+- In addition to other Premium advantages, content stored in Premium capacity can be accessed by and distributed to users who don't have Power BI Pro licenses. At least one user must have a Power BI Pro license assigned to use Premium, and content creators and developers still need a Power BI Pro license.
 
-
+- **NOTE:** The two types of licenses aren't mutually exclusive. You can have both Power BI Premium and Power BI Pro. In this configuration, content stored in Premium capacity can be shared with all users and shared capacity is also available. 
 
 
 
