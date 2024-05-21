@@ -3492,6 +3492,47 @@ sharing reports and dashboards with coworkers and friends
 
 ### Integrate OneDrive for Business with Power BI
 - use your Power BI and Office365 groups to collaborate and share by using Microsoft OneDrive for Business
+- can use your Power BI and Office365 groups to collaborate and share by using Microsoft OneDrive for Business
+- OneDrive for Business is a potential storage location for your Power BI content that provides version history --> can share your files with an Office365 group to enable several people to work on the same Power BI or Excel files.
+
+- To connect to a PBIX (Power BI Desktop) file on OneDrive for Business, sign in to the Power BI service and select Get Data. Under Create new content, select Files, and then select OneDrive - Business. Highlight the file and then select Connect.
+
+- Your content appears on the left-hand side navigation bar. File changes on the OneDrive for Business page will automatically reflect in the Power BI environment and will be recorded in the version history.
+
+### Publish to web
+- share a Power BI report on a webpage or share it through email. This feature of Power BI is often referred to as Publish to web.
+-  select the report that you want to share so that it's displayed on the canvas. Then from the menu, select Share. A dialog box will appear so that you can share a link to the report
+-  Power BI presents a dialog box where you can:
+    - Share a link using email, which shows the report as a webpage
+    - Copy the link to the report
+    - Share the report using Microsoft Teams
+    - Embed live data in a Microsoft PowerPoint file
+ 
+ - can paste the email link into a browser and see your report as a webpage and can interact with that webpage just as you would if you were viewing the report in Power BI.
+
+## Module 2 - Explore data in Power BI
+### Introduction to the Power BI service
+
+### Quick insights in Power BI
+
+### Create and configure a dashboard
+
+### Ask questions of your data with natural language
+
+### Create custom Q&A suggestions
+
+### Share dashboards with your organization
+
+### Display visuals and tile in full screen
+
+
+
+
+
+
+
+
+
 
 
 # 6. Introduction to Power BI administration - 2 modules
