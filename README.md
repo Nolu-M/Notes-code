@@ -3168,7 +3168,7 @@ before jumping in after creating a data strategy, consider the following charact
 <details>
 <summary>Power BI</summary>
     
-# Get started with Power BI - 3 modules
+# 1. Get started with Power BI - 3 modules
 ## Describe using Power BI to build data-driven analytics - Module 1
 - Microsoft Power BI (Business Intelligence): a collection of software services, apps and connectors that work together to turn unrelated sources of data into coherent, visually immersive and interactive insights
 - lets you easiily connect to your data sources, clean and model your data without affecting underlying source, visualize (or discover) what's important and share that with anyone/everyone
@@ -3393,7 +3393,7 @@ insights pane currently shows 3 types of insights:
 - notified when data changes beyond or beneath a threshold that you've set, use data alerts.
 - emails is sent when value passes any upper or lower limit that is set
 
-# Get data in Power BI
+# 2. Get data in Power BI
 ## Get data from files
 - **flat file:** a type of file that has only one data table and every row of data is in the same structure, file doesn't contain hierarchies
 - e.g. comma-separated values (.csv) files, delimited text (.txt) files, and fixed width files. Another type of file would be the output files from different applications, like Microsoft Excel workbooks (.xlsx)
@@ -3408,6 +3408,39 @@ Using a cloud option such as OneDrive or SharePoint Team Sites is the most effec
 
 ### Connect to data in a file
 - **TIP:** The Home tab contains quick access data source options, such as Excel, next to the Get data button.
+
+# 3. Model data with Power BI
+
+# 4. Build Power BI visuals and reports
+
+# 5. Distribute Power BI insights
+
+# 6. Introduction to Power BI administration
+## Introduction
+- Power BI allows business users to access the data wherever it resides and gain actionable business insights
+- Power BI allows users to:
+    - Harness data from Excel spreadsheets, on-premises data sources, big data, streaming data, and cloud services
+    - content packs = deliver a curated experience with pre-built dashboards for popular SaaS applications
+    - Experience their data with speed and agility
+    - use live dashboards that maintain a real-time pulse on the business and provide critical insights
+    - Create custom visuals that bring data to life and surface intelligence hidden in the sea of data.
+    - Benefit from natural language queries that enable users to ask questions of their data in an intuitive way.
+    - Access data and insights anywhere with dashboards accessible via the desktop, web or across mobile devices.
+
+- users take advantage of world-class data analytics capabilities from historical data sets and delivers ability to see data as it's happening in real-time, minimizing the need to analyze historical data.
+    - Transitioning from historical intelligence to actionable real-time insights
+    - Power BI seamlessly integrates with Microsoft business applications (apps) like Dynamics 365 and Office 365, arming users with insights directly within the Microsoft apps
+    - integrating intelligence at the point of action leads to automation within systems that trigger commands based on preset thresholds, further operationalizing business insight throughout an organization.
+
+
+
+
+
+
+
+
+
+
 
 
 
