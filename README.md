@@ -3169,22 +3169,23 @@ before jumping in after creating a data strategy, consider the following charact
 <summary>Power BI</summary>
     
 # 1. Get started with Power BI - 3 modules
-## Module 1 - Describe using Power BI to build data-driven analytics
+## Module 1 - Describe the capabilities of Microsoft Power BI
+### Describe using Power BI to build data-driven analytics
 - Microsoft Power BI (Business Intelligence): a collection of software services, apps and connectors that work together to turn unrelated sources of data into coherent, visually immersive and interactive insights
 - lets you easiily connect to your data sources, clean and model your data without affecting underlying source, visualize (or discover) what's important and share that with anyone/everyone
 - consists of a **Microsoft Windows desktop application** ---> **Power BI Desktop**, an **online SaaS (Software as a Service) service** ---> **the Power BI service** and **mobile Power BI apps** that are available on phones and tablets
 - these three elements are designed to let people create, share and consume business in a way that serves them or their role most effectively.
 
-## Explore the different Power BI elements
+### Explore the different Power BI elements
 - to create Power BI Solutions, several building blocks which are elements that help with the data being presented and its appearance to those users who are consuming it.
     - elements = datasets, reports and dashboards, organized into workspaces and created on capacities.
 
-### Capacities
+#### Capacities
 - core Power BI concept representing a set of resources used to host and deliver your Power BI content
 - are shared (shared with other Microsoft customers) or dedicated (fully committed to single customer, require subscription)
 - by default, *workspaces are created on a shared capacity*.
 
-### Workspaces
+#### Workspaces
 - containers for dashboards, reports, datasets and dataflows in Power BI
 - two types:
     1. **My workspace:** personal workspace for any Power BI customer to work with their own content, only have access to your My workspace, can share dashboards and reports for collaboration use workspace.
@@ -3192,19 +3193,19 @@ before jumping in after creating a data strategy, consider the following charact
         - app = a collection of dashboards and reports built to deliver key metrics to the Power BI consumers in organization.
         - apps are interactive, consumers can't edit them and app consumers as well as colleagues who have access to apps don't need Pro licenses.
 
-### Semantic models
+#### Semantic models
 - a collection of data that you import or connect to, also can source data from dataflows
 - associated with workspaces, single semantic model can be part of multiple workspaces
 - when workspaces is opened, associated semantic models are listed under **semantic models tab**, each representing a collection of data e.g. semantic model can contain data from an Excel workbook on OneDrive, an on-premises SSAS tabular semantic model and/or Salesforce semantic model
 - semantic models added by one workspace member are available to other workspace members with an admin member, or contributor role.
 
-### Shared semantic models
+#### Shared semantic models
 - important to establish standardized semantic models that can be the 'one sources of truth' discovering and reusing those standardized semantic models is key
 - expert data modelers create and share optimized semantic models, report creators can start with those semantic models to build accurate reports
 - organization = consistent data for decisions & a healthy data culture
 - to consume shared semantic models, choose **Power BI semantic models** when creating Power BI report
 
-### Reports
+#### Reports
 - one or more pages of visualizations i.e. line charts, maps, and other elements
 - can be created from scratch, import them from shared dashboards or have Power BI generate them when connecting datasets
 - e.g. when you connect to an Excel workbook that contains Power View sheets, Power BI creates a report based on those sheets, and when you connect SaaS application, Power BI imports a prebuilt report
@@ -3216,7 +3217,7 @@ before jumping in after creating a data strategy, consider the following charact
 - when you open an app = presented with a dashboard, to access underlying report, select dashboard tile that was pinned from a report
 - by default, report opens in Reading view, select **Edit report** to open in editing view
 
-### Dashboards
+#### Dashboards
 - single canvas that contains zero or more tiles and widgets
 - each tile pinned from a report or from Q&A displays a single visualization created from a dataset and pinned to the dashboard
 - why create dashboards:
@@ -3227,14 +3228,14 @@ before jumping in after creating a data strategy, consider the following charact
     - create personalized view of larger dashboard and show all metrics that matter
 - when dashboard open, associated dashboards listed under **Dashboards tab**, select to open
 
-### Template Apps
+#### Template Apps
 - enable Power BI partners to build Power BI apps with little or no coding and deploy them to any Power BI customer
 - Power BI partner can create a set of out-of-the-box content for customers and publish it yourself
 
 - can build tamplate apps that allow customers to connect within their own accounts
 - domain experts can unlock data in a way that is easy for their business users to consume
 
-## Describe cleaning and transforming data in Power BI Desktop
+### Describe cleaning and transforming data in Power BI Desktop
 - cleaning and transforming data is how you prepare data for use
 - use the Power BI Desktop application for transforming and cleaning data
 - Power BI Desktop has 3 views:
@@ -3244,17 +3245,17 @@ before jumping in after creating a data strategy, consider the following charact
 - Power BI Desktop includes the **Power Query Editor tool:** can help you shape & transform data for models and visualizations
 - select **Edit** from **navigator** window to launch Power Query Editor, can also be launched from Power BI Desktop using **Transform Data** button on Home ribbon
 
-### Transforming data
+#### Transforming data
 - process of putting data into a format what is useable
 - examples of available transformations include removing a column from table, dupicating column under a new name or replacing values
 
-### Clean data
+#### Clean data
 - Power Bi visualization and modeling tools work best with columnar data
 - a table layout that looks good to the eye might not be optimal for automated queries e.g spreadsheet that has headers that span multiple columns
   ![image](https://github.com/Nolu-M/Python/assets/119700411/68c8d24c-4575-44f9-ac7e-f9b7d4e2f9cb)
 - when cleaning data, might combine those rows into a single item to better format the data to fit your needs or may have a series of numeric data that would need to be aggregated to display better
 
-## Describe using AI Insights to spot trends and anomalies
+### Describe using AI Insights to spot trends and anomalies
 - anomalies and trends in your data can be identified as you intercat with the data and consume elements such as reports, dashboards and visualizations
 - it notifies you of any interesting insights and provides explanations for them
 - it works out-of-th-box on any report, so you can automatically start getting insights from your reports without any setup
@@ -3266,13 +3267,13 @@ before jumping in after creating a data strategy, consider the following charact
     - **Quick Insights for datasets:** Automatically generate data insights on a dataset in the Power BI service.
     - **AI Insights for data models in Power Query:** Provide access to pretrained machine learning models from Azure Cognitive Services.
 
-#### Notifications
+##### Notifications
 - important part of the Insights capabilities in Power BI
 - Power BI automatically runs insights analysis, when it identifies insights = presented with a notficiation (can choose to see or ignore insights)
 - great way to proactively interact with suggested insights to ensure you are not missing anything important i.e. if sales in specific region have increased
 - top insights = noteworthy, based on factors like recency and significance of the trend or anomaly
 
-### Get insights on reports and visuals
+#### Get insights on reports and visuals
 - notification capabilities alert and notify you of insights as you're on reports
 - as you're working on Power BI reports and visuals, can select **Get insights** to open the Insights pane
 - pane only shows insights about the current report page, and it updates when you select a different image on the report
@@ -3316,47 +3317,47 @@ insights pane currently shows 3 types of insights:
 - KPI analysis with a target looks at the variance of the current value to its target, significant = variance if high or low compared to other segments
 - KPI analysis without a target looks at the value itself and flags ones that are high or low compared to other segments
 
-- KPI analysis explanations --> Power BI looks for and identifies categores that have higher or lower than anticipated values
+- KPI analysis explanations --> Power BI looks for and identifies categories that have higher or lower than anticipated values
 - for KPI analysis **with** target --> possible explanations, are ranked based on **Z-scores of the difference of the value from the target**
 - KPI analysis **without** a target --> possible explanations are ranked based on **Z-scores of the value itself**
 
-## Build a basic dashboard
+##$ Build a basic dashboard
 - with Power BI you can easily create and share a dashboard with a manager by connecting to a data source i.e. Excel spreadsheet
     - **prepare data:** data is in a format that Power BI can easily consume
     - **build a report:** report contains visuals to be included in dashboard, buile either with Power BI Desktop or Power BI service
     - **pin the report visuals to a dashboard:** dashboards = primary element that users use to view data, can include data from multiple reports as needed
     - **share a link to the dashboard:** any users with the link and necessary permissions are able to view and interact with the data
 
-### Prepare the data
+#### Prepare the data
 - prepare data for consumption = data cleansing and transforming using Power Query, if connecting to Excel sheet --> make sure datd is in a flat table and each column contains right data type, total operations are handled in Power BI as we create the visuals
 
-### Upload your data to the Power BI service
+#### Upload your data to the Power BI service
 - Power BI service = create reports that connect to your data sources, includes Excel files
 - can attach to a dataset, and Power BI creates a blank dashboard where you're able to place visuals later
 
-### Build your report
+#### Build your report
 - once connected to data, create a new report or edit an existing report --> edit report using editing view, on the right = **Visualizations, Filters and Fields** panes
 - Excel workbook table = **Fields** pane
 
-### Pin to a dashboard
+#### Pin to a dashboard
 - dashboards are easy to build because you are determining which visuals from your created reports you want to include
 - easy to have detailed dashboards that include data from multiple data sources, even if those data sources might be unrelated
 
-### Share a link to your dashboard
+#### Share a link to your dashboard
 - initially dashboards that you create one are only visible to the person that created them, however, by sharing the link to your dashboard and report with others who have a Power BI account, they too can interact with it, but can't save changes.
 - if you allow it, they can reshare with others or build a new report based on the underlying dataset
 
-## Consider the business value of Power BI
+### Consider the business value of Power BI
 - Miami Heat basketball team used Power BI to transform their customer interactions and business operations - were able to boost season ticket sales by 30% and save appr. $1 million on operations
 - they wanted to understand the family of customers that enter their arena or interact with them online and the challenge was to understand a single customer when there are so many
 - by analyzing their data, the Miami Heat operations team increased their revenue but also improved the allocation of resources by predicting customer behaviour
 
-## Explore what Power BI can do for you - Module 2
+## Module 2 - Explore what Power BI can do for you 
 ### What can I do with the Power BI service as a consumer?
 - Power BI makes the job easier by converting all that data into charts and graphs to help you visualize your data in meaningful ways
 - data updates and refreshes automatically, so you can work with your colleagues from the same dashboards and reports
-- contens is not static = explore data further by looking for trends, insights and other business intelligence
-- intutive features of Power BI allow you to slice content and ask questions using own words
+- content is not static = explore data further by looking for trends, insights and other business intelligence
+- intuitive features of Power BI allow you to slice content and ask questions using own words
 
 #### How to know if you're a Power BI consumer
 - the way you interact with Power BI depends on job role --> consumer = receives dashboards, reports and apps from designers who create them, also work in online version of Power BI = Power BI service to review & interact with data
@@ -3391,10 +3392,63 @@ insights pane currently shows 3 types of insights:
 
 ##### Get alerts when your data reaches a threshold
 - notified when data changes beyond or beneath a threshold that you've set, use data alerts.
-- emails is sent when value passes any upper or lower limit that is set
+- email is sent when the value passes any upper or lower limit that is set
+- you have the tools to explore and interact with the data to find answers to questions and to discover new insights. Additionally, you can:
+    - Ask questions by using natural language.
+    - Collaborate with your team.
+    - Share what you discover.
+    - Take action from your desk or on the go.
+- Power BI is straightforward and delivers powerful data-backed business intelligence to help you answer questions, make decisions, track progress, make predictions, stay up-to-date on a regular cadence, etc.
 
-# 2. Get data in Power BI
-## Get data from files
+### View content in the Power BI service
+- **content:** apps, dashboards, and reports. Content is created by Power BI designers, who share it with colleagues like you
+1. Home canvas displays and organizes your favorite and most recent content, along with recommended content and learning resources. Each piece of content displays as a tile, with a title and icon. Selecting a tile opens that content.
+2. The global search box lets you search for content by title, name, or keyword.
+3. On the side navigation pane, you can view lists of content and select the one to open.
+
+#### Home canvas
+- can view all content that you have permission to use
+- also updates with recommended content and learning resources
+
+##### Key metrics at a glance
+- Home canvas = you can view all the content that you have permission to use
+- Each piece of content is a tile, and selecting a tile takes you to that piece of content. For example, selecting a tile for a dashboard opens the dashboard.
+
+#### Most important content at your fingertips
+##### Favorites and frequents
+- contains links to the content you visit most often or that you’ve tagged as a favorite
+
+##### Recent and My apps
+- displays the content you've visited most recently
+- The **My apps** section lists apps that have been shared with you; the most recent apps are listed here.
+
+##### Featured apps
+Power BI displays a set of featured apps. Selecting an app tile opens the app.
+
+##### Explore the navigation pane
+- Use the navigation pane to locate and move between dashboards, reports, and apps
+- The nav pane organizes your content into categories that are similar to what you’ve already seen on the Home canvas.
+- To open one of these content sections and display a list of all items, select the heading.
+
+##### Search all of your content
+- You can enter the full or partial name of that dashboard and search for it.
+- Additionally, you can enter your colleague’s name and search for content that they've shared with you.
+- The search is scoped to look for matches in all the content that you own or have access to.
+
+
+
+
+
+
+
+
+
+
+
+# 2. Get and transform data with Power BI
+## Module 1 - Get data in Power BI
+### Get data in Power BI
+#### Get data from files
 - **flat file:** a type of file that has only one data table and every row of data is in the same structure, file doesn't contain hierarchies
 - e.g. comma-separated values (.csv) files, delimited text (.txt) files, and fixed width files. Another type of file would be the output files from different applications, like Microsoft Excel workbooks (.xlsx)
 -  can find a list of the available options when you use the Get data feature in Power BI Desktop
