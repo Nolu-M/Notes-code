@@ -3566,8 +3566,19 @@ sharing reports and dashboards with coworkers and friends
 
 ## Module 2 - Explore data in Power BI
 ### Introduction to the Power BI service
+![image](https://github.com/Nolu-M/Notes-code/assets/119700411/bd50196b-465a-4201-b687-9f439bc58492)
 
+- The Power BI service is the natural extension of Power BI Desktop
+- can use its features for uploading reports, creating dashboards, and asking questions of your data by using natural language.
+- can use the service to set data refresh times, share data with your organization, and create customized apps.
+  
 ### Quick insights in Power BI
+- Power BI service can automatically look for insights in a dashboard, report, or dataset
+- From the list of items in your workspace, select the ellipsis beside the dataset that you're interested in and then select Get quick insights
+    - Power BI searches the data for patterns and after about 15 seconds, the notification changes to let you know that Power BI found some insights.
+
+
+
 
 ### Create and configure a dashboard
 
