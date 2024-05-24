@@ -3576,13 +3576,40 @@ sharing reports and dashboards with coworkers and friends
 - Power BI service can automatically look for insights in a dashboard, report, or dataset
 - From the list of items in your workspace, select the ellipsis beside the dataset that you're interested in and then select Get quick insights
     - Power BI searches the data for patterns and after about 15 seconds, the notification changes to let you know that Power BI found some insights.
+    - select the View insights button on the notification, you're presented with a page of visuals. You can scroll down through the page to view and consider the visuals
 
-
-
+- With Quick Insights, you can let Power BI do the work to spot outliers and trends in your data. Use those findings in your dashboards or continue to refine and filter to get to the insights that you need
 
 ### Create and configure a dashboard
+- Dashboards in Power BI are one-page collections of visualizations that are created from within the Power BI service. You can create dashboards by pinning visuals from reports.
+- To pin a visual, open its report on the Power BI service. Hover over the visual that you want to pin and select the pin icon.
+
+- can select a destination dashboard for the visual from the drop-down menu or create a new dashboard.
+- You can pin visualizations from multiple reports and pages to a single dashboard, allowing you to combine different datasets and sources into a single page of insights.
+- After a visual has been pinned to a dashboard, it's called a tile
+- dashboards appear in the navigation pane on the left side of the Power BI service
+- Hover over a tile and select the pencil icon to open the Tile details form, where you can change information in the Title or Subtitle fields.
+
+- Select a dashboard tile to view the report from which it originated. You can also change that link by using the Set custom link field on the Tile details form.
+-  can pin tiles from one dashboard to another, for example, if you have a collection of dashboards and want to create one summary board.
+    - hover over the tile and select the pin icon. Dashboards are simple to create and to change. You can customize your one-page dashboard to show exactly the information that it should
 
 ### Ask questions of your data with natural language
+- get answers about your data is by asking questions in the Q&A feature of Power BI
+- **NOTE:** Currently, Power BI Q&A only supports answering queries that are asked in English; however, a preview is available for Spanish that can be enabled by your Power BI administrator.
+
+#### Explore Q&A
+- can use Q&A to explore your data by using the intuitive, natural language capabilities of Power BI and receive answers in the form of charts and graphs
+
+#### 1. Ask a question
+
+
+
+
+
+
+
+
 
 ### Create custom Q&A suggestions
 
