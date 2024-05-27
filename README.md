@@ -3165,6 +3165,7 @@ before jumping in after creating a data strategy, consider the following charact
 
 </details>
 
+
 <details>
 <summary>Power BI</summary>
     
@@ -3321,7 +3322,7 @@ insights pane currently shows 3 types of insights:
 - for KPI analysis **with** target --> possible explanations, are ranked based on **Z-scores of the difference of the value from the target**
 - KPI analysis **without** a target --> possible explanations are ranked based on **Z-scores of the value itself**
 
-##$ Build a basic dashboard
+### Build a basic dashboard
 - with Power BI you can easily create and share a dashboard with a manager by connecting to a data source i.e. Excel spreadsheet
     - **prepare data:** data is in a format that Power BI can easily consume
     - **build a report:** report contains visuals to be included in dashboard, buile either with Power BI Desktop or Power BI service
