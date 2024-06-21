@@ -3454,15 +3454,45 @@ Power BI displays a set of featured apps. Selecting an app tile opens the app.
 - e.g. comma-separated values (.csv) files, delimited text (.txt) files, and fixed width files. Another type of file would be the output files from different applications, like Microsoft Excel workbooks (.xlsx)
 -  can find a list of the available options when you use the Get data feature in Power BI Desktop
 
-### Flat file location
+##### Flat file location
 - local
 - OneDrive for Business
 - OneDrive - personal
 - SharePoint - Team Sites
 Using a cloud option such as OneDrive or SharePoint Team Sites is the most effective way to keep your file and your semantic model, reports, and dashboards in Power BI in-sync
 
-### Connect to data in a file
+##### Connect to data in a file
 - **TIP:** The Home tab contains quick access data source options, such as Excel, next to the Get data button.
+
+##### Select the file data to import
+- After the file has connected to Power BI Desktop, the Navigator window opens = shows you the data that is available in your data source (the Excel file in this example).
+- can select a table or entity to preview its contents, to ensure that the correct data is loaded into the Power BI model.
+- Select the check box(es) of the table(s) that you want to bring in to Power BI. This selection activates the Load and Transform Data buttons
+
+  ![image](https://github.com/Nolu-M/Notes-code/assets/119700411/3276d66e-3f9d-4bef-acd2-9d8c19c249f6)
+
+- Load button to automatically load your data into the Power BI model
+- Transform Data button to launch the Power Query Editor, where you can review and clean your data before loading it into the Power BI model
+
+##### Change the source file
+- might have to change the location of a source file for a data source during development, or if a file storage location changes
+- keep your reports up to date, you'll need to update your file connection paths in Power BI
+- Power Query provides many ways for you to accomplish this task, so that you can make this type of change when needed.
+    1. Data source settings
+    2. Query settings
+    3. Advanced Editor
+
+**Warning:** If you are changing a file path, make sure that you reconnect to the same file with the same file structure. Any structural changes to a file, such as deleting or renaming columns in the source file, will break the reporting model.
+
+- try changing the data source file path in the data source settings. Select Data source settings in Power Query. In the Data source settings window, select your file and then select Change Source. Update the File path or use the Browse option to locate your file, select OK, and then select Close.
+
+    ![image](https://github.com/Nolu-M/Notes-code/assets/119700411/9f1ff98e-638c-4fa8-90b3-6bcb1b114330)
+
+
+
+
+
+
 
 # 3. Model data with Power BI
 
