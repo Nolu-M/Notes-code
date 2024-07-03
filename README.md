@@ -3804,6 +3804,22 @@ There are two ways for users to get a license:
 ## 1. Understanding Cloud Computing
 
 ### What is the Cloud
+- cloud computing has revolutionized how organizations operate by offering essential features
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </details>
 
 
