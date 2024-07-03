@@ -3795,12 +3795,11 @@ There are two ways for users to get a license:
 
 - **NOTE:** The two types of licenses aren't mutually exclusive. You can have both Power BI Premium and Power BI Pro. In this configuration, content stored in Premium capacity can be shared with all users and shared capacity is also available. 
 
-
-
-
 </details>
 
-
+<details>
+    <summary>Cloud Computing</summary>
+</details>
 
 
 
