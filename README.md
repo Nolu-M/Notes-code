@@ -3799,6 +3799,11 @@ There are two ways for users to get a license:
 
 <details>
     <summary>Cloud Computing</summary>
+    
+# Module 1: Cloud Computing Fundamentals
+## 1. Understanding Cloud Computing
+
+### What is the Cloud
 </details>
 
 
