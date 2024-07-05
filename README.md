@@ -3817,12 +3817,16 @@ There are two ways for users to get a license:
 ### Cloud Computing Ecosystems
 #### Cloud Computing Ecosystem
 Ecosystem of participants defines the market - 3 categories:
-- **Consumers of Services:**
-- **Provider of Services:**
+- **Consumers of Services:** Everyday end-users (like yourself or your colleagues) that use cloud services in their day-to-day business activities. Examples include Microsoft OneDrive, Google Drive and iCloud.
+- **Provider of Services:** 
 - **Designer of Services:**
 
 ##### Understanding Cloud Concepts
 - *Cloud computing* = method of providing shared computing resources, including applications, computing, storage, networking, development and deployment platforms as well as business processes.
+- *Standardization* = implementation of services using consistent approach supprted by a set of consistent interfaces.
+- *Automation* = process triggered based on business rules, resource availability, and security demands. Required to support a self-service provisioning model, for efficiency = automation ensures after provisioned service is no longer needed, it is returned to the resource pool.
+
+- Microsoft 365, Slack or DocuSign service are cloud based services
 
 
 
