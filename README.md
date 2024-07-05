@@ -3804,10 +3804,30 @@ There are two ways for users to get a license:
 ## 1. Understanding Cloud Computing
 
 ### What is the Cloud
-- cloud computing has revolutionized how organizations operate by offering essential features
+- cloud computing has revolutionized how organizations operate by offering essential features like on-demand access to computing power and storage = unlimited scalability and flexible pricing models
+- cloud technologies focused on cost reduction and shifting technology expenditures from capital to operational expenses
+
+- Five characteristics defined by National Institute of Standards and Technology (NIST):
+  - **On-Demand Self-Service:**
+  - **Broad Network Access:**
+  - **Resource Pooling:**
+  - **Rapid Elasticity:**
+  - **Measured Service:**
 
 
 
+
+
+
+
+
+
+
+## 2. Embracing the Business Imperative
+## 3. Architectural Considerations for the Cloud environment
+## 4. Managing a Hybrid and Multicloud Environment
+## 5. Standards in a Multicloud World
+## 6. A closer Look at Cloud Services
 
 
 
