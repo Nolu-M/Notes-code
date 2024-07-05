@@ -3808,11 +3808,11 @@ There are two ways for users to get a license:
 - cloud technologies focused on cost reduction and shifting technology expenditures from capital to operational expenses
 
 - Five characteristics defined by National Institute of Standards and Technology (NIST):
-  - **On-Demand Self-Service:**
-  - **Broad Network Access:**
-  - **Resource Pooling:**
+  - **On-Demand Self-Service:** Cloud services consumers can provision services on an as-needed basis, without the need to work with the CSP (Cloud service provider) directly i.e. compute power, additional storage, new websites, or even database services. Consumer = expand (or reduce) services without need for human assistance from CSP.
+  - **Broad Network Access:** Client devices and traditional server deployments are able to access cloud-based resources across the network.
+  - **Resource Pooling:** Cloud service provider (CSP) pools resources in a multitenant model and adjusts resource allocation on an on-demand basis, and the specific distribution of hardware resources is abstracted from the consumer. Pool network, storage, and compute capabilities and then dynamically and automatically allocate those resources to consumers on an on-demand basis.
   - **Rapid Elasticity:**
-  - **Measured Service:**
+  - **Measured Service:** monitores, controlled and billable
 
 
 
