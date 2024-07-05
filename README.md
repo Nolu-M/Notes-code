@@ -3818,8 +3818,8 @@ There are two ways for users to get a license:
 #### Cloud Computing Ecosystem
 Ecosystem of participants defines the market - 3 categories:
 - **Consumers of Services:** Everyday end-users (like yourself or your colleagues) that use cloud services in their day-to-day business activities. Examples include Microsoft OneDrive, Google Drive and iCloud.
-- **Provider of Services:** 
-- **Designer of Services:**
+- **Provider of Services:** Examples of providers include Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP), IBM Cloud , Oracle Cloud Infrastructure and Alibaba Cloud.
+- **Designer of Services:** Companies that specialise in designing and implementing cloud technologies include Accenture, Deloitte, Capgemini, IBM, PricewaterhouseCoopers (PwC), Cognizant, Wilpro, Tata Consultancy Services (TCS), Infosys, and DXC Technology.
 
 ##### Understanding Cloud Concepts
 - *Cloud computing* = method of providing shared computing resources, including applications, computing, storage, networking, development and deployment platforms as well as business processes.
