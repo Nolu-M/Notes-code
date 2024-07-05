@@ -3828,6 +3828,15 @@ Ecosystem of participants defines the market - 3 categories:
 
 - Microsoft 365, Slack or DocuSign service are cloud based services
 
+### Understanding Cloud Deployment Models
+#### Cloud Components and Clients
+3 main components in a cloud services solution = client platform from which cloud services being accessed, data center where cloud services are being hosted and network connection between those two points.
+
+![image](https://github.com/Nolu-M/Notes-code/assets/119700411/525dad69-7484-4dce-900e-3d3085617f2e)
+
+![image](https://github.com/Nolu-M/Notes-code/assets/119700411/ebd2cb22-d139-49ee-89db-5616d8da2a58)
+
+
 
 
 
