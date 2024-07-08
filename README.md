@@ -3836,8 +3836,16 @@ Ecosystem of participants defines the market - 3 categories:
 
 ![image](https://github.com/Nolu-M/Notes-code/assets/119700411/ebd2cb22-d139-49ee-89db-5616d8da2a58)
 
+- cloud services include storage, email, e-commerce, office suites, and development environments, among others
+-  The primary operating systems used on these client devices include Microsoft Windows, Apple macOS, Linux, iOS, and Android.
+-  network serves as the pathway connecting the client devices to the data centers of the CSPs
 
+- cloud service infrastructure can be managed internally by a single organization for its own use or managed by a CSP that provides services to many organizations. These two models can be combined into a hybrid solution:
+    1. **Public cloud:** A CSP owns the cloud deployment and allocates its resources to external, unaffiliated customers. Those customers share the public cloud’s resources without knowing precisely where their data is in relation to that of any other organization.
+    2. **Private cloud:** Services are provided to only a single organization.
+    3. **Hybrid cloud:** There is a combination of two or more private, public, or community deployments.
 
+  
 
 
 ## 2. Embracing the Business Imperative
