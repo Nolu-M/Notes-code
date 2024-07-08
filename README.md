@@ -3844,8 +3844,26 @@ Ecosystem of participants defines the market - 3 categories:
     1. **Public cloud:** A CSP owns the cloud deployment and allocates its resources to external, unaffiliated customers. Those customers share the public cloud’s resources without knowing precisely where their data is in relation to that of any other organization.
     2. **Private cloud:** Services are provided to only a single organization.
     3. **Hybrid cloud:** There is a combination of two or more private, public, or community deployments.
+ 
+#### Types of Cloud Computing
 
-  
+**NOTE: Clouds come in different versions, depending on your needs. There are two primary deployment models of the cloud: public and private. Most organizations will use a combination of private computing resources (data centers and private clouds) and public services, where some of the services existing in these environments interact with each other — which is what we call a hybrid cloud environment.**
+
+- **multicloud environment:** a variety of public cloud services to support different developer and business units. Grown in popularity because developers want access to the platform of their choice, and businesses want the flexibility to move between vendors.
+
+![image](https://github.com/Nolu-M/Notes-code/assets/119700411/3d89af23-47cd-4f88-9d84-3c443cc0b5aa)
+
+##### The Public Cloud
+- public cloud = a set of hardware, networking, storage, services, applications, and interfaces owned and operated by a third party for use by other companies or individuals.
+- CSPs offer public cloud services to virtually any customer. Customers use a subscription model to pay for access.
+
+- 
+
+
+
+
+
+
 
 
 ## 2. Embracing the Business Imperative
