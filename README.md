@@ -3857,10 +3857,13 @@ Ecosystem of participants defines the market - 3 categories:
 - public cloud = a set of hardware, networking, storage, services, applications, and interfaces owned and operated by a third party for use by other companies or individuals.
 - CSPs offer public cloud services to virtually any customer. Customers use a subscription model to pay for access.
 
-- 
+- Amazon and Microsoft are two major public cloud vendors (though they each also offer private cloud deployment options)
 
-
-
+##### The Private Cloud
+- a set of hardware, networking, storage, services, applications, and interfaces owned and operated by an organization for the use of its employees, partners, or customers.
+- can be created and managed by a third party for the exclusive use of one enterprise.
+- The organization retains complete control of the cloud deployment but can leverage the advantages of cloud technologies.
+- sits behind a firewall, highly automated with a focus on governance, security, and compliance.
 
 
 
