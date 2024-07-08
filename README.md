@@ -3870,12 +3870,44 @@ Ecosystem of participants defines the market - 3 categories:
 
 
 ## 2. Embracing the Business Imperative
+### Understanding IT Transformation
+- IT organization in the past had total control of computing resources, now IT is tasked with providing oversight, management, and vetting of options.
+- provide the business with ways to integrate processes and data across silos.
+- The security organization is also responsible for ensuring security and compliance.
+
+-  now has to provide oversight and management of both cloud and on-premises computing services = provide a transition plan for applications that no longer have the modularity to support business requirements
+
+- operations ensure that performance in a hybrid and multicloud world is consistent and predictable
+
+### Escaping the IT Legacy Trap
+
+
+
+
+
+
 ## 3. Architectural Considerations for the Cloud environment
+
+
+
+
 ## 4. Managing a Hybrid and Multicloud Environment
+
+
+
+
 ## 5. Standards in a Multicloud World
+
+
+
+
+
 ## 6. A closer Look at Cloud Services
+- most important benefits businesses gain from cloud computing is the ability to modularize application services so that they can be linked together to create a cohesive environment
+- The techniques needed to create these new services are defined in a new generation of software development and deployment - Platform as a Service (PaaS)
+- combination of microservices, containers, container management, and PaaS provides the agility and flexibility to turn cloud computing into a platform for the future
 
-
+### The Importance of Modularity
 
 
 
