@@ -3880,6 +3880,18 @@ Ecosystem of participants defines the market - 3 categories:
 - operations ensure that performance in a hybrid and multicloud world is consistent and predictable
 
 ### Escaping the IT Legacy Trap
+- legacy applications = core to managing core business processes, such as payment services, customer information systems, and customer management
+- architectural foundation of these applications = unable to be easily updated as business processes change
+- applications themselves = monolithic (single-tiered, which means multiple components are combined into one large application), complete with dependencies on other applications within the computing environment
+- Applications would need to be moved along with their dependent applications.
+- **TIP: What is the solution? The applications have to be transformed and modernized, which means that dependencies are removed from the applications. The application is redesigned as a set of modular services. When possible, frequently used services are written once and reused. The bottom line is that it is imperative that these legacy applications are updated and modernized to gain the innovation benefits of the cloud.** 
+
+### Preparing for the Cloud
+- **IMPORTANT: Everyone should understand how the cloud would play a pivotal role in redefining the pace of business. It should be clear to everyone that adopting the cloud for the business is a team sport and requires that IT and business units collaborate. It also means that there needs to be a balance between total freedom to use whatever cloud or cloud services that seems useful and the need for management of computing.**
+- adoption of cloud as a strategy and plan calls for new practices, skills, and roles. How do you go about modernizing existing applications? Are there Software as a Service (SaaS) applications that live in the cloud that are a better fit for the way business is being conducted today?
+ 
+
+
 
 
 
