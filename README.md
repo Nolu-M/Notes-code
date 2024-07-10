@@ -3897,16 +3897,13 @@ Ecosystem of participants defines the market - 3 categories:
 ![image](https://github.com/Nolu-M/Notes-code/assets/119700411/7ac0e843-37a8-417e-b775-6ef67b3b45fb)
 
 ### The Business Imperatives
-- 
-
-
-
 
 
 
 
 
 ## 3. Architectural Considerations for the Cloud environment
+### Architectural Considerations for the Cloud Environment
 
 
 
