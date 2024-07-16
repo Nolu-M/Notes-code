@@ -3932,7 +3932,31 @@ Ecosystem of participants defines the market - 3 categories:
 
 # Module 2: Microsoft Azure
 ## 9. Describe Microsoft Azure Architectural Components of Azure
+### Skill 4: Describe the Core Architectural Components of Azure
+1. Azure regions, Regional Pairs, and Sovereign Regions
+- Geographies were created by Microsoft so that Azure services would be available to people around the world.
+- geographical boundary = border of a country, geographically defined country allows Microsoft to ensure data-handling regulations are in place
+- e.g. United States geography, Canadian geography, UK geography etc. Each boken out into two or more regions = hundreds of miles apart --> US = Iowa (central), Virginia (east), California (west) and Texas (south).
+- Regional pair: logical boundary within geography = Azure platform updates are done in one region in the regional pair
+- **NOTE:** The fact that each geography contains at least two regions separated by a large physical distance is important. That’s how Azure maintains disaster recovery, and it is likely this concept will be included in the exam.
 
+- Microsoft provides tools to control the use of Azure resources to meet corporate policies, but some compliance requirements cannot be met by simply applying policies e.g. some US government compliance scenarios require that data stays within the United States of America and that only citizens of the United States have any access to systems used to store that data ---> cannot meet this requirement with policies and you cannot meet that requirement at all in the public cloud = Microsoft has several sovereign clouds that are separated from their public cloud offerings.
+
+
+
+
+
+
+
+
+
+
+
+2. Availability zones
+3. Azure data centers
+4. Azure resources and resource groups
+5. Azure management groups
+6. Hierarchy of resource groups, subscriptions, and management groups
 
 
 </details>
