@@ -3963,6 +3963,11 @@ Ecosystem of participants defines the market - 3 categories:
 
 <details>
     <summary>Microsoft Azure</summary>
+
+# Microsoft Azure Fundamentals: Describe cloud concepts
+## Module 1: Describe cloud computing
+
+
 </details>
 
 
