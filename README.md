@@ -3961,6 +3961,9 @@ Ecosystem of participants defines the market - 3 categories:
 
 </details>
 
+<details>
+    <summary>Microsoft Azure</summary>
+</details>
 
 
 
