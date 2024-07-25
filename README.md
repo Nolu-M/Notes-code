@@ -4004,10 +4004,21 @@ Ecosystem of participants defines the market - 3 categories:
     - Applications
     - Identity and infrastructure
 
+### Define cloud models
+cloud models define the deployment type of cloud resources. The three main cloud models are: private, public, and hybrid.
 
+1. Private Cloud
+   -  It’s a cloud (delivering IT services over the internet) that’s used by a single entity. Private cloud provides much greater control for the company and its IT department. However, it also comes with greater cost and fewer of the benefits of a public cloud deployment. Finally, a private cloud may be hosted from your on site datacenter. It may also be hosted in a dedicated datacenter offsite, potentially even by a third party that has dedicated that datacenter to your company.
+2. Public Cloud
+   - A public cloud is built, controlled, and maintained by a third-party cloud provider. With a public cloud, anyone that wants to purchase cloud services can access and use resources. The general public availability is a key difference between public and private clouds.
+3. Hybrid Cloud
+   - computing environment that uses both public and private clouds in an inter-connected environment. A hybrid cloud environment can be used to allow a private cloud to surge for increased, temporary demand by deploying public cloud resources. Hybrid cloud can be used to provide an extra layer of security. For example, users can flexibly choose which services to keep in public cloud and which to deploy to their private cloud infrastructure.
 
+    ![image](https://github.com/user-attachments/assets/5f308753-bcf7-4462-9388-17b8b90397cd)
 
-
+4. Multi-cloud
+5. Azure Arc
+6. Azure VMware Solution
 
 
 </details>
