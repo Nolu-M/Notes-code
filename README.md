@@ -4023,6 +4023,33 @@ cloud models define the deployment type of cloud resources. The three main cloud
 6. Azure VMware Solution
   - What if you’re already established with VMware in a private cloud environment but want to migrate to a public or hybrid cloud? Azure VMware Solution lets you run your VMware workloads in Azure with seamless integration and scalability.
 
+### Describe the consumption-based model
+IT infrastructure models:
+- CapEx is typically a one-time, up-front expenditure to purchase or secure tangible resources. A new building, repaving the parking lot, building a datacenter, or buying a company vehicle are examples of CapEx.
+- OpEx is spending money on services or products over time. Renting a convention center, leasing a company vehicle, or signing up for cloud services are all examples of OpEx.
+
+- Cloud computing falls under OpEx = cloud computing operates on a consumption-based model ---> you don’t pay for the physical infrastructure, the electricity, the security, or anything else associated with maintaining a datacenter. Instead, you pay for the IT resources you use. If you don’t use any IT resources this month, you don’t pay for any IT resources.
+
+- This consumption-based model has many benefits, including:
+
+    - No upfront costs.
+    - No need to purchase and manage costly infrastructure that users might not use to its fullest potential.
+    - The ability to pay for more resources when they're needed.
+    - The ability to stop paying for resources that are no longer needed.
+
+- traditional datacenter = try to estimate the future resource needs, overestimate = spend more on your datacenter than you need to and potentially waste money. If you underestimate = datacenter will quickly reach capacity and your applications and services may suffer from decreased performance.
+- Fixing an under-provisioned datacenter can take a long time. You may need to order, receive, and install more hardware. You'll also need to add power, cooling, and networking for the extra hardware.
+
+#### Compare cloud pricing models
+Cloud computing is the delivery of computing services over the internet by using a pay-as-you-go pricing model. You typically pay only for the cloud services you use, which helps you:
+- Plan and manage your operating costs.
+- Run your infrastructure more efficiently.
+- Scale as your business needs change.
+
+- cloud computing is a way to rent compute power and storage from someone else’s datacenter
+- Instead of maintaining CPUs and storage in your datacenter, you rent them for the time that you need them.
+- The cloud provider takes care of maintaining the underlying infrastructure for you. The cloud enables you to quickly solve your toughest business challenges and bring cutting-edge solutions to your users.
+
 
 
 
