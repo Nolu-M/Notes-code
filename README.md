@@ -3966,6 +3966,47 @@ Ecosystem of participants defines the market - 3 categories:
 
 # Microsoft Azure Fundamentals: Describe cloud concepts
 ## Module 1: Describe cloud computing
+### What is Cloud Computing
+- the delivery of computing services over the internet
+- Computing services include common IT infrastructure such as virtual machines, storage, databases, and networking.
+- Cloud services also expand the traditional IT offerings to include things like Internet of Things (IoT), machine learning (ML), and artificial intelligence (AI).
+
+### Describe the shared responsibility model
+- corporate datacenter: the company is responsible for maintaining the physical space, ensuring security, and maintaining or replacing the servers if anything happens
+- IT department: responsible for maintaining all the infrastructure and software needed to keep the datacenter up and running ---> likely to be responsible for keeping all systems patched and on the correct version
+- responsibility model = these responsibilities get shared between the cloud provider and the consumer
+- Physical security, power, cooling, and network connectivity are the responsibility of the cloud provider ---> The consumer isn’t collocated with the datacenter
+
+- consumer is responsible for the data and information stored in the cloud and for access security, meaning you only give access to those who need it
+-  If using a cloud SQL database = cloud provider would be responsible for maintaining the actual database ---> still responsible for the data that gets ingested into the database
+- if deployed a virtual machine and installed an SQL database on it, you’d be responsible for database patches and updates, as well as maintaining the data and information stored in the database.
+
+- on-premises datacenter, you’re responsible for everything
+
+- shared responsibility model tied into the cloud service types: infrastructure as a service (IaaS), platform as a service (PaaS), and software as a service (SaaS). IaaS places the most responsibility on the consumer, with the cloud provider being responsible for the basics of physical security, power, and connectivity
+- SaaS places most of the responsibility with the cloud provider. PaaS, being a middle ground between IaaS and SaaS, rests somewhere in the middle and evenly distributes responsibility between the cloud provider and the consumer
+
+    ![image](https://github.com/user-attachments/assets/db865fa4-71eb-4258-9233-62bf69228b19)
+
+- When using a cloud provider, you’ll always be responsible for:
+    - The information and data stored in the cloud
+    - Devices that are allowed to connect to your cloud (cell phones,     computers, and so on)
+    - The accounts and identities of the people, services, and devices within your organization
+    - The cloud provider is always responsible for:
+
+- The physical datacenter
+    - The physical network
+    - The physical hosts
+    - Your service model will determine responsibility for things like:
+
+- Operating systems
+    - Network controls
+    - Applications
+    - Identity and infrastructure
+
+
+
+
 
 
 
