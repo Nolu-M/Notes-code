@@ -4017,8 +4017,13 @@ cloud models define the deployment type of cloud resources. The three main cloud
     ![image](https://github.com/user-attachments/assets/5f308753-bcf7-4462-9388-17b8b90397cd)
 
 4. Multi-cloud
+  - you use multiple public cloud providers. Maybe you use different features from different cloud providers. Or maybe you started your cloud journey with one provider and are in the process of migrating to a different provider. Regardless, in a multi-cloud environment you deal with two (or more) public cloud providers and manage resources and security in both environments
 5. Azure Arc
+- is a set of technologies that helps manage your cloud environment. Azure Arc can help manage your cloud environment, whether it's a public cloud solely on Azure, a private cloud in your datacenter, a hybrid configuration, or even a multi-cloud environment running on multiple cloud providers at once
 6. Azure VMware Solution
+  - What if you’re already established with VMware in a private cloud environment but want to migrate to a public or hybrid cloud? Azure VMware Solution lets you run your VMware workloads in Azure with seamless integration and scalability.
+
+
 
 
 </details>
