@@ -4050,6 +4050,55 @@ Cloud computing is the delivery of computing services over the internet by using
 - Instead of maintaining CPUs and storage in your datacenter, you rent them for the time that you need them.
 - The cloud provider takes care of maintaining the underlying infrastructure for you. The cloud enables you to quickly solve your toughest business challenges and bring cutting-edge solutions to your users.
 
+## Module 2: Describe the benefits of using cloud services
+### Describe the benefits of high availability and scalability in the cloud
+- When building or deploying a cloud application, two of the biggest considerations are uptime (or availability) and the ability to handle demand (or scale).
+
+#### High availability
+- High availability focuses on ensuring maximum availability, regardless of disruptions or events that may occur.
+- Azure is a highly available cloud environment with uptime guarantees depending on the service. These guarantees are part of the service-level agreements (SLAs).
+
+#### Scalability
+- Scalability: the ability to adjust resources to meet demand
+- peak traffic and systems overwhelmed = can scale up by adding more resources to handle increased demand
+- other benefit = are not overpaying for services (only pay for what you use), if demand drops off = reduce your resources ---> reduce costs
+- scaling has two varieties = vertical (focused on increasing or decreasing the capabilities of resources) and horizontal (adding or subtracting the number of resources)
+
+1. Vertical scaling
+- if you were developing an app and you needed more processing power, you could vertically scale up to add more CPUs or RAM to the virtual machine.
+- if over-specified the needs, you could vertically scale down by lowering the CPU or RAM specifications.
+
+2. Horizontal scaling
+- if you suddenly experienced a steep jump in demand, your deployed resources could be scaled out (either automatically or manually).
+- e.g. you could add additional virtual machines or containers, scaling out. In the same manner, if there was a significant drop in demand, deployed resources could be scaled in (either automatically or manually), scaling in.
+
+### Describe the benefits of reliability and predictability in the cloud
+- Reliability and predictability are two crucial cloud benefits that help you develop solutions with confidence.
+
+#### Reliability
+- the ability of a system to recover from failures and continue to function. It's also one of the pillars of the Microsoft Azure Well-Architected Framework.
+
+- the cloud (decentralized design) = naturally supports a reliable and resilient infrastructure
+- decentralized design, the cloud enables you to have resources deployed in regions around the world.
+- With this global scale, even if one region has a catastrophic event other regions are still up and running. 
+
+#### Predictability
+- can be focused on performance predictability or cost predictability
+- Both performance and cost predictability are heavily influenced by the Microsoft Azure Well-Architected Framework
+
+1. Performance
+- focuses on predicting the resources needed to deliver a positive experience for your customers.
+- Autoscaling, load balancing, and high availability are just some of the cloud concepts that support performance predictability.
+- need more resources = autoscaling can deploy additional resources to meet the demand, and then scale back when the demand drops.
+- traffic heavily focused on one area = load balancing will help redirect some of the overload to less stressed areas.
+
+2. Cost
+- focused on predicting or forecasting the cost of the cloud spend.
+- 
+
+
+
+
 
 
 
