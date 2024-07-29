@@ -3964,7 +3964,7 @@ Ecosystem of participants defines the market - 3 categories:
 <details>
     <summary>Microsoft Azure</summary>
 
-# Microsoft Azure Fundamentals: Describe cloud concepts
+# 1. Microsoft Azure Fundamentals: Describe cloud concepts
 ## Module 1: Describe cloud computing
 ### What is Cloud Computing
 - the delivery of computing services over the internet
@@ -4127,7 +4127,7 @@ major benefit of cloud computing is the manageability options
     - Using APIs.
     - Using PowerShell.
 
-## Describe cloud service types
+## Module 3: Describe cloud service types
 
 ### Describe Infrastructure as a Service
 - most flexible category of cloud services, as it provides you the maximum amount of control for your cloud resources.
@@ -4142,6 +4142,32 @@ major benefit of cloud computing is the manageability options
     ![image](https://github.com/user-attachments/assets/d367d716-6ea7-429f-8c42-4d11529ea8a7)
 
     ![image](https://github.com/user-attachments/assets/e3bd28f8-c8bb-4bc8-93ba-8e2e377eeb08)
+
+### Describe Platform as a Service
+- a middle ground between renting space in a datacenter (infrastructure as a service) and paying for a complete and deployed solution (software as a service).
+- cloud provider maintains the physical infrastructure, physical security, and connection to the internet.
+- They also maintain the operating systems, middleware, development tools, and business intelligence services that make up a cloud solution.
+- don't have to worry about the licensing or patching for operating systems and databases.
+
+#### Shared responsibility model
+- PaaS splits the responsibility between you and the cloud provider.
+    - The cloud provider is responsible for maintaining the physical infrastructure and its access to the internet, just like in IaaS.
+    - In the PaaS model, the cloud provider will also maintain the operating systems, databases, and development tools. Think of PaaS like using a domain joined machine: IT maintains the device with regular updates, patches, and refreshes.
+    - Depending on the configuration, you or the cloud provider may be responsible for networking settings and connectivity within your cloud environment, network and application security, and the directory infrastructure.
+
+    ![image](https://github.com/user-attachments/assets/d9fc29c2-2e6e-459f-9007-f24d3da59369)
+
+### Describe Software as a Service
+- the most complete cloud service model from a product perspective.
+- essentially renting or using a fully developed application. Email, financial software, messaging applications, and connectivity software are all common examples of a SaaS implementation.
+- the least flexible, it’s also the easiest to get up and running. It requires the least amount of technical knowledge or expertise to fully employ.
+
+#### Shared responsibility model
+- places the most responsibility with the cloud provider and the least responsibility with the user.
+- you’re responsible for the data that you put into the system, the devices that you allow to connect to the system, and the users that have access.
+- Nearly everything else falls to the cloud provider. The cloud provider is responsible for physical security of the datacenters, power, network connectivity, and application development and patching.
+
+    ![image](https://github.com/user-attachments/assets/5ad873c3-bc3f-431d-b059-09bd41b8706c)
 
 
 
