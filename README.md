@@ -4170,11 +4170,28 @@ major benefit of cloud computing is the manageability options
     ![image](https://github.com/user-attachments/assets/5ad873c3-bc3f-431d-b059-09bd41b8706c)
 
 
+# 2. Microsoft Azure Fundamentals: Describe Azure management and governance
+## Module 1: Describe cost management in Azure
 
+### Describe factors that can affect costs in Azure
+- Azure shifts development costs from the capital expense (CapEx) of building out and maintaining infrastructure and facilities to an operational expense (OpEx) of renting infrastructure as you need it, whether it’s compute, storage, networking etc.
+- OpEx cost impacted by factors:
+    - Resource type
+    - Consumption
+    - Maintenance
+    - Geography
+    - Subscription type
+    - Azure Marketplace
 
+#### Resource type
+- The type of resources, the settings for the resource, and the Azure region will all have an impact on how much a resource costs.
+- When you provision an Azure resource, Azure creates metered instances for that resource. The meters track the resources' usage and generate a usage record that is used to calculate your bill.
 
+1. Examples
+   - **storage account**, you specify a type such as blob, a performance tier, an access tier, redundancy settings, and a region. Creating the same storage account in different regions may show different costs and changing any of the settings may also impact the price.
+   - With a virtual machine (VM), you may have to consider licensing for the operating system or other software, the processor and number of cores for the VM, the attached storage, and the network interface. Just like with storage, provisioning the same virtual machine in different regions may result in different costs.
 
-
+#### Consumption
 
 
 
