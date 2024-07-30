@@ -4305,6 +4305,51 @@ major benefit of cloud computing is the manageability options
 
 - Keep in mind that you don't need to enforce that a specific tag is present on all of your resources. For example, you might decide that only mission-critical resources have the Impact tag. All non-tagged resources would then not be considered as mission-critical.
 
+## Module 2: Describe features and tools in Azure for governance and compliance 
+### Describe the purpose of Microsoft Purview
+- Microsoft Purview is a family of data governance, risk, and compliance solutions that helps you get a single, unified view into your data. Microsoft Purview brings insights about your on-premises, multicloud, and software-as-a-service data together.
+
+- With Microsoft Purview, you can stay up-to-date on your data landscape thanks to:
+
+    - Automated data discovery
+    - Sensitive data classification
+    - End-to-end data lineage
+
+- Two main solution areas comprise Microsoft Purview: risk and compliance and unified data governance.
+
+![image](https://github.com/user-attachments/assets/570a14f1-677e-4072-8dbb-f275499087bf)
+
+#### Microsoft Purview risk and compliance solutions
+- Microsoft 365 features as a core component of the Microsoft Purview risk and compliance solutions. Microsoft Teams, OneDrive, and Exchange are just some of the Microsoft 365 services that Microsoft Purview uses to help manage and monitor your data. Microsoft Purview, by managing and monitoring your data, is able to help your organization:
+
+    - Protect sensitive data across clouds, apps, and devices.
+    - Identify data risks and manage regulatory compliance requirements.
+    - Get started with regulatory compliance.
+      
+#### Unified data governance
+- Microsoft Purview has robust, unified data governance solutions that help manage your on-premises, multicloud, and software as a service data. Microsoft Purview’s robust data governance capabilities enable you to manage your data stored in Azure, SQL and Hive databases, locally, and even in other clouds like Amazon S3.
+
+- Microsoft Purview’s unified data governance helps your organization:
+
+    - Create an up-to-date map of your entire data estate that includes data classification and end-to-end lineage.
+    - Identify where sensitive data is stored in your estate.
+    - Create a secure environment for data consumers to find valuable data.
+    - Generate insights about how your data is stored and used.
+    - Manage access to the data in your estate securely and at scale.
+
+### Describe the purpose of Azure Policy
+
+
+
+
+
+
+
+
+
+
+
+
 </details>
 
 
