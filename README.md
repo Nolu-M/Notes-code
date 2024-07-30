@@ -4244,6 +4244,48 @@ major benefit of cloud computing is the manageability options
 - The TCO calculator then compares the anticipated costs for your current environment with an Azure environment supporting the same infrastructure requirements.
 - With the TCO calculator, you enter your configuration, add in assumptions like power and IT labor costs, and are presented with an estimation of the cost difference to run the same environment in your current datacenter or in Azure.
 
+### Describe the Microsoft Cost Management tool
+#### What is Cost Management?
+- Cost Management provides the ability to quickly check Azure resource costs, create alerts based on resource spend, and create budgets that can be used to automate management of resources.
+- Cost analysis is a subset of Cost Management that provides a quick visual for your Azure costs.
+- Using cost analysis, you can quickly view the total cost in a variety of different ways, including by billing cycle, region, resource, and so on.
+
+- use cost analysis to explore and analyze your organizational costs.
+- can view aggregated costs by organization to understand where costs are accrued and to identify spending trends. And you can see accumulated costs over time to estimate monthly, quarterly, or even yearly cost trends against a budget.
+
+1. Cost alerts
+- Cost alerts provide a single location to quickly check on all of the different alert types that may show up in the Cost Management service. The three types of alerts that may show up are:
+    - Budget alerts
+    - Credit alerts
+    - Department spending quota alerts.
+
+2. Budget alerts
+- notify you when spending, based on usage or cost, reaches or exceeds the amount defined in the alert condition of the budget.
+- Cost Management budgets are created using the Azure portal or the Azure Consumption API.
+
+- In the Azure portal, budgets are defined by cost.
+- Budgets are defined by cost or by consumption usage when using the Azure Consumption API.
+- Budget alerts support both cost-based and usage-based budgets. Budget alerts are generated automatically whenever the budget alert conditions are met. You can view all cost alerts in the Azure portal. Whenever an alert is generated, it appears in cost alerts. An alert email is also sent to the people in the alert recipients list of the budget. 
+
+3. Credit alerts
+- Credit alerts notify you when your Azure credit monetary commitments are consumed. Monetary commitments are for organizations with Enterprise Agreements (EAs).
+- Credit alerts are generated automatically at 90% and at 100% of your Azure credit balance. Whenever an alert is generated, it's reflected in cost alerts, and in the email sent to the account owners.
+
+4. Department spending quota alerts
+- Department spending quota alerts notify you when department spending reaches a fixed threshold of the quota. Spending quotas are configured in the EA portal. Whenever a threshold is met, it generates an email to department owners, and appears in cost alerts. For example, 50 percent or 75 percent of the quota.
+
+5. Budgets
+- A budget is where you set a spending limit for Azure. You can set budgets based on a subscription, resource group, service type, or other criteria.
+- hen you set a budget, you will also set a budget alert. When the budget hits the budget alert level, it will trigger a budget alert that shows up in the cost alerts area. If configured, budget alerts will also send an email notification that a budget alert threshold has been triggered.
+
+-  more advanced use of budgets enables budget conditions to trigger automation that suspends or otherwise modifies resources once the trigger condition has occurred.
+
+#### Describe the purpose of tags
+
+
+
+
+
 
 
 </details>
