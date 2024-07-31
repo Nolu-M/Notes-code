@@ -4139,7 +4139,9 @@ major benefit of cloud computing is the manageability options
 - IaaS places the largest share of responsibility with you
     - The cloud provider is responsible for maintaining the physical infrastructure and its access to the internet
     - You’re responsible for installation and configuration, patching and updates, and security.
+      
     ![image](https://github.com/user-attachments/assets/d367d716-6ea7-429f-8c42-4d11529ea8a7)
+
 
     ![image](https://github.com/user-attachments/assets/e3bd28f8-c8bb-4bc8-93ba-8e2e377eeb08)
 
